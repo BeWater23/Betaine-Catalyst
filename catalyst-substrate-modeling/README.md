@@ -1,7 +1,7 @@
 # Catalyst-Substrate LASSO Modeling
 
 This folder contains the notebook workflow and prepared feature tables for
-catalyst-substrate `ddG` LASSO modeling.
+catalyst-substrate LASSO modeling.
 
 ## Main Notebook
 
@@ -95,28 +95,7 @@ fitted steric and electronic scalers are available.
 
 ## Outputs
 
-Most generated files are written under the active `output_folder`. Important
-outputs include:
-
-- `histogram_static.png/.pdf`
-- `anat_plot_points_annot.png/.pdf`
-- `logo_lasso_<group>_results_table_<alpha>_base.xlsx`
-- `logo_lasso_<group>_test_only_parity_<alpha>_base.png/.pdf`
-- `lasso_y_randomized_best_training_r2.png/.pdf`
-- `lasso_y_randomized_fixed_alpha_best_training_r2.png/.pdf`
-- `lasso_relative_catalyst_ranking_*.png/.pdf`
-- `lasso_external_test.png/.pdf`
-- `virtual_screen_predictions_alpha_*.xlsx`
-- `virtual_screen_predictions_mean_min_max_summary.csv`
-- `virtual_screen_predictions_mean_min_max_ranges.png/.pdf`
-- `PCA_contributions.xlsx`
-- `pca_ddg_static.png/.pdf`
-- `pca_virtual_screening_overlay_*.html`
-- `pca_virtual_screening_overlay_*_static.png/.pdf`
-- `manual_pca_ddg_static.png/.pdf`
-- `manual_pca_virtual_screen_overlay.html`
-- `manual_pca_virtual_screen_overlay_static.png/.pdf`
-
+Most generated files are written under the active `output_folder`. 
 Existing output filenames are reused by design, so rerunning cells can
 overwrite previous files in the selected results folder.
 

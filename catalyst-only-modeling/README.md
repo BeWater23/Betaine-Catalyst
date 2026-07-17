@@ -46,14 +46,3 @@ Typical use:
    - response: `ddG`
 6. Run the notebook cells in sequence.
 
-If jumping around in the upstream notebook, run the train/validation/test split
-setup before running modeling cells.
-
-## Notes
-
-- This folder is intended to preserve the feature set and selected exported
-  results, not the full modeling code.
-- Keep the source workbook unchanged when possible. Copy it into the upstream
-  `InputData/` folder for modeling runs.
-- If new plots or tables are generated, save them here with descriptive names
-  so they can be traced back to the same input workbook.

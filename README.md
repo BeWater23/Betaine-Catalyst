@@ -1,10 +1,9 @@
 # Betaine Catalyst Repository
 
-This repository collects the data, descriptor-generation outputs, modeling
-workflows, and DFT/kinetic analysis files used for the betaine-catalyst
-reaction study. It is organized as a handoff bundle: compact workbooks and
-notebooks are included where possible, while large raw calculation outputs are
-kept with the corresponding workflow folders for provenance.
+This repository contains the data, descriptor-generation outputs, modeling
+workflows, and DFT/kinetic analysis files used for the work: 
+"A Predictive Betaine Organocatalyst Platform for Asymmetric 1,3-Dipolar-Cycloadditions Enabled by Interaction-Aware Modeling" (LINK, DOI: xx).
+It is organized as follows:
 
 ## Repository Map
 
@@ -29,9 +28,7 @@ kept with the corresponding workflow folders for provenance.
 4. DFT reaction-mechanism and kinetic-analysis materials are stored under
    `DFT_reaction-mechanism/`.
 
-The folders are meant to be readable independently. Use the local README or
-ReadMe files in each workflow folder for run-order notes and file-specific
-details.
+The folders are meant to be readable independently. Use the local README files in each workflow folder for run-order notes and file-specific details.
 
 ## Descriptor Generation
 
@@ -40,7 +37,7 @@ tables used to build model-ready feature matrices.
 
 Important files and folders:
 
-- `descriptor_generation/ReadMe`: detailed guide for the descriptor folder.
+- `descriptor_generation/README`: detailed guide for the descriptor folder.
 - `descriptor_generation/comb_input_template.xlsx`: combined reaction template
   with catalyst, substrate, `ddG`, and descriptor columns.
 - `descriptor_generation/fill_paramters.py`: fills descriptor columns in a
@@ -113,9 +110,6 @@ Top-level DFT contents:
   workbook, fitted plots, and SI text. See
   `DFT_reaction-mechanism/kinetic_simulations/README.md`.
 
-The DFT folder intentionally includes large calculation outputs for provenance.
-Use Git ignore rules carefully if making a lightweight code-only export.
-
 ## Environment
 
 Create the local environment with:
@@ -136,6 +130,19 @@ External tools are still required for some workflows:
   model execution.
 - Cluster-specific CREST/CENSO/Chemshell/Turbomole tools for DFT conformer
   searches and optimizations.
+
+## License
+
+Software source code and scripts in this repository are released under the MIT
+License. See `LICENSE`.
+
+Data, figures, notebooks, molecular structures, calculation outputs,
+descriptor tables, model outputs, and documentation are released under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0), unless
+otherwise noted. See `DATA_LICENSE.md`.
+
+Third-party tools and external repositories referenced here remain subject to
+their own licenses.
 
 ## Reproducibility Notes
 
