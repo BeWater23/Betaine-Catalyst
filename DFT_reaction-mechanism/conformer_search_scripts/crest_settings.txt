@@ -1,0 +1,21 @@
+Command line input:
+ > crest coord --T 16 --cinp constraints.inp --nozs --uhf 0 --chrg 0 --alpb thf --cluster
+
+  --T 16 (CPUs/Threads selected)
+  -cinp : constraints.inp
+  --uhf 0
+  --chrg 0
+  --alpb thf : implicit solvation
+  --cluster : ensemble clustering
+
+ <constraints.inp> file present.
+ content of the constraining file (sorted):
+> $constrain
+>   atoms: 6,78
+>   force constant=0.5
+>   reference=coord.ref
+> $metadyn
+>   atoms: 1-5,7-77,79-85
+ fix file: coord.ref
+  atoms: 1-5,7-77,79-85
+     # of atoms considered for RMSDs:83

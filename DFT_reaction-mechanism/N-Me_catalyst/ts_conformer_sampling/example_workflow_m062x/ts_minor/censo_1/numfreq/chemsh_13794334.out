@@ -1,0 +1,4093 @@
+Initialising ChemShell DEVELOPMENT VERSION 3.7_2023_DLF_GPR.dev on linux
+read_xyz/======================================== Tstep:    0.4 Ttot:    0.4 ==
+dl-find/========================================= Tstep:    0.0 Ttot:    0.5 ==
+dl-find/copy_object/============================= Tstep:    0.0 Ttot:    0.5 ==
+dl-find/get_number_of_atoms/===================== Tstep:    0.0 Ttot:    0.5 ==
+dl-find/set_matrix_size/========================= Tstep:    0.0 Ttot:    0.5 ==
+dl-find/set_matrix_size/========================= Tstep:    0.0 Ttot:    0.5 ==
+Using 2018 CODATA recommended values
+
+***********************************************************************
+**                                                                   **
+**                       ---------------------                       **
+**                              DL-FIND                              **
+**                       Geometry Optimisation                       **
+**                       ---------------------                       **
+**                                                                   **
+**                 J. Kaestner, J.M. Carr, T.W. Keal,                **
+**                W. Thiel, A. Wander and P. Sherwood                **
+**                                                                   **
+**              J. Phys. Chem. A, 2009, 113 (43), 11856.             **
+**                                                                   **
+**   Please include this reference in published work using DL-FIND.  **
+**                                                                   **
+**               Copyright:  STFC Daresbury Laboratory               **
+**                  and the University of Stuttgart                  **
+**                           Revision:  341 $                        **
+**                                                                   **
+***********************************************************************
+
+Atom      1  free
+Atom      2  free
+Atom      3  free
+Atom      4  free
+Atom      5  free
+Atom      6  free
+Atom      7  free
+Atom      8  free
+Atom      9  free
+Atom     10  free
+Atom     11  free
+Atom     12  free
+Atom     13  free
+Atom     14  free
+Atom     15  free
+Atom     16  free
+Atom     17  free
+Atom     18  free
+Atom     19  free
+Atom     20  free
+Atom     21  free
+Atom     22  free
+Atom     23  free
+Atom     24  free
+Atom     25  free
+Atom     26  free
+Atom     27  free
+Atom     28  free
+Atom     29  free
+Atom     30  free
+Atom     31  free
+Atom     32  free
+Atom     33  free
+Atom     34  free
+Atom     35  free
+Atom     36  free
+Atom     37  free
+Atom     38  free
+Atom     39  free
+Atom     40  free
+Atom     41  free
+Atom     42  free
+Atom     43  free
+Atom     44  free
+Atom     45  free
+Atom     46  free
+Atom     47  free
+Atom     48  free
+Atom     49  free
+Atom     50  free
+Atom     51  free
+Atom     52  free
+Atom     53  free
+Atom     54  free
+Atom     55  free
+Atom     56  free
+Atom     57  free
+Atom     58  free
+Atom     59  free
+Atom     60  free
+Atom     61  free
+Atom     62  free
+Atom     63  free
+Atom     64  free
+Atom     65  free
+Atom     66  free
+Atom     67  free
+Atom     68  free
+Atom     69  free
+Atom     70  free
+Atom     71  free
+Atom     72  free
+Atom     73  free
+Atom     74  free
+Atom     75  free
+Atom     76  free
+Atom     77  free
+Atom     78  free
+Atom     79  free
+Atom     80  free
+Atom     81  free
+Atom     82  free
+Atom     83  free
+Atom     84  free
+Atom     85  free
+
+DL-FIND Report:
+===============
+Optimisation algorithm: no optimisation, just calculate the
+    Hessian and thermal corrections
+Modes assumed to have zero vibrational frequency          6
+Temperature ....................................  2.981E+02 K
+Minimum wave number ............................  1.000E+02 cm^-1
+Finite difference for Hessian calculation ......  1.000E-02
+ 
+Step length: simple scaled
+Maximum step length ............................  5.000E-01
+Scaling step by ................................  1.000E+00
+ 
+Coordinate system: Mass-weighted Cartesian coordinates
+ 
+Number of atoms ................................         85
+Number of input geometries .....................          1
+Variables to be optimised ......................        255
+No restart information is written
+This run has not been restarted.
+Maximum number of steps ........................        100
+Maximum number of energy evaluations ...........     100000
+ 
+dl-find/turbomole/=============================== Tstep:    0.0 Ttot:    0.5 ==
+eandg
+Size of integral file returned by statistics run:  12091
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference calculation of the whole Hessian
+Delta :   1.00E-02
+dl-find/turbomole/=============================== Tstep:  229.4 Ttot:  229.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable    1/ 255 direction= 1
+Energy difference to midpoint:          2.67E-06 H
+Abs. Gradient difference to midpoint:   7.05E-04
+dl-find/turbomole/=============================== Tstep:   95.3 Ttot:  325.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable    1/ 255 direction=-1
+Energy difference to midpoint:          2.10E-06 H
+Abs. Gradient difference to midpoint:   6.99E-04
+dl-find/turbomole/=============================== Tstep:   99.5 Ttot:  424.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable    2/ 255 direction= 1
+Energy difference to midpoint:          4.37E-07 H
+Abs. Gradient difference to midpoint:   2.31E-04
+dl-find/turbomole/=============================== Tstep:   99.7 Ttot:  524.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable    2/ 255 direction=-1
+Energy difference to midpoint:          6.89E-07 H
+Abs. Gradient difference to midpoint:   2.31E-04
+dl-find/turbomole/=============================== Tstep:   95.0 Ttot:  619.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable    3/ 255 direction= 1
+Energy difference to midpoint:          6.61E-07 H
+Abs. Gradient difference to midpoint:   1.49E-04
+dl-find/turbomole/=============================== Tstep:  100.3 Ttot:  719.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable    3/ 255 direction=-1
+Energy difference to midpoint:         -2.00E-07 H
+Abs. Gradient difference to midpoint:   1.48E-04
+dl-find/turbomole/=============================== Tstep:  103.1 Ttot:  822.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable    4/ 255 direction= 1
+Energy difference to midpoint:          3.08E-06 H
+Abs. Gradient difference to midpoint:   9.75E-04
+dl-find/turbomole/=============================== Tstep:  112.7 Ttot:  935.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable    4/ 255 direction=-1
+Energy difference to midpoint:          4.37E-06 H
+Abs. Gradient difference to midpoint:   9.81E-04
+dl-find/turbomole/=============================== Tstep:  115.9 Ttot: 1051.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable    5/ 255 direction= 1
+Energy difference to midpoint:          2.53E-06 H
+Abs. Gradient difference to midpoint:   5.90E-04
+dl-find/turbomole/=============================== Tstep:  106.6 Ttot: 1158.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable    5/ 255 direction=-1
+Energy difference to midpoint:          2.52E-06 H
+Abs. Gradient difference to midpoint:   5.93E-04
+dl-find/turbomole/=============================== Tstep:  103.8 Ttot: 1262.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable    6/ 255 direction= 1
+Energy difference to midpoint:          7.27E-07 H
+Abs. Gradient difference to midpoint:   3.06E-04
+dl-find/turbomole/=============================== Tstep:   97.5 Ttot: 1359.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable    6/ 255 direction=-1
+Energy difference to midpoint:          1.59E-06 H
+Abs. Gradient difference to midpoint:   3.07E-04
+dl-find/turbomole/=============================== Tstep:  107.1 Ttot: 1466.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable    7/ 255 direction= 1
+Energy difference to midpoint:          1.03E-06 H
+Abs. Gradient difference to midpoint:   3.06E-04
+dl-find/turbomole/=============================== Tstep:  104.3 Ttot: 1570.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable    7/ 255 direction=-1
+Energy difference to midpoint:          6.77E-07 H
+Abs. Gradient difference to midpoint:   3.08E-04
+dl-find/turbomole/=============================== Tstep:   97.8 Ttot: 1668.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable    8/ 255 direction= 1
+Energy difference to midpoint:          1.83E-06 H
+Abs. Gradient difference to midpoint:   4.17E-04
+dl-find/turbomole/=============================== Tstep:   94.6 Ttot: 1763.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable    8/ 255 direction=-1
+Energy difference to midpoint:          1.44E-06 H
+Abs. Gradient difference to midpoint:   4.15E-04
+dl-find/turbomole/=============================== Tstep:  108.5 Ttot: 1871.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable    9/ 255 direction= 1
+Energy difference to midpoint:          6.02E-07 H
+Abs. Gradient difference to midpoint:   1.69E-04
+dl-find/turbomole/=============================== Tstep:  105.1 Ttot: 1976.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable    9/ 255 direction=-1
+Energy difference to midpoint:          3.50E-07 H
+Abs. Gradient difference to midpoint:   1.69E-04
+dl-find/turbomole/=============================== Tstep:  103.0 Ttot: 2079.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   10/ 255 direction= 1
+Energy difference to midpoint:          1.19E-06 H
+Abs. Gradient difference to midpoint:   9.52E-04
+dl-find/turbomole/=============================== Tstep:  101.1 Ttot: 2180.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   10/ 255 direction=-1
+Energy difference to midpoint:          2.89E-06 H
+Abs. Gradient difference to midpoint:   9.56E-04
+dl-find/turbomole/=============================== Tstep:  104.1 Ttot: 2285.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   11/ 255 direction= 1
+Energy difference to midpoint:          3.20E-06 H
+Abs. Gradient difference to midpoint:   1.04E-03
+dl-find/turbomole/=============================== Tstep:   97.7 Ttot: 2382.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   11/ 255 direction=-1
+Energy difference to midpoint:          1.87E-06 H
+Abs. Gradient difference to midpoint:   1.04E-03
+dl-find/turbomole/=============================== Tstep:   99.0 Ttot: 2481.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   12/ 255 direction= 1
+Energy difference to midpoint:          2.18E-06 H
+Abs. Gradient difference to midpoint:   8.01E-04
+dl-find/turbomole/=============================== Tstep:   95.1 Ttot: 2576.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   12/ 255 direction=-1
+Energy difference to midpoint:          2.61E-06 H
+Abs. Gradient difference to midpoint:   8.01E-04
+dl-find/turbomole/=============================== Tstep:  100.6 Ttot: 2677.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   13/ 255 direction= 1
+Energy difference to midpoint:          2.68E-06 H
+Abs. Gradient difference to midpoint:   1.17E-03
+dl-find/turbomole/=============================== Tstep:   90.8 Ttot: 2768.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   13/ 255 direction=-1
+Energy difference to midpoint:          2.40E-06 H
+Abs. Gradient difference to midpoint:   1.17E-03
+dl-find/turbomole/=============================== Tstep:   95.1 Ttot: 2863.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   14/ 255 direction= 1
+Energy difference to midpoint:          2.39E-06 H
+Abs. Gradient difference to midpoint:   1.21E-03
+dl-find/turbomole/=============================== Tstep:   89.7 Ttot: 2953.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   14/ 255 direction=-1
+Energy difference to midpoint:          3.28E-06 H
+Abs. Gradient difference to midpoint:   1.21E-03
+dl-find/turbomole/=============================== Tstep:   96.5 Ttot: 3049.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   15/ 255 direction= 1
+Energy difference to midpoint:          2.69E-06 H
+Abs. Gradient difference to midpoint:   7.94E-04
+dl-find/turbomole/=============================== Tstep:   90.1 Ttot: 3139.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   15/ 255 direction=-1
+Energy difference to midpoint:          2.32E-06 H
+Abs. Gradient difference to midpoint:   7.91E-04
+dl-find/turbomole/=============================== Tstep:   95.5 Ttot: 3235.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   16/ 255 direction= 1
+Energy difference to midpoint:         -4.00E-08 H
+Abs. Gradient difference to midpoint:   9.93E-04
+dl-find/turbomole/=============================== Tstep:   99.3 Ttot: 3334.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   16/ 255 direction=-1
+Energy difference to midpoint:          5.36E-06 H
+Abs. Gradient difference to midpoint:   9.87E-04
+dl-find/turbomole/=============================== Tstep:  103.0 Ttot: 3437.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   17/ 255 direction= 1
+Energy difference to midpoint:          1.85E-06 H
+Abs. Gradient difference to midpoint:   7.40E-04
+dl-find/turbomole/=============================== Tstep:  109.3 Ttot: 3546.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   17/ 255 direction=-1
+Energy difference to midpoint:          3.61E-06 H
+Abs. Gradient difference to midpoint:   7.38E-04
+dl-find/turbomole/=============================== Tstep:  111.4 Ttot: 3658.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686283E+03
+Finite-difference Hessian: variable   18/ 255 direction= 1
+Energy difference to midpoint:          2.03E-05 H
+Abs. Gradient difference to midpoint:   3.14E-04
+dl-find/turbomole/=============================== Tstep:  107.6 Ttot: 3765.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686322E+03
+Finite-difference Hessian: variable   18/ 255 direction=-1
+Energy difference to midpoint:         -1.90E-05 H
+Abs. Gradient difference to midpoint:   3.14E-04
+dl-find/turbomole/=============================== Tstep:  111.6 Ttot: 3877.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   19/ 255 direction= 1
+Energy difference to midpoint:          1.82E-06 H
+Abs. Gradient difference to midpoint:   5.56E-04
+dl-find/turbomole/=============================== Tstep:  109.7 Ttot: 3987.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   19/ 255 direction=-1
+Energy difference to midpoint:          2.04E-06 H
+Abs. Gradient difference to midpoint:   5.53E-04
+dl-find/turbomole/=============================== Tstep:  110.7 Ttot: 4097.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   20/ 255 direction= 1
+Energy difference to midpoint:          1.77E-06 H
+Abs. Gradient difference to midpoint:   5.65E-04
+dl-find/turbomole/=============================== Tstep:   97.6 Ttot: 4195.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   20/ 255 direction=-1
+Energy difference to midpoint:          2.40E-06 H
+Abs. Gradient difference to midpoint:   5.66E-04
+dl-find/turbomole/=============================== Tstep:  103.4 Ttot: 4298.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   21/ 255 direction= 1
+Energy difference to midpoint:          1.06E-06 H
+Abs. Gradient difference to midpoint:   2.50E-04
+dl-find/turbomole/=============================== Tstep:  100.2 Ttot: 4398.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   21/ 255 direction=-1
+Energy difference to midpoint:          3.19E-07 H
+Abs. Gradient difference to midpoint:   2.50E-04
+dl-find/turbomole/=============================== Tstep:  104.8 Ttot: 4503.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   22/ 255 direction= 1
+Energy difference to midpoint:          3.67E-06 H
+Abs. Gradient difference to midpoint:   1.11E-03
+dl-find/turbomole/=============================== Tstep:  108.4 Ttot: 4612.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   22/ 255 direction=-1
+Energy difference to midpoint:          2.77E-06 H
+Abs. Gradient difference to midpoint:   1.10E-03
+dl-find/turbomole/=============================== Tstep:  111.8 Ttot: 4723.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   23/ 255 direction= 1
+Energy difference to midpoint:          2.62E-06 H
+Abs. Gradient difference to midpoint:   7.78E-04
+dl-find/turbomole/=============================== Tstep:  110.6 Ttot: 4834.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   23/ 255 direction=-1
+Energy difference to midpoint:          3.02E-06 H
+Abs. Gradient difference to midpoint:   7.77E-04
+dl-find/turbomole/=============================== Tstep:  113.3 Ttot: 4947.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   24/ 255 direction= 1
+Energy difference to midpoint:          9.80E-07 H
+Abs. Gradient difference to midpoint:   2.73E-04
+dl-find/turbomole/=============================== Tstep:  107.3 Ttot: 5055.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   24/ 255 direction=-1
+Energy difference to midpoint:          5.45E-07 H
+Abs. Gradient difference to midpoint:   2.73E-04
+dl-find/turbomole/=============================== Tstep:  106.2 Ttot: 5161.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686395E+03
+Finite-difference Hessian: variable   25/ 255 direction= 1
+Energy difference to midpoint:         -9.19E-05 H
+Abs. Gradient difference to midpoint:   6.98E-04
+dl-find/turbomole/=============================== Tstep:  110.9 Ttot: 5272.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   25/ 255 direction=-1
+Energy difference to midpoint:          2.93E-06 H
+Abs. Gradient difference to midpoint:   6.79E-04
+dl-find/turbomole/=============================== Tstep:  116.7 Ttot: 5389.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   26/ 255 direction= 1
+Energy difference to midpoint:          2.96E-06 H
+Abs. Gradient difference to midpoint:   6.48E-04
+dl-find/turbomole/=============================== Tstep:   96.1 Ttot: 5485.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   26/ 255 direction=-1
+Energy difference to midpoint:          2.51E-06 H
+Abs. Gradient difference to midpoint:   6.50E-04
+dl-find/turbomole/=============================== Tstep:  101.0 Ttot: 5586.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686398E+03
+Finite-difference Hessian: variable   27/ 255 direction= 1
+Energy difference to midpoint:         -9.44E-05 H
+Abs. Gradient difference to midpoint:   3.58E-04
+dl-find/turbomole/=============================== Tstep:  109.0 Ttot: 5695.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   27/ 255 direction=-1
+Energy difference to midpoint:         -2.80E-08 H
+Abs. Gradient difference to midpoint:   3.23E-04
+dl-find/turbomole/=============================== Tstep:  117.8 Ttot: 5812.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   28/ 255 direction= 1
+Energy difference to midpoint:          2.85E-06 H
+Abs. Gradient difference to midpoint:   9.84E-04
+dl-find/turbomole/=============================== Tstep:   99.3 Ttot: 5912.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   28/ 255 direction=-1
+Energy difference to midpoint:          2.48E-06 H
+Abs. Gradient difference to midpoint:   9.87E-04
+dl-find/turbomole/=============================== Tstep:  102.5 Ttot: 6014.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   29/ 255 direction= 1
+Energy difference to midpoint:          3.00E-06 H
+Abs. Gradient difference to midpoint:   8.40E-04
+dl-find/turbomole/=============================== Tstep:  103.0 Ttot: 6117.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   29/ 255 direction=-1
+Energy difference to midpoint:          2.77E-06 H
+Abs. Gradient difference to midpoint:   8.37E-04
+dl-find/turbomole/=============================== Tstep:  110.6 Ttot: 6228.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   30/ 255 direction= 1
+Energy difference to midpoint:          1.41E-06 H
+Abs. Gradient difference to midpoint:   5.56E-04
+dl-find/turbomole/=============================== Tstep:  108.5 Ttot: 6336.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   30/ 255 direction=-1
+Energy difference to midpoint:          8.00E-07 H
+Abs. Gradient difference to midpoint:   5.57E-04
+dl-find/turbomole/=============================== Tstep:   91.8 Ttot: 6428.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   31/ 255 direction= 1
+Energy difference to midpoint:          2.95E-06 H
+Abs. Gradient difference to midpoint:   1.05E-03
+dl-find/turbomole/=============================== Tstep:  104.9 Ttot: 6533.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   31/ 255 direction=-1
+Energy difference to midpoint:          2.55E-06 H
+Abs. Gradient difference to midpoint:   1.05E-03
+dl-find/turbomole/=============================== Tstep:  106.7 Ttot: 6640.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   32/ 255 direction= 1
+Energy difference to midpoint:          2.08E-06 H
+Abs. Gradient difference to midpoint:   8.73E-04
+dl-find/turbomole/=============================== Tstep:  103.9 Ttot: 6744.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   32/ 255 direction=-1
+Energy difference to midpoint:          3.57E-06 H
+Abs. Gradient difference to midpoint:   8.75E-04
+dl-find/turbomole/=============================== Tstep:  112.2 Ttot: 6856.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   33/ 255 direction= 1
+Energy difference to midpoint:          2.58E-07 H
+Abs. Gradient difference to midpoint:   4.04E-04
+dl-find/turbomole/=============================== Tstep:  107.9 Ttot: 6964.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   33/ 255 direction=-1
+Energy difference to midpoint:          1.79E-06 H
+Abs. Gradient difference to midpoint:   4.03E-04
+dl-find/turbomole/=============================== Tstep:  103.5 Ttot: 7067.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   34/ 255 direction= 1
+Energy difference to midpoint:          1.31E-06 H
+Abs. Gradient difference to midpoint:   6.76E-04
+dl-find/turbomole/=============================== Tstep:  104.6 Ttot: 7172.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   34/ 255 direction=-1
+Energy difference to midpoint:          1.27E-06 H
+Abs. Gradient difference to midpoint:   6.76E-04
+dl-find/turbomole/=============================== Tstep:  107.2 Ttot: 7279.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   35/ 255 direction= 1
+Energy difference to midpoint:          2.64E-06 H
+Abs. Gradient difference to midpoint:   1.20E-03
+dl-find/turbomole/=============================== Tstep:  102.7 Ttot: 7382.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   35/ 255 direction=-1
+Energy difference to midpoint:          4.37E-06 H
+Abs. Gradient difference to midpoint:   1.19E-03
+dl-find/turbomole/=============================== Tstep:  103.8 Ttot: 7486.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686305E+03
+Finite-difference Hessian: variable   36/ 255 direction= 1
+Energy difference to midpoint:         -1.76E-06 H
+Abs. Gradient difference to midpoint:   4.02E-04
+dl-find/turbomole/=============================== Tstep:  101.1 Ttot: 7587.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   36/ 255 direction=-1
+Energy difference to midpoint:          2.40E-06 H
+Abs. Gradient difference to midpoint:   4.03E-04
+dl-find/turbomole/=============================== Tstep:   92.9 Ttot: 7680.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   37/ 255 direction= 1
+Energy difference to midpoint:          2.62E-06 H
+Abs. Gradient difference to midpoint:   1.04E-03
+dl-find/turbomole/=============================== Tstep:  100.9 Ttot: 7780.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   37/ 255 direction=-1
+Energy difference to midpoint:          4.61E-06 H
+Abs. Gradient difference to midpoint:   1.04E-03
+dl-find/turbomole/=============================== Tstep:  109.3 Ttot: 7890.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   38/ 255 direction= 1
+Energy difference to midpoint:          3.21E-06 H
+Abs. Gradient difference to midpoint:   8.38E-04
+dl-find/turbomole/=============================== Tstep:  105.6 Ttot: 7995.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   38/ 255 direction=-1
+Energy difference to midpoint:          2.30E-06 H
+Abs. Gradient difference to midpoint:   8.42E-04
+dl-find/turbomole/=============================== Tstep:  111.6 Ttot: 8107.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   39/ 255 direction= 1
+Energy difference to midpoint:          4.35E-07 H
+Abs. Gradient difference to midpoint:   5.26E-04
+dl-find/turbomole/=============================== Tstep:  110.3 Ttot: 8217.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   39/ 255 direction=-1
+Energy difference to midpoint:          2.93E-06 H
+Abs. Gradient difference to midpoint:   5.26E-04
+dl-find/turbomole/=============================== Tstep:  101.9 Ttot: 8319.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   40/ 255 direction= 1
+Energy difference to midpoint:          2.56E-06 H
+Abs. Gradient difference to midpoint:   1.06E-03
+dl-find/turbomole/=============================== Tstep:  102.4 Ttot: 8421.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   40/ 255 direction=-1
+Energy difference to midpoint:          2.13E-06 H
+Abs. Gradient difference to midpoint:   1.06E-03
+dl-find/turbomole/=============================== Tstep:  105.2 Ttot: 8527.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   41/ 255 direction= 1
+Energy difference to midpoint:          2.45E-06 H
+Abs. Gradient difference to midpoint:   8.62E-04
+dl-find/turbomole/=============================== Tstep:  104.0 Ttot: 8631.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   41/ 255 direction=-1
+Energy difference to midpoint:          2.99E-06 H
+Abs. Gradient difference to midpoint:   8.60E-04
+dl-find/turbomole/=============================== Tstep:  105.4 Ttot: 8736.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686304E+03
+Finite-difference Hessian: variable   42/ 255 direction= 1
+Energy difference to midpoint:         -3.84E-07 H
+Abs. Gradient difference to midpoint:   3.70E-04
+dl-find/turbomole/=============================== Tstep:  104.2 Ttot: 8840.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   42/ 255 direction=-1
+Energy difference to midpoint:          2.03E-06 H
+Abs. Gradient difference to midpoint:   3.71E-04
+dl-find/turbomole/=============================== Tstep:   94.4 Ttot: 8935.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   43/ 255 direction= 1
+Energy difference to midpoint:          2.55E-06 H
+Abs. Gradient difference to midpoint:   1.43E-03
+dl-find/turbomole/=============================== Tstep:  103.1 Ttot: 9038.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   43/ 255 direction=-1
+Energy difference to midpoint:          5.72E-06 H
+Abs. Gradient difference to midpoint:   1.43E-03
+dl-find/turbomole/=============================== Tstep:  102.3 Ttot: 9140.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686288E+03
+Finite-difference Hessian: variable   44/ 255 direction= 1
+Energy difference to midpoint:          1.57E-05 H
+Abs. Gradient difference to midpoint:   3.32E-03
+dl-find/turbomole/=============================== Tstep:   97.5 Ttot: 9237.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686289E+03
+Finite-difference Hessian: variable   44/ 255 direction=-1
+Energy difference to midpoint:          1.44E-05 H
+Abs. Gradient difference to midpoint:   3.23E-03
+dl-find/turbomole/=============================== Tstep:   98.7 Ttot: 9336.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   45/ 255 direction= 1
+Energy difference to midpoint:          4.42E-06 H
+Abs. Gradient difference to midpoint:   9.64E-04
+dl-find/turbomole/=============================== Tstep:   97.3 Ttot: 9433.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   45/ 255 direction=-1
+Energy difference to midpoint:          2.27E-06 H
+Abs. Gradient difference to midpoint:   9.57E-04
+dl-find/turbomole/=============================== Tstep:   94.8 Ttot: 9528.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686291E+03
+Finite-difference Hessian: variable   46/ 255 direction= 1
+Energy difference to midpoint:          1.23E-05 H
+Abs. Gradient difference to midpoint:   2.82E-03
+dl-find/turbomole/=============================== Tstep:  100.3 Ttot: 9629.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable   46/ 255 direction=-1
+Energy difference to midpoint:          1.03E-05 H
+Abs. Gradient difference to midpoint:   2.76E-03
+dl-find/turbomole/=============================== Tstep:  105.6 Ttot: 9734.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   47/ 255 direction= 1
+Energy difference to midpoint:          5.08E-06 H
+Abs. Gradient difference to midpoint:   9.99E-04
+dl-find/turbomole/=============================== Tstep:  105.3 Ttot: 9839.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   47/ 255 direction=-1
+Energy difference to midpoint:          1.43E-06 H
+Abs. Gradient difference to midpoint:   9.92E-04
+dl-find/turbomole/=============================== Tstep:   96.1 Ttot: 9936.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable   48/ 255 direction= 1
+Energy difference to midpoint:          8.37E-06 H
+Abs. Gradient difference to midpoint:   2.19E-03
+dl-find/turbomole/=============================== Tstep:  102.0 Ttot:10038.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   48/ 255 direction=-1
+Energy difference to midpoint:          7.57E-06 H
+Abs. Gradient difference to midpoint:   2.22E-03
+dl-find/turbomole/=============================== Tstep:  102.3 Ttot:10140.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686291E+03
+Finite-difference Hessian: variable   49/ 255 direction= 1
+Energy difference to midpoint:          1.23E-05 H
+Abs. Gradient difference to midpoint:   2.70E-03
+dl-find/turbomole/=============================== Tstep:  100.5 Ttot:10240.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable   49/ 255 direction=-1
+Energy difference to midpoint:          9.47E-06 H
+Abs. Gradient difference to midpoint:   2.76E-03
+dl-find/turbomole/=============================== Tstep:   97.3 Ttot:10338.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   50/ 255 direction= 1
+Energy difference to midpoint:          3.69E-06 H
+Abs. Gradient difference to midpoint:   1.14E-03
+dl-find/turbomole/=============================== Tstep:   72.0 Ttot:10410.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   50/ 255 direction=-1
+Energy difference to midpoint:          3.26E-06 H
+Abs. Gradient difference to midpoint:   1.14E-03
+dl-find/turbomole/=============================== Tstep:   95.5 Ttot:10505.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   51/ 255 direction= 1
+Energy difference to midpoint:          7.43E-06 H
+Abs. Gradient difference to midpoint:   2.15E-03
+dl-find/turbomole/=============================== Tstep:   94.9 Ttot:10600.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable   51/ 255 direction=-1
+Energy difference to midpoint:          7.77E-06 H
+Abs. Gradient difference to midpoint:   2.13E-03
+dl-find/turbomole/=============================== Tstep:   99.1 Ttot:10699.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   52/ 255 direction= 1
+Energy difference to midpoint:          2.25E-06 H
+Abs. Gradient difference to midpoint:   1.03E-03
+dl-find/turbomole/=============================== Tstep:   91.3 Ttot:10790.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   52/ 255 direction=-1
+Energy difference to midpoint:          4.59E-06 H
+Abs. Gradient difference to midpoint:   1.04E-03
+dl-find/turbomole/=============================== Tstep:   93.0 Ttot:10883.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable   53/ 255 direction= 1
+Energy difference to midpoint:          1.61E-05 H
+Abs. Gradient difference to midpoint:   3.36E-03
+dl-find/turbomole/=============================== Tstep:   93.6 Ttot:10977.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable   53/ 255 direction=-1
+Energy difference to midpoint:          1.61E-05 H
+Abs. Gradient difference to midpoint:   3.46E-03
+dl-find/turbomole/=============================== Tstep:   97.3 Ttot:11074.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   54/ 255 direction= 1
+Energy difference to midpoint:          3.63E-06 H
+Abs. Gradient difference to midpoint:   9.49E-04
+dl-find/turbomole/=============================== Tstep:   98.6 Ttot:11173.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   54/ 255 direction=-1
+Energy difference to midpoint:          5.56E-06 H
+Abs. Gradient difference to midpoint:   9.66E-04
+dl-find/turbomole/=============================== Tstep:   98.2 Ttot:11271.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable   55/ 255 direction= 1
+Energy difference to midpoint:          1.07E-05 H
+Abs. Gradient difference to midpoint:   2.86E-03
+dl-find/turbomole/=============================== Tstep:   93.6 Ttot:11365.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686291E+03
+Finite-difference Hessian: variable   55/ 255 direction=-1
+Energy difference to midpoint:          1.20E-05 H
+Abs. Gradient difference to midpoint:   2.79E-03
+dl-find/turbomole/=============================== Tstep:   96.5 Ttot:11461.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   56/ 255 direction= 1
+Energy difference to midpoint:          7.13E-06 H
+Abs. Gradient difference to midpoint:   2.17E-03
+dl-find/turbomole/=============================== Tstep:  100.2 Ttot:11561.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   56/ 255 direction=-1
+Energy difference to midpoint:          7.49E-06 H
+Abs. Gradient difference to midpoint:   2.14E-03
+dl-find/turbomole/=============================== Tstep:  100.4 Ttot:11662.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   57/ 255 direction= 1
+Energy difference to midpoint:          5.16E-06 H
+Abs. Gradient difference to midpoint:   8.46E-04
+dl-find/turbomole/=============================== Tstep:   95.6 Ttot:11757.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   57/ 255 direction=-1
+Energy difference to midpoint:          8.58E-07 H
+Abs. Gradient difference to midpoint:   8.53E-04
+dl-find/turbomole/=============================== Tstep:   91.4 Ttot:11849.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable   58/ 255 direction= 1
+Energy difference to midpoint:          1.03E-05 H
+Abs. Gradient difference to midpoint:   2.34E-03
+dl-find/turbomole/=============================== Tstep:   84.8 Ttot:11934.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   58/ 255 direction=-1
+Energy difference to midpoint:          6.20E-06 H
+Abs. Gradient difference to midpoint:   2.41E-03
+dl-find/turbomole/=============================== Tstep:  107.7 Ttot:12041.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable   59/ 255 direction= 1
+Energy difference to midpoint:          1.11E-05 H
+Abs. Gradient difference to midpoint:   2.55E-03
+dl-find/turbomole/=============================== Tstep:  104.4 Ttot:12146.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   59/ 255 direction=-1
+Energy difference to midpoint:          7.66E-06 H
+Abs. Gradient difference to midpoint:   2.50E-03
+dl-find/turbomole/=============================== Tstep:  110.1 Ttot:12256.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   60/ 255 direction= 1
+Energy difference to midpoint:          6.86E-06 H
+Abs. Gradient difference to midpoint:   1.81E-03
+dl-find/turbomole/=============================== Tstep:  111.5 Ttot:12367.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   60/ 255 direction=-1
+Energy difference to midpoint:          5.16E-06 H
+Abs. Gradient difference to midpoint:   1.79E-03
+dl-find/turbomole/=============================== Tstep:  117.8 Ttot:12485.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686291E+03
+Finite-difference Hessian: variable   61/ 255 direction= 1
+Energy difference to midpoint:          1.25E-05 H
+Abs. Gradient difference to midpoint:   3.01E-03
+dl-find/turbomole/=============================== Tstep:  115.1 Ttot:12600.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686289E+03
+Finite-difference Hessian: variable   61/ 255 direction=-1
+Energy difference to midpoint:          1.42E-05 H
+Abs. Gradient difference to midpoint:   3.08E-03
+dl-find/turbomole/=============================== Tstep:  112.2 Ttot:12712.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   62/ 255 direction= 1
+Energy difference to midpoint:          4.98E-06 H
+Abs. Gradient difference to midpoint:   1.73E-03
+dl-find/turbomole/=============================== Tstep:   99.8 Ttot:12812.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   62/ 255 direction=-1
+Energy difference to midpoint:          7.34E-06 H
+Abs. Gradient difference to midpoint:   1.72E-03
+dl-find/turbomole/=============================== Tstep:  110.1 Ttot:12922.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   63/ 255 direction= 1
+Energy difference to midpoint:          5.03E-07 H
+Abs. Gradient difference to midpoint:   7.81E-04
+dl-find/turbomole/=============================== Tstep:  108.2 Ttot:13030.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   63/ 255 direction=-1
+Energy difference to midpoint:          4.40E-06 H
+Abs. Gradient difference to midpoint:   7.71E-04
+dl-find/turbomole/=============================== Tstep:  104.9 Ttot:13135.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686289E+03
+Finite-difference Hessian: variable   64/ 255 direction= 1
+Energy difference to midpoint:          1.41E-05 H
+Abs. Gradient difference to midpoint:   3.16E-03
+dl-find/turbomole/=============================== Tstep:  102.0 Ttot:13237.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable   64/ 255 direction=-1
+Energy difference to midpoint:          1.63E-05 H
+Abs. Gradient difference to midpoint:   3.25E-03
+dl-find/turbomole/=============================== Tstep:  115.9 Ttot:13353.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   65/ 255 direction= 1
+Energy difference to midpoint:          5.26E-06 H
+Abs. Gradient difference to midpoint:   1.52E-03
+dl-find/turbomole/=============================== Tstep:  107.2 Ttot:13460.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   65/ 255 direction=-1
+Energy difference to midpoint:          5.84E-06 H
+Abs. Gradient difference to midpoint:   1.51E-03
+dl-find/turbomole/=============================== Tstep:  104.7 Ttot:13565.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   66/ 255 direction= 1
+Energy difference to midpoint:          1.13E-06 H
+Abs. Gradient difference to midpoint:   3.21E-04
+dl-find/turbomole/=============================== Tstep:  102.8 Ttot:13668.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   66/ 255 direction=-1
+Energy difference to midpoint:          2.21E-06 H
+Abs. Gradient difference to midpoint:   3.18E-04
+dl-find/turbomole/=============================== Tstep:  104.8 Ttot:13773.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable   67/ 255 direction= 1
+Energy difference to midpoint:          1.34E-05 H
+Abs. Gradient difference to midpoint:   2.90E-03
+dl-find/turbomole/=============================== Tstep:  107.1 Ttot:13880.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable   67/ 255 direction=-1
+Energy difference to midpoint:          9.46E-06 H
+Abs. Gradient difference to midpoint:   2.84E-03
+dl-find/turbomole/=============================== Tstep:  110.2 Ttot:13990.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   68/ 255 direction= 1
+Energy difference to midpoint:          5.85E-06 H
+Abs. Gradient difference to midpoint:   1.81E-03
+dl-find/turbomole/=============================== Tstep:  107.9 Ttot:14098.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   68/ 255 direction=-1
+Energy difference to midpoint:          5.94E-06 H
+Abs. Gradient difference to midpoint:   1.79E-03
+dl-find/turbomole/=============================== Tstep:  102.5 Ttot:14201.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   69/ 255 direction= 1
+Energy difference to midpoint:          4.73E-06 H
+Abs. Gradient difference to midpoint:   1.69E-03
+dl-find/turbomole/=============================== Tstep:  106.6 Ttot:14307.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   69/ 255 direction=-1
+Energy difference to midpoint:          4.56E-06 H
+Abs. Gradient difference to midpoint:   1.68E-03
+dl-find/turbomole/=============================== Tstep:  109.8 Ttot:14417.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable   70/ 255 direction= 1
+Energy difference to midpoint:          1.27E-05 H
+Abs. Gradient difference to midpoint:   3.16E-03
+dl-find/turbomole/=============================== Tstep:  104.2 Ttot:14521.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable   70/ 255 direction=-1
+Energy difference to midpoint:          1.28E-05 H
+Abs. Gradient difference to midpoint:   3.09E-03
+dl-find/turbomole/=============================== Tstep:  107.5 Ttot:14629.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable   71/ 255 direction= 1
+Energy difference to midpoint:          1.03E-05 H
+Abs. Gradient difference to midpoint:   2.00E-03
+dl-find/turbomole/=============================== Tstep:  100.5 Ttot:14729.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   71/ 255 direction=-1
+Energy difference to midpoint:          2.46E-06 H
+Abs. Gradient difference to midpoint:   2.02E-03
+dl-find/turbomole/=============================== Tstep:  104.5 Ttot:14834.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   72/ 255 direction= 1
+Energy difference to midpoint:          5.96E-06 H
+Abs. Gradient difference to midpoint:   8.60E-04
+dl-find/turbomole/=============================== Tstep:  101.8 Ttot:14936.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686304E+03
+Finite-difference Hessian: variable   72/ 255 direction=-1
+Energy difference to midpoint:         -8.63E-07 H
+Abs. Gradient difference to midpoint:   8.77E-04
+dl-find/turbomole/=============================== Tstep:  103.5 Ttot:15039.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   73/ 255 direction= 1
+Energy difference to midpoint:          1.64E-06 H
+Abs. Gradient difference to midpoint:   5.97E-04
+dl-find/turbomole/=============================== Tstep:   98.7 Ttot:15138.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   73/ 255 direction=-1
+Energy difference to midpoint:          1.82E-06 H
+Abs. Gradient difference to midpoint:   5.99E-04
+dl-find/turbomole/=============================== Tstep:   92.5 Ttot:15230.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686285E+03
+Finite-difference Hessian: variable   74/ 255 direction= 1
+Energy difference to midpoint:          1.78E-05 H
+Abs. Gradient difference to midpoint:   3.62E-03
+dl-find/turbomole/=============================== Tstep:  104.1 Ttot:15334.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686285E+03
+Finite-difference Hessian: variable   74/ 255 direction=-1
+Energy difference to midpoint:          1.81E-05 H
+Abs. Gradient difference to midpoint:   3.72E-03
+dl-find/turbomole/=============================== Tstep:  108.6 Ttot:15443.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   75/ 255 direction= 1
+Energy difference to midpoint:          4.04E-06 H
+Abs. Gradient difference to midpoint:   8.97E-04
+dl-find/turbomole/=============================== Tstep:  103.5 Ttot:15547.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686305E+03
+Finite-difference Hessian: variable   75/ 255 direction=-1
+Energy difference to midpoint:         -1.49E-06 H
+Abs. Gradient difference to midpoint:   8.86E-04
+dl-find/turbomole/=============================== Tstep:  102.6 Ttot:15649.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable   76/ 255 direction= 1
+Energy difference to midpoint:          1.29E-05 H
+Abs. Gradient difference to midpoint:   2.96E-03
+dl-find/turbomole/=============================== Tstep:  101.6 Ttot:15751.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable   76/ 255 direction=-1
+Energy difference to midpoint:          1.31E-05 H
+Abs. Gradient difference to midpoint:   3.02E-03
+dl-find/turbomole/=============================== Tstep:  107.3 Ttot:15858.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   77/ 255 direction= 1
+Energy difference to midpoint:          6.28E-06 H
+Abs. Gradient difference to midpoint:   1.81E-03
+dl-find/turbomole/=============================== Tstep:  103.3 Ttot:15961.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   77/ 255 direction=-1
+Energy difference to midpoint:          6.80E-06 H
+Abs. Gradient difference to midpoint:   1.82E-03
+dl-find/turbomole/=============================== Tstep:  102.9 Ttot:16064.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   78/ 255 direction= 1
+Energy difference to midpoint:          6.16E-06 H
+Abs. Gradient difference to midpoint:   1.55E-03
+dl-find/turbomole/=============================== Tstep:  100.8 Ttot:16165.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   78/ 255 direction=-1
+Energy difference to midpoint:          2.93E-06 H
+Abs. Gradient difference to midpoint:   1.55E-03
+dl-find/turbomole/=============================== Tstep:  103.6 Ttot:16269.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable   79/ 255 direction= 1
+Energy difference to midpoint:          1.59E-05 H
+Abs. Gradient difference to midpoint:   3.12E-03
+dl-find/turbomole/=============================== Tstep:  106.4 Ttot:16375.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable   79/ 255 direction=-1
+Energy difference to midpoint:          1.29E-05 H
+Abs. Gradient difference to midpoint:   3.20E-03
+dl-find/turbomole/=============================== Tstep:  108.0 Ttot:16483.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   80/ 255 direction= 1
+Energy difference to midpoint:          6.92E-06 H
+Abs. Gradient difference to midpoint:   1.96E-03
+dl-find/turbomole/=============================== Tstep:  101.2 Ttot:16584.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   80/ 255 direction=-1
+Energy difference to midpoint:          5.37E-06 H
+Abs. Gradient difference to midpoint:   1.95E-03
+dl-find/turbomole/=============================== Tstep:  102.7 Ttot:16687.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   81/ 255 direction= 1
+Energy difference to midpoint:          6.31E-07 H
+Abs. Gradient difference to midpoint:   7.29E-04
+dl-find/turbomole/=============================== Tstep:   85.9 Ttot:16773.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   81/ 255 direction=-1
+Energy difference to midpoint:          3.47E-06 H
+Abs. Gradient difference to midpoint:   7.17E-04
+dl-find/turbomole/=============================== Tstep:  102.0 Ttot:16875.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable   82/ 255 direction= 1
+Energy difference to midpoint:          5.60E-07 H
+Abs. Gradient difference to midpoint:   8.32E-04
+dl-find/turbomole/=============================== Tstep:  102.0 Ttot:16977.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   82/ 255 direction=-1
+Energy difference to midpoint:          3.77E-06 H
+Abs. Gradient difference to midpoint:   8.20E-04
+dl-find/turbomole/=============================== Tstep:   94.8 Ttot:17072.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   83/ 255 direction= 1
+Energy difference to midpoint:          4.02E-06 H
+Abs. Gradient difference to midpoint:   9.88E-04
+dl-find/turbomole/=============================== Tstep:   93.8 Ttot:17165.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   83/ 255 direction=-1
+Energy difference to midpoint:          1.74E-06 H
+Abs. Gradient difference to midpoint:   9.99E-04
+dl-find/turbomole/=============================== Tstep:  100.5 Ttot:17266.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686289E+03
+Finite-difference Hessian: variable   84/ 255 direction= 1
+Energy difference to midpoint:          1.43E-05 H
+Abs. Gradient difference to midpoint:   3.75E-03
+dl-find/turbomole/=============================== Tstep:  100.3 Ttot:17366.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686282E+03
+Finite-difference Hessian: variable   84/ 255 direction=-1
+Energy difference to midpoint:          2.13E-05 H
+Abs. Gradient difference to midpoint:   3.85E-03
+dl-find/turbomole/=============================== Tstep:  101.5 Ttot:17468.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable   85/ 255 direction= 1
+Energy difference to midpoint:          1.37E-05 H
+Abs. Gradient difference to midpoint:   5.19E-04
+dl-find/turbomole/=============================== Tstep:  108.0 Ttot:17576.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   85/ 255 direction=-1
+Energy difference to midpoint:          2.15E-06 H
+Abs. Gradient difference to midpoint:   5.15E-04
+dl-find/turbomole/=============================== Tstep:  110.2 Ttot:17686.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686289E+03
+Finite-difference Hessian: variable   86/ 255 direction= 1
+Energy difference to midpoint:          1.43E-05 H
+Abs. Gradient difference to midpoint:   6.53E-04
+dl-find/turbomole/=============================== Tstep:   98.9 Ttot:17785.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   86/ 255 direction=-1
+Energy difference to midpoint:          2.78E-06 H
+Abs. Gradient difference to midpoint:   6.57E-04
+dl-find/turbomole/=============================== Tstep:  108.3 Ttot:17893.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable   87/ 255 direction= 1
+Energy difference to midpoint:          1.62E-05 H
+Abs. Gradient difference to midpoint:   1.31E-03
+dl-find/turbomole/=============================== Tstep:  105.1 Ttot:17998.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   87/ 255 direction=-1
+Energy difference to midpoint:          3.55E-06 H
+Abs. Gradient difference to midpoint:   1.30E-03
+dl-find/turbomole/=============================== Tstep:  107.7 Ttot:18106.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   88/ 255 direction= 1
+Energy difference to midpoint:          2.96E-06 H
+Abs. Gradient difference to midpoint:   2.18E-03
+dl-find/turbomole/=============================== Tstep:   96.2 Ttot:18202.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   88/ 255 direction=-1
+Energy difference to midpoint:          5.81E-06 H
+Abs. Gradient difference to midpoint:   2.15E-03
+dl-find/turbomole/=============================== Tstep:   98.0 Ttot:18300.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable   89/ 255 direction= 1
+Energy difference to midpoint:          1.05E-05 H
+Abs. Gradient difference to midpoint:   2.87E-03
+dl-find/turbomole/=============================== Tstep:   94.1 Ttot:18394.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable   89/ 255 direction=-1
+Energy difference to midpoint:          1.02E-05 H
+Abs. Gradient difference to midpoint:   2.93E-03
+dl-find/turbomole/=============================== Tstep:  101.3 Ttot:18495.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   90/ 255 direction= 1
+Energy difference to midpoint:          4.25E-06 H
+Abs. Gradient difference to midpoint:   1.71E-03
+dl-find/turbomole/=============================== Tstep:   98.3 Ttot:18594.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   90/ 255 direction=-1
+Energy difference to midpoint:          6.15E-06 H
+Abs. Gradient difference to midpoint:   1.72E-03
+dl-find/turbomole/=============================== Tstep:  102.7 Ttot:18697.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   91/ 255 direction= 1
+Energy difference to midpoint:          2.87E-06 H
+Abs. Gradient difference to midpoint:   7.31E-04
+dl-find/turbomole/=============================== Tstep:   86.3 Ttot:18783.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   91/ 255 direction=-1
+Energy difference to midpoint:          2.05E-06 H
+Abs. Gradient difference to midpoint:   7.39E-04
+dl-find/turbomole/=============================== Tstep:   99.1 Ttot:18882.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable   92/ 255 direction= 1
+Energy difference to midpoint:          8.76E-06 H
+Abs. Gradient difference to midpoint:   2.30E-03
+dl-find/turbomole/=============================== Tstep:   99.4 Ttot:18981.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable   92/ 255 direction=-1
+Energy difference to midpoint:          6.33E-06 H
+Abs. Gradient difference to midpoint:   2.27E-03
+dl-find/turbomole/=============================== Tstep:  108.6 Ttot:19090.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686291E+03
+Finite-difference Hessian: variable   93/ 255 direction= 1
+Energy difference to midpoint:          1.25E-05 H
+Abs. Gradient difference to midpoint:   3.08E-03
+dl-find/turbomole/=============================== Tstep:  100.6 Ttot:19191.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable   93/ 255 direction=-1
+Energy difference to midpoint:          1.13E-05 H
+Abs. Gradient difference to midpoint:   3.01E-03
+dl-find/turbomole/=============================== Tstep:  102.7 Ttot:19293.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   94/ 255 direction= 1
+Energy difference to midpoint:          1.99E-06 H
+Abs. Gradient difference to midpoint:   8.06E-04
+dl-find/turbomole/=============================== Tstep:  100.1 Ttot:19393.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable   94/ 255 direction=-1
+Energy difference to midpoint:          1.68E-06 H
+Abs. Gradient difference to midpoint:   8.08E-04
+dl-find/turbomole/=============================== Tstep:  107.1 Ttot:19500.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   95/ 255 direction= 1
+Energy difference to midpoint:          3.57E-06 H
+Abs. Gradient difference to midpoint:   1.07E-03
+dl-find/turbomole/=============================== Tstep:   97.1 Ttot:19598.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   95/ 255 direction=-1
+Energy difference to midpoint:          2.84E-06 H
+Abs. Gradient difference to midpoint:   1.07E-03
+dl-find/turbomole/=============================== Tstep:  108.4 Ttot:19706.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   96/ 255 direction= 1
+Energy difference to midpoint:          2.20E-06 H
+Abs. Gradient difference to midpoint:   7.60E-04
+dl-find/turbomole/=============================== Tstep:   94.7 Ttot:19801.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable   96/ 255 direction=-1
+Energy difference to midpoint:          1.95E-06 H
+Abs. Gradient difference to midpoint:   7.63E-04
+dl-find/turbomole/=============================== Tstep:  101.8 Ttot:19903.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable   97/ 255 direction= 1
+Energy difference to midpoint:          2.93E-06 H
+Abs. Gradient difference to midpoint:   1.14E-03
+dl-find/turbomole/=============================== Tstep:   94.7 Ttot:19997.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable   97/ 255 direction=-1
+Energy difference to midpoint:          4.67E-06 H
+Abs. Gradient difference to midpoint:   1.15E-03
+dl-find/turbomole/=============================== Tstep:  102.8 Ttot:20100.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable   98/ 255 direction= 1
+Energy difference to midpoint:          7.37E-06 H
+Abs. Gradient difference to midpoint:   1.86E-03
+dl-find/turbomole/=============================== Tstep:  101.8 Ttot:20202.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable   98/ 255 direction=-1
+Energy difference to midpoint:          4.81E-06 H
+Abs. Gradient difference to midpoint:   1.84E-03
+dl-find/turbomole/=============================== Tstep:  103.7 Ttot:20306.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686288E+03
+Finite-difference Hessian: variable   99/ 255 direction= 1
+Energy difference to midpoint:          1.55E-05 H
+Abs. Gradient difference to midpoint:   3.05E-03
+dl-find/turbomole/=============================== Tstep:   94.3 Ttot:20400.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable   99/ 255 direction=-1
+Energy difference to midpoint:          1.12E-05 H
+Abs. Gradient difference to midpoint:   3.12E-03
+dl-find/turbomole/=============================== Tstep:  108.6 Ttot:20509.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  100/ 255 direction= 1
+Energy difference to midpoint:          1.33E-06 H
+Abs. Gradient difference to midpoint:   1.09E-03
+dl-find/turbomole/=============================== Tstep:  102.6 Ttot:20611.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  100/ 255 direction=-1
+Energy difference to midpoint:          3.02E-06 H
+Abs. Gradient difference to midpoint:   1.08E-03
+dl-find/turbomole/=============================== Tstep:   97.1 Ttot:20708.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  101/ 255 direction= 1
+Energy difference to midpoint:          2.44E-06 H
+Abs. Gradient difference to midpoint:   9.69E-04
+dl-find/turbomole/=============================== Tstep:   95.8 Ttot:20804.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  101/ 255 direction=-1
+Energy difference to midpoint:          1.52E-06 H
+Abs. Gradient difference to midpoint:   9.71E-04
+dl-find/turbomole/=============================== Tstep:   95.8 Ttot:20900.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  102/ 255 direction= 1
+Energy difference to midpoint:          3.19E-06 H
+Abs. Gradient difference to midpoint:   1.28E-03
+dl-find/turbomole/=============================== Tstep:   93.6 Ttot:20993.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  102/ 255 direction=-1
+Energy difference to midpoint:          2.16E-06 H
+Abs. Gradient difference to midpoint:   1.28E-03
+dl-find/turbomole/=============================== Tstep:   90.6 Ttot:21084.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  103/ 255 direction= 1
+Energy difference to midpoint:          1.65E-06 H
+Abs. Gradient difference to midpoint:   4.57E-04
+dl-find/turbomole/=============================== Tstep:   94.0 Ttot:21178.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  103/ 255 direction=-1
+Energy difference to midpoint:          1.36E-06 H
+Abs. Gradient difference to midpoint:   4.56E-04
+dl-find/turbomole/=============================== Tstep:   95.9 Ttot:21274.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  104/ 255 direction= 1
+Energy difference to midpoint:          1.53E-06 H
+Abs. Gradient difference to midpoint:   5.69E-04
+dl-find/turbomole/=============================== Tstep:   95.5 Ttot:21369.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  104/ 255 direction=-1
+Energy difference to midpoint:          2.76E-06 H
+Abs. Gradient difference to midpoint:   5.70E-04
+dl-find/turbomole/=============================== Tstep:   99.8 Ttot:21469.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  105/ 255 direction= 1
+Energy difference to midpoint:          2.36E-06 H
+Abs. Gradient difference to midpoint:   6.56E-04
+dl-find/turbomole/=============================== Tstep:  105.9 Ttot:21575.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  105/ 255 direction=-1
+Energy difference to midpoint:          2.84E-06 H
+Abs. Gradient difference to midpoint:   6.57E-04
+dl-find/turbomole/=============================== Tstep:  108.0 Ttot:21683.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable  106/ 255 direction= 1
+Energy difference to midpoint:          9.22E-06 H
+Abs. Gradient difference to midpoint:   1.94E-03
+dl-find/turbomole/=============================== Tstep:  104.1 Ttot:21787.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable  106/ 255 direction=-1
+Energy difference to midpoint:          6.36E-06 H
+Abs. Gradient difference to midpoint:   1.92E-03
+dl-find/turbomole/=============================== Tstep:  106.5 Ttot:21894.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable  107/ 255 direction= 1
+Energy difference to midpoint:          6.26E-06 H
+Abs. Gradient difference to midpoint:   2.03E-03
+dl-find/turbomole/=============================== Tstep:   95.8 Ttot:21989.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable  107/ 255 direction=-1
+Energy difference to midpoint:          1.12E-05 H
+Abs. Gradient difference to midpoint:   2.05E-03
+dl-find/turbomole/=============================== Tstep:  101.4 Ttot:22091.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable  108/ 255 direction= 1
+Energy difference to midpoint:          1.16E-05 H
+Abs. Gradient difference to midpoint:   2.57E-03
+dl-find/turbomole/=============================== Tstep:  104.5 Ttot:22195.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable  108/ 255 direction=-1
+Energy difference to midpoint:          1.09E-05 H
+Abs. Gradient difference to midpoint:   2.61E-03
+dl-find/turbomole/=============================== Tstep:  107.9 Ttot:22303.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable  109/ 255 direction= 1
+Energy difference to midpoint:          8.61E-06 H
+Abs. Gradient difference to midpoint:   2.53E-03
+dl-find/turbomole/=============================== Tstep:  101.6 Ttot:22405.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable  109/ 255 direction=-1
+Energy difference to midpoint:          8.92E-06 H
+Abs. Gradient difference to midpoint:   2.49E-03
+dl-find/turbomole/=============================== Tstep:  107.8 Ttot:22513.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  110/ 255 direction= 1
+Energy difference to midpoint:          3.46E-06 H
+Abs. Gradient difference to midpoint:   1.78E-03
+dl-find/turbomole/=============================== Tstep:  105.0 Ttot:22618.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable  110/ 255 direction=-1
+Energy difference to midpoint:          7.29E-06 H
+Abs. Gradient difference to midpoint:   1.77E-03
+dl-find/turbomole/=============================== Tstep:   95.0 Ttot:22713.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable  111/ 255 direction= 1
+Energy difference to midpoint:          9.78E-06 H
+Abs. Gradient difference to midpoint:   2.27E-03
+dl-find/turbomole/=============================== Tstep:   91.8 Ttot:22805.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable  111/ 255 direction=-1
+Energy difference to midpoint:          6.37E-06 H
+Abs. Gradient difference to midpoint:   2.30E-03
+dl-find/turbomole/=============================== Tstep:  103.9 Ttot:22908.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  112/ 255 direction= 1
+Energy difference to midpoint:          3.83E-06 H
+Abs. Gradient difference to midpoint:   7.38E-04
+dl-find/turbomole/=============================== Tstep:  106.1 Ttot:23015.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686288E+03
+Finite-difference Hessian: variable  112/ 255 direction=-1
+Energy difference to midpoint:          1.52E-05 H
+Abs. Gradient difference to midpoint:   7.40E-04
+dl-find/turbomole/=============================== Tstep:  109.2 Ttot:23124.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  113/ 255 direction= 1
+Energy difference to midpoint:          2.21E-06 H
+Abs. Gradient difference to midpoint:   8.52E-04
+dl-find/turbomole/=============================== Tstep:  108.7 Ttot:23233.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686286E+03
+Finite-difference Hessian: variable  113/ 255 direction=-1
+Energy difference to midpoint:          1.69E-05 H
+Abs. Gradient difference to midpoint:   8.56E-04
+dl-find/turbomole/=============================== Tstep:  113.8 Ttot:23346.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  114/ 255 direction= 1
+Energy difference to midpoint:          4.32E-06 H
+Abs. Gradient difference to midpoint:   8.87E-04
+dl-find/turbomole/=============================== Tstep:  103.9 Ttot:23450.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable  114/ 255 direction=-1
+Energy difference to midpoint:          1.66E-05 H
+Abs. Gradient difference to midpoint:   8.83E-04
+dl-find/turbomole/=============================== Tstep:  108.4 Ttot:23559.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  115/ 255 direction= 1
+Energy difference to midpoint:          3.44E-06 H
+Abs. Gradient difference to midpoint:   8.42E-04
+dl-find/turbomole/=============================== Tstep:   97.9 Ttot:23656.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  115/ 255 direction=-1
+Energy difference to midpoint:          3.02E-07 H
+Abs. Gradient difference to midpoint:   8.45E-04
+dl-find/turbomole/=============================== Tstep:  106.9 Ttot:23763.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  116/ 255 direction= 1
+Energy difference to midpoint:          2.87E-06 H
+Abs. Gradient difference to midpoint:   8.13E-04
+dl-find/turbomole/=============================== Tstep:  104.3 Ttot:23868.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  116/ 255 direction=-1
+Energy difference to midpoint:          1.68E-06 H
+Abs. Gradient difference to midpoint:   8.11E-04
+dl-find/turbomole/=============================== Tstep:  111.5 Ttot:23979.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  117/ 255 direction= 1
+Energy difference to midpoint:          1.85E-06 H
+Abs. Gradient difference to midpoint:   8.32E-04
+dl-find/turbomole/=============================== Tstep:  102.6 Ttot:24082.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  117/ 255 direction=-1
+Energy difference to midpoint:          2.91E-06 H
+Abs. Gradient difference to midpoint:   8.31E-04
+dl-find/turbomole/=============================== Tstep:  111.0 Ttot:24193.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  118/ 255 direction= 1
+Energy difference to midpoint:          1.63E-06 H
+Abs. Gradient difference to midpoint:   4.30E-04
+dl-find/turbomole/=============================== Tstep:  104.4 Ttot:24297.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  118/ 255 direction=-1
+Energy difference to midpoint:          1.17E-06 H
+Abs. Gradient difference to midpoint:   4.30E-04
+dl-find/turbomole/=============================== Tstep:  108.3 Ttot:24406.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  119/ 255 direction= 1
+Energy difference to midpoint:          1.70E-06 H
+Abs. Gradient difference to midpoint:   5.81E-04
+dl-find/turbomole/=============================== Tstep:   94.9 Ttot:24500.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  119/ 255 direction=-1
+Energy difference to midpoint:          2.69E-06 H
+Abs. Gradient difference to midpoint:   5.83E-04
+dl-find/turbomole/=============================== Tstep:  106.6 Ttot:24607.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  120/ 255 direction= 1
+Energy difference to midpoint:          2.38E-06 H
+Abs. Gradient difference to midpoint:   6.11E-04
+dl-find/turbomole/=============================== Tstep:   88.7 Ttot:24696.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  120/ 255 direction=-1
+Energy difference to midpoint:          2.77E-06 H
+Abs. Gradient difference to midpoint:   6.08E-04
+dl-find/turbomole/=============================== Tstep:  109.6 Ttot:24805.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686288E+03
+Finite-difference Hessian: variable  121/ 255 direction= 1
+Energy difference to midpoint:          1.55E-05 H
+Abs. Gradient difference to midpoint:   3.40E-03
+dl-find/turbomole/=============================== Tstep:  102.4 Ttot:24908.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable  121/ 255 direction=-1
+Energy difference to midpoint:          1.59E-05 H
+Abs. Gradient difference to midpoint:   3.50E-03
+dl-find/turbomole/=============================== Tstep:  107.4 Ttot:25015.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  122/ 255 direction= 1
+Energy difference to midpoint:          3.32E-06 H
+Abs. Gradient difference to midpoint:   1.31E-03
+dl-find/turbomole/=============================== Tstep:  102.7 Ttot:25118.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  122/ 255 direction=-1
+Energy difference to midpoint:          4.64E-06 H
+Abs. Gradient difference to midpoint:   1.31E-03
+dl-find/turbomole/=============================== Tstep:   99.1 Ttot:25217.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable  123/ 255 direction= 1
+Energy difference to midpoint:          5.24E-06 H
+Abs. Gradient difference to midpoint:   6.15E-04
+dl-find/turbomole/=============================== Tstep:   92.6 Ttot:25309.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686304E+03
+Finite-difference Hessian: variable  123/ 255 direction=-1
+Energy difference to midpoint:         -3.52E-07 H
+Abs. Gradient difference to midpoint:   6.09E-04
+dl-find/turbomole/=============================== Tstep:  102.8 Ttot:25412.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  124/ 255 direction= 1
+Energy difference to midpoint:          1.42E-06 H
+Abs. Gradient difference to midpoint:   5.30E-04
+dl-find/turbomole/=============================== Tstep:  106.0 Ttot:25518.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  124/ 255 direction=-1
+Energy difference to midpoint:          1.65E-06 H
+Abs. Gradient difference to midpoint:   5.31E-04
+dl-find/turbomole/=============================== Tstep:  108.8 Ttot:25627.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  125/ 255 direction= 1
+Energy difference to midpoint:          2.62E-06 H
+Abs. Gradient difference to midpoint:   6.94E-04
+dl-find/turbomole/=============================== Tstep:   95.6 Ttot:25723.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  125/ 255 direction=-1
+Energy difference to midpoint:          1.86E-06 H
+Abs. Gradient difference to midpoint:   6.92E-04
+dl-find/turbomole/=============================== Tstep:  113.1 Ttot:25836.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  126/ 255 direction= 1
+Energy difference to midpoint:          3.51E-06 H
+Abs. Gradient difference to midpoint:   1.26E-03
+dl-find/turbomole/=============================== Tstep:  100.9 Ttot:25937.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  126/ 255 direction=-1
+Energy difference to midpoint:          4.23E-06 H
+Abs. Gradient difference to midpoint:   1.27E-03
+dl-find/turbomole/=============================== Tstep:  111.9 Ttot:26049.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  127/ 255 direction= 1
+Energy difference to midpoint:          1.64E-06 H
+Abs. Gradient difference to midpoint:   5.50E-04
+dl-find/turbomole/=============================== Tstep:  103.1 Ttot:26152.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  127/ 255 direction=-1
+Energy difference to midpoint:          1.21E-06 H
+Abs. Gradient difference to midpoint:   5.52E-04
+dl-find/turbomole/=============================== Tstep:  108.3 Ttot:26260.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  128/ 255 direction= 1
+Energy difference to midpoint:          3.06E-06 H
+Abs. Gradient difference to midpoint:   1.19E-03
+dl-find/turbomole/=============================== Tstep:  111.0 Ttot:26371.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  128/ 255 direction=-1
+Energy difference to midpoint:          2.98E-06 H
+Abs. Gradient difference to midpoint:   1.18E-03
+dl-find/turbomole/=============================== Tstep:  103.6 Ttot:26475.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  129/ 255 direction= 1
+Energy difference to midpoint:          1.44E-06 H
+Abs. Gradient difference to midpoint:   5.47E-04
+dl-find/turbomole/=============================== Tstep:  110.1 Ttot:26585.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  129/ 255 direction=-1
+Energy difference to midpoint:          1.41E-06 H
+Abs. Gradient difference to midpoint:   5.48E-04
+dl-find/turbomole/=============================== Tstep:  117.0 Ttot:26702.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  130/ 255 direction= 1
+Energy difference to midpoint:          1.37E-06 H
+Abs. Gradient difference to midpoint:   5.29E-04
+dl-find/turbomole/=============================== Tstep:  102.2 Ttot:26804.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  130/ 255 direction=-1
+Energy difference to midpoint:          2.00E-06 H
+Abs. Gradient difference to midpoint:   5.28E-04
+dl-find/turbomole/=============================== Tstep:   97.5 Ttot:26901.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  131/ 255 direction= 1
+Energy difference to midpoint:          3.03E-06 H
+Abs. Gradient difference to midpoint:   1.19E-03
+dl-find/turbomole/=============================== Tstep:  109.6 Ttot:27011.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  131/ 255 direction=-1
+Energy difference to midpoint:          2.98E-06 H
+Abs. Gradient difference to midpoint:   1.20E-03
+dl-find/turbomole/=============================== Tstep:  104.9 Ttot:27116.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  132/ 255 direction= 1
+Energy difference to midpoint:          2.42E-06 H
+Abs. Gradient difference to midpoint:   5.71E-04
+dl-find/turbomole/=============================== Tstep:  106.5 Ttot:27222.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  132/ 255 direction=-1
+Energy difference to midpoint:          1.39E-06 H
+Abs. Gradient difference to midpoint:   5.69E-04
+dl-find/turbomole/=============================== Tstep:  105.4 Ttot:27328.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable  133/ 255 direction= 1
+Energy difference to midpoint:          5.93E-06 H
+Abs. Gradient difference to midpoint:   2.30E-03
+dl-find/turbomole/=============================== Tstep:  107.1 Ttot:27435.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable  133/ 255 direction=-1
+Energy difference to midpoint:          1.01E-05 H
+Abs. Gradient difference to midpoint:   2.34E-03
+dl-find/turbomole/=============================== Tstep:  106.7 Ttot:27542.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  134/ 255 direction= 1
+Energy difference to midpoint:          2.98E-06 H
+Abs. Gradient difference to midpoint:   1.40E-03
+dl-find/turbomole/=============================== Tstep:  104.5 Ttot:27646.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable  134/ 255 direction=-1
+Energy difference to midpoint:          6.39E-06 H
+Abs. Gradient difference to midpoint:   1.40E-03
+dl-find/turbomole/=============================== Tstep:  103.5 Ttot:27750.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686291E+03
+Finite-difference Hessian: variable  135/ 255 direction= 1
+Energy difference to midpoint:          1.24E-05 H
+Abs. Gradient difference to midpoint:   2.69E-03
+dl-find/turbomole/=============================== Tstep:  105.3 Ttot:27855.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable  135/ 255 direction=-1
+Energy difference to midpoint:          8.55E-06 H
+Abs. Gradient difference to midpoint:   2.74E-03
+dl-find/turbomole/=============================== Tstep:  105.7 Ttot:27961.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  136/ 255 direction= 1
+Energy difference to midpoint:          2.69E-06 H
+Abs. Gradient difference to midpoint:   7.32E-04
+dl-find/turbomole/=============================== Tstep:  102.8 Ttot:28064.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  136/ 255 direction=-1
+Energy difference to midpoint:          1.58E-06 H
+Abs. Gradient difference to midpoint:   7.21E-04
+dl-find/turbomole/=============================== Tstep:  101.0 Ttot:28165.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686285E+03
+Finite-difference Hessian: variable  137/ 255 direction= 1
+Energy difference to midpoint:          1.82E-05 H
+Abs. Gradient difference to midpoint:   3.63E-03
+dl-find/turbomole/=============================== Tstep:  106.3 Ttot:28271.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686286E+03
+Finite-difference Hessian: variable  137/ 255 direction=-1
+Energy difference to midpoint:          1.69E-05 H
+Abs. Gradient difference to midpoint:   3.73E-03
+dl-find/turbomole/=============================== Tstep:  107.2 Ttot:28378.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  138/ 255 direction= 1
+Energy difference to midpoint:          3.35E-06 H
+Abs. Gradient difference to midpoint:   5.90E-04
+dl-find/turbomole/=============================== Tstep:  105.1 Ttot:28483.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  138/ 255 direction=-1
+Energy difference to midpoint:          7.30E-08 H
+Abs. Gradient difference to midpoint:   5.81E-04
+dl-find/turbomole/=============================== Tstep:   96.9 Ttot:28580.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  139/ 255 direction= 1
+Energy difference to midpoint:          3.76E-06 H
+Abs. Gradient difference to midpoint:   7.22E-04
+dl-find/turbomole/=============================== Tstep:   89.6 Ttot:28670.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  139/ 255 direction=-1
+Energy difference to midpoint:          1.30E-06 H
+Abs. Gradient difference to midpoint:   7.31E-04
+dl-find/turbomole/=============================== Tstep:  101.8 Ttot:28771.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686289E+03
+Finite-difference Hessian: variable  140/ 255 direction= 1
+Energy difference to midpoint:          1.41E-05 H
+Abs. Gradient difference to midpoint:   3.73E-03
+dl-find/turbomole/=============================== Tstep:  102.1 Ttot:28874.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable  140/ 255 direction=-1
+Energy difference to midpoint:          1.65E-05 H
+Abs. Gradient difference to midpoint:   3.62E-03
+dl-find/turbomole/=============================== Tstep:  108.8 Ttot:28982.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686306E+03
+Finite-difference Hessian: variable  141/ 255 direction= 1
+Energy difference to midpoint:         -2.90E-06 H
+Abs. Gradient difference to midpoint:   5.88E-04
+dl-find/turbomole/=============================== Tstep:  104.7 Ttot:29087.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  141/ 255 direction=-1
+Energy difference to midpoint:          3.11E-06 H
+Abs. Gradient difference to midpoint:   5.96E-04
+dl-find/turbomole/=============================== Tstep:   92.2 Ttot:29179.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  142/ 255 direction= 1
+Energy difference to midpoint:          1.98E-06 H
+Abs. Gradient difference to midpoint:   4.65E-04
+dl-find/turbomole/=============================== Tstep:  106.3 Ttot:29285.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  142/ 255 direction=-1
+Energy difference to midpoint:          1.19E-06 H
+Abs. Gradient difference to midpoint:   4.66E-04
+dl-find/turbomole/=============================== Tstep:  114.4 Ttot:29400.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  143/ 255 direction= 1
+Energy difference to midpoint:          2.74E-06 H
+Abs. Gradient difference to midpoint:   6.60E-04
+dl-find/turbomole/=============================== Tstep:  114.0 Ttot:29514.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  143/ 255 direction=-1
+Energy difference to midpoint:          2.86E-06 H
+Abs. Gradient difference to midpoint:   6.57E-04
+dl-find/turbomole/=============================== Tstep:  115.9 Ttot:29630.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  144/ 255 direction= 1
+Energy difference to midpoint:          2.33E-06 H
+Abs. Gradient difference to midpoint:   5.69E-04
+dl-find/turbomole/=============================== Tstep:  114.4 Ttot:29744.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  144/ 255 direction=-1
+Energy difference to midpoint:          1.96E-06 H
+Abs. Gradient difference to midpoint:   5.70E-04
+dl-find/turbomole/=============================== Tstep:  114.5 Ttot:29859.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  145/ 255 direction= 1
+Energy difference to midpoint:          2.38E-06 H
+Abs. Gradient difference to midpoint:   7.80E-04
+dl-find/turbomole/=============================== Tstep:  106.1 Ttot:29965.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  145/ 255 direction=-1
+Energy difference to midpoint:          1.70E-06 H
+Abs. Gradient difference to midpoint:   7.78E-04
+dl-find/turbomole/=============================== Tstep:  107.7 Ttot:30072.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  146/ 255 direction= 1
+Energy difference to midpoint:          3.79E-06 H
+Abs. Gradient difference to midpoint:   7.71E-04
+dl-find/turbomole/=============================== Tstep:  110.9 Ttot:30183.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  146/ 255 direction=-1
+Energy difference to midpoint:          2.49E-06 H
+Abs. Gradient difference to midpoint:   7.74E-04
+dl-find/turbomole/=============================== Tstep:  117.7 Ttot:30301.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  147/ 255 direction= 1
+Energy difference to midpoint:          2.37E-06 H
+Abs. Gradient difference to midpoint:   9.45E-04
+dl-find/turbomole/=============================== Tstep:  104.3 Ttot:30405.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  147/ 255 direction=-1
+Energy difference to midpoint:          2.29E-06 H
+Abs. Gradient difference to midpoint:   9.42E-04
+dl-find/turbomole/=============================== Tstep:  108.7 Ttot:30514.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  148/ 255 direction= 1
+Energy difference to midpoint:          1.27E-06 H
+Abs. Gradient difference to midpoint:   4.94E-04
+dl-find/turbomole/=============================== Tstep:  109.3 Ttot:30623.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  148/ 255 direction=-1
+Energy difference to midpoint:          2.32E-06 H
+Abs. Gradient difference to midpoint:   4.93E-04
+dl-find/turbomole/=============================== Tstep:  110.7 Ttot:30734.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  149/ 255 direction= 1
+Energy difference to midpoint:          2.57E-06 H
+Abs. Gradient difference to midpoint:   6.46E-04
+dl-find/turbomole/=============================== Tstep:  109.6 Ttot:30844.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  149/ 255 direction=-1
+Energy difference to midpoint:          2.85E-06 H
+Abs. Gradient difference to midpoint:   6.48E-04
+dl-find/turbomole/=============================== Tstep:  111.7 Ttot:30955.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  150/ 255 direction= 1
+Energy difference to midpoint:          1.46E-06 H
+Abs. Gradient difference to midpoint:   5.11E-04
+dl-find/turbomole/=============================== Tstep:  113.6 Ttot:31069.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  150/ 255 direction=-1
+Energy difference to midpoint:          2.30E-06 H
+Abs. Gradient difference to midpoint:   5.11E-04
+dl-find/turbomole/=============================== Tstep:  111.4 Ttot:31180.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  151/ 255 direction= 1
+Energy difference to midpoint:          1.42E-06 H
+Abs. Gradient difference to midpoint:   5.03E-04
+dl-find/turbomole/=============================== Tstep:  103.4 Ttot:31284.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  151/ 255 direction=-1
+Energy difference to midpoint:          2.21E-06 H
+Abs. Gradient difference to midpoint:   5.04E-04
+dl-find/turbomole/=============================== Tstep:  112.9 Ttot:31397.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  152/ 255 direction= 1
+Energy difference to midpoint:          2.76E-06 H
+Abs. Gradient difference to midpoint:   6.56E-04
+dl-find/turbomole/=============================== Tstep:  112.1 Ttot:31509.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  152/ 255 direction=-1
+Energy difference to midpoint:          2.68E-06 H
+Abs. Gradient difference to midpoint:   6.53E-04
+dl-find/turbomole/=============================== Tstep:  109.6 Ttot:31618.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  153/ 255 direction= 1
+Energy difference to midpoint:          1.36E-06 H
+Abs. Gradient difference to midpoint:   5.23E-04
+dl-find/turbomole/=============================== Tstep:  106.8 Ttot:31725.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  153/ 255 direction=-1
+Energy difference to midpoint:          2.47E-06 H
+Abs. Gradient difference to midpoint:   5.23E-04
+dl-find/turbomole/=============================== Tstep:  109.6 Ttot:31835.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable  154/ 255 direction= 1
+Energy difference to midpoint:          5.10E-06 H
+Abs. Gradient difference to midpoint:   1.02E-03
+dl-find/turbomole/=============================== Tstep:  108.6 Ttot:31943.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  154/ 255 direction=-1
+Energy difference to midpoint:          4.12E-07 H
+Abs. Gradient difference to midpoint:   1.01E-03
+dl-find/turbomole/=============================== Tstep:  105.6 Ttot:32049.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  155/ 255 direction= 1
+Energy difference to midpoint:          2.92E-06 H
+Abs. Gradient difference to midpoint:   1.33E-03
+dl-find/turbomole/=============================== Tstep:  107.8 Ttot:32157.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable  155/ 255 direction=-1
+Energy difference to midpoint:          4.88E-06 H
+Abs. Gradient difference to midpoint:   1.33E-03
+dl-find/turbomole/=============================== Tstep:  109.0 Ttot:32266.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable  156/ 255 direction= 1
+Energy difference to midpoint:          1.28E-05 H
+Abs. Gradient difference to midpoint:   3.46E-03
+dl-find/turbomole/=============================== Tstep:   86.1 Ttot:32352.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686285E+03
+Finite-difference Hessian: variable  156/ 255 direction=-1
+Energy difference to midpoint:          1.79E-05 H
+Abs. Gradient difference to midpoint:   3.37E-03
+dl-find/turbomole/=============================== Tstep:  102.1 Ttot:32454.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  157/ 255 direction= 1
+Energy difference to midpoint:          1.67E-06 H
+Abs. Gradient difference to midpoint:   5.02E-04
+dl-find/turbomole/=============================== Tstep:  113.0 Ttot:32567.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  157/ 255 direction=-1
+Energy difference to midpoint:          2.02E-06 H
+Abs. Gradient difference to midpoint:   5.02E-04
+dl-find/turbomole/=============================== Tstep:  116.2 Ttot:32683.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  158/ 255 direction= 1
+Energy difference to midpoint:          2.62E-06 H
+Abs. Gradient difference to midpoint:   6.50E-04
+dl-find/turbomole/=============================== Tstep:  113.0 Ttot:32796.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  158/ 255 direction=-1
+Energy difference to midpoint:          2.89E-06 H
+Abs. Gradient difference to midpoint:   6.48E-04
+dl-find/turbomole/=============================== Tstep:  107.0 Ttot:32903.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  159/ 255 direction= 1
+Energy difference to midpoint:          1.92E-06 H
+Abs. Gradient difference to midpoint:   5.13E-04
+dl-find/turbomole/=============================== Tstep:  107.1 Ttot:33010.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  159/ 255 direction=-1
+Energy difference to midpoint:          1.83E-06 H
+Abs. Gradient difference to midpoint:   5.14E-04
+dl-find/turbomole/=============================== Tstep:  115.4 Ttot:33126.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  160/ 255 direction= 1
+Energy difference to midpoint:          1.85E-06 H
+Abs. Gradient difference to midpoint:   5.90E-04
+dl-find/turbomole/=============================== Tstep:  101.6 Ttot:33227.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  160/ 255 direction=-1
+Energy difference to midpoint:          1.96E-06 H
+Abs. Gradient difference to midpoint:   5.88E-04
+dl-find/turbomole/=============================== Tstep:  110.7 Ttot:33338.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  161/ 255 direction= 1
+Energy difference to midpoint:          2.68E-06 H
+Abs. Gradient difference to midpoint:   1.18E-03
+dl-find/turbomole/=============================== Tstep:  108.2 Ttot:33446.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  161/ 255 direction=-1
+Energy difference to midpoint:          2.48E-06 H
+Abs. Gradient difference to midpoint:   1.19E-03
+dl-find/turbomole/=============================== Tstep:  106.9 Ttot:33553.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  162/ 255 direction= 1
+Energy difference to midpoint:          1.84E-06 H
+Abs. Gradient difference to midpoint:   5.45E-04
+dl-find/turbomole/=============================== Tstep:  111.4 Ttot:33664.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  162/ 255 direction=-1
+Energy difference to midpoint:          1.79E-06 H
+Abs. Gradient difference to midpoint:   5.45E-04
+dl-find/turbomole/=============================== Tstep:  113.9 Ttot:33778.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  163/ 255 direction= 1
+Energy difference to midpoint:          1.66E-06 H
+Abs. Gradient difference to midpoint:   4.59E-04
+dl-find/turbomole/=============================== Tstep:  115.1 Ttot:33893.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  163/ 255 direction=-1
+Energy difference to midpoint:          1.56E-06 H
+Abs. Gradient difference to midpoint:   4.58E-04
+dl-find/turbomole/=============================== Tstep:  109.0 Ttot:34002.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  164/ 255 direction= 1
+Energy difference to midpoint:          2.74E-06 H
+Abs. Gradient difference to midpoint:   6.40E-04
+dl-find/turbomole/=============================== Tstep:  106.5 Ttot:34109.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  164/ 255 direction=-1
+Energy difference to midpoint:          2.73E-06 H
+Abs. Gradient difference to midpoint:   6.41E-04
+dl-find/turbomole/=============================== Tstep:  113.6 Ttot:34223.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  165/ 255 direction= 1
+Energy difference to midpoint:          1.76E-06 H
+Abs. Gradient difference to midpoint:   5.47E-04
+dl-find/turbomole/=============================== Tstep:  107.3 Ttot:34330.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  165/ 255 direction=-1
+Energy difference to midpoint:          2.41E-06 H
+Abs. Gradient difference to midpoint:   5.46E-04
+dl-find/turbomole/=============================== Tstep:  115.7 Ttot:34445.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686308E+03
+Finite-difference Hessian: variable  166/ 255 direction= 1
+Energy difference to midpoint:         -4.97E-06 H
+Abs. Gradient difference to midpoint:   4.88E-04
+dl-find/turbomole/=============================== Tstep:  110.4 Ttot:34556.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  166/ 255 direction=-1
+Energy difference to midpoint:          2.53E-06 H
+Abs. Gradient difference to midpoint:   4.91E-04
+dl-find/turbomole/=============================== Tstep:  111.8 Ttot:34668.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686307E+03
+Finite-difference Hessian: variable  167/ 255 direction= 1
+Energy difference to midpoint:         -3.98E-06 H
+Abs. Gradient difference to midpoint:   1.23E-03
+dl-find/turbomole/=============================== Tstep:  106.8 Ttot:34774.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  167/ 255 direction=-1
+Energy difference to midpoint:          4.09E-06 H
+Abs. Gradient difference to midpoint:   1.22E-03
+dl-find/turbomole/=============================== Tstep:  105.5 Ttot:34880.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  168/ 255 direction= 1
+Energy difference to midpoint:          1.03E-06 H
+Abs. Gradient difference to midpoint:   5.94E-04
+dl-find/turbomole/=============================== Tstep:  106.2 Ttot:34986.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686307E+03
+Finite-difference Hessian: variable  168/ 255 direction=-1
+Energy difference to midpoint:         -3.94E-06 H
+Abs. Gradient difference to midpoint:   5.95E-04
+dl-find/turbomole/=============================== Tstep:  109.0 Ttot:35095.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  169/ 255 direction= 1
+Energy difference to midpoint:          2.03E-06 H
+Abs. Gradient difference to midpoint:   7.82E-04
+dl-find/turbomole/=============================== Tstep:  104.0 Ttot:35199.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  169/ 255 direction=-1
+Energy difference to midpoint:          1.53E-06 H
+Abs. Gradient difference to midpoint:   7.89E-04
+dl-find/turbomole/=============================== Tstep:  104.3 Ttot:35303.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable  170/ 255 direction= 1
+Energy difference to midpoint:          9.80E-06 H
+Abs. Gradient difference to midpoint:   3.72E-03
+dl-find/turbomole/=============================== Tstep:  108.9 Ttot:35412.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686284E+03
+Finite-difference Hessian: variable  170/ 255 direction=-1
+Energy difference to midpoint:          1.89E-05 H
+Abs. Gradient difference to midpoint:   3.61E-03
+dl-find/turbomole/=============================== Tstep:  110.9 Ttot:35523.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  171/ 255 direction= 1
+Energy difference to midpoint:          2.60E-06 H
+Abs. Gradient difference to midpoint:   5.67E-04
+dl-find/turbomole/=============================== Tstep:  108.4 Ttot:35632.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686307E+03
+Finite-difference Hessian: variable  171/ 255 direction=-1
+Energy difference to midpoint:         -3.31E-06 H
+Abs. Gradient difference to midpoint:   5.82E-04
+dl-find/turbomole/=============================== Tstep:   99.6 Ttot:35731.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  172/ 255 direction= 1
+Energy difference to midpoint:          4.35E-06 H
+Abs. Gradient difference to midpoint:   7.67E-04
+dl-find/turbomole/=============================== Tstep:  100.0 Ttot:35831.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686312E+03
+Finite-difference Hessian: variable  172/ 255 direction=-1
+Energy difference to midpoint:         -8.87E-06 H
+Abs. Gradient difference to midpoint:   7.58E-04
+dl-find/turbomole/=============================== Tstep:  102.1 Ttot:35933.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686284E+03
+Finite-difference Hessian: variable  173/ 255 direction= 1
+Energy difference to midpoint:          1.96E-05 H
+Abs. Gradient difference to midpoint:   3.66E-03
+dl-find/turbomole/=============================== Tstep:  107.6 Ttot:36041.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686296E+03
+Finite-difference Hessian: variable  173/ 255 direction=-1
+Energy difference to midpoint:          6.90E-06 H
+Abs. Gradient difference to midpoint:   3.77E-03
+dl-find/turbomole/=============================== Tstep:  103.0 Ttot:36144.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686304E+03
+Finite-difference Hessian: variable  174/ 255 direction= 1
+Energy difference to midpoint:         -1.12E-06 H
+Abs. Gradient difference to midpoint:   5.56E-04
+dl-find/turbomole/=============================== Tstep:  105.3 Ttot:36249.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686306E+03
+Finite-difference Hessian: variable  174/ 255 direction=-1
+Energy difference to midpoint:         -2.89E-06 H
+Abs. Gradient difference to midpoint:   5.50E-04
+dl-find/turbomole/=============================== Tstep:  100.8 Ttot:36350.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  175/ 255 direction= 1
+Energy difference to midpoint:          1.75E-06 H
+Abs. Gradient difference to midpoint:   8.02E-04
+dl-find/turbomole/=============================== Tstep:  106.2 Ttot:36456.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  175/ 255 direction=-1
+Energy difference to midpoint:          2.42E-06 H
+Abs. Gradient difference to midpoint:   8.01E-04
+dl-find/turbomole/=============================== Tstep:  112.0 Ttot:36568.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  176/ 255 direction= 1
+Energy difference to midpoint:          3.03E-06 H
+Abs. Gradient difference to midpoint:   8.42E-04
+dl-find/turbomole/=============================== Tstep:  112.2 Ttot:36680.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  176/ 255 direction=-1
+Energy difference to midpoint:          2.46E-06 H
+Abs. Gradient difference to midpoint:   8.41E-04
+dl-find/turbomole/=============================== Tstep:  116.2 Ttot:36797.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  177/ 255 direction= 1
+Energy difference to midpoint:          2.07E-06 H
+Abs. Gradient difference to midpoint:   8.58E-04
+dl-find/turbomole/=============================== Tstep:  108.2 Ttot:36905.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  177/ 255 direction=-1
+Energy difference to midpoint:          1.85E-06 H
+Abs. Gradient difference to midpoint:   8.61E-04
+dl-find/turbomole/=============================== Tstep:  110.2 Ttot:37015.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  178/ 255 direction= 1
+Energy difference to midpoint:          1.72E-06 H
+Abs. Gradient difference to midpoint:   5.76E-04
+dl-find/turbomole/=============================== Tstep:  110.0 Ttot:37125.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  178/ 255 direction=-1
+Energy difference to midpoint:          2.49E-06 H
+Abs. Gradient difference to midpoint:   5.75E-04
+dl-find/turbomole/=============================== Tstep:  113.6 Ttot:37239.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  179/ 255 direction= 1
+Energy difference to midpoint:          2.59E-06 H
+Abs. Gradient difference to midpoint:   6.88E-04
+dl-find/turbomole/=============================== Tstep:  108.4 Ttot:37347.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  179/ 255 direction=-1
+Energy difference to midpoint:          3.17E-06 H
+Abs. Gradient difference to midpoint:   6.90E-04
+dl-find/turbomole/=============================== Tstep:  118.2 Ttot:37465.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  180/ 255 direction= 1
+Energy difference to midpoint:          1.19E-06 H
+Abs. Gradient difference to midpoint:   5.40E-04
+dl-find/turbomole/=============================== Tstep:  115.7 Ttot:37581.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  180/ 255 direction=-1
+Energy difference to midpoint:          2.60E-06 H
+Abs. Gradient difference to midpoint:   5.40E-04
+dl-find/turbomole/=============================== Tstep:  113.7 Ttot:37695.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  181/ 255 direction= 1
+Energy difference to midpoint:          1.48E-06 H
+Abs. Gradient difference to midpoint:   4.40E-04
+dl-find/turbomole/=============================== Tstep:  110.1 Ttot:37805.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  181/ 255 direction=-1
+Energy difference to midpoint:          1.37E-06 H
+Abs. Gradient difference to midpoint:   4.41E-04
+dl-find/turbomole/=============================== Tstep:  110.6 Ttot:37915.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  182/ 255 direction= 1
+Energy difference to midpoint:          2.56E-06 H
+Abs. Gradient difference to midpoint:   6.55E-04
+dl-find/turbomole/=============================== Tstep:  108.6 Ttot:38024.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  182/ 255 direction=-1
+Energy difference to midpoint:          2.37E-06 H
+Abs. Gradient difference to midpoint:   6.52E-04
+dl-find/turbomole/=============================== Tstep:  109.4 Ttot:38133.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  183/ 255 direction= 1
+Energy difference to midpoint:          2.22E-06 H
+Abs. Gradient difference to midpoint:   5.41E-04
+dl-find/turbomole/=============================== Tstep:  107.5 Ttot:38241.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  183/ 255 direction=-1
+Energy difference to midpoint:          1.81E-06 H
+Abs. Gradient difference to midpoint:   5.42E-04
+dl-find/turbomole/=============================== Tstep:  113.8 Ttot:38355.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  184/ 255 direction= 1
+Energy difference to midpoint:          1.24E-06 H
+Abs. Gradient difference to midpoint:   4.50E-04
+dl-find/turbomole/=============================== Tstep:  108.0 Ttot:38463.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  184/ 255 direction=-1
+Energy difference to midpoint:          1.61E-06 H
+Abs. Gradient difference to midpoint:   4.49E-04
+dl-find/turbomole/=============================== Tstep:  105.3 Ttot:38568.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  185/ 255 direction= 1
+Energy difference to midpoint:          2.12E-06 H
+Abs. Gradient difference to midpoint:   6.65E-04
+dl-find/turbomole/=============================== Tstep:  105.3 Ttot:38673.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  185/ 255 direction=-1
+Energy difference to midpoint:          2.93E-06 H
+Abs. Gradient difference to midpoint:   6.67E-04
+dl-find/turbomole/=============================== Tstep:  110.8 Ttot:38784.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  186/ 255 direction= 1
+Energy difference to midpoint:          1.66E-06 H
+Abs. Gradient difference to midpoint:   5.64E-04
+dl-find/turbomole/=============================== Tstep:  105.9 Ttot:38890.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  186/ 255 direction=-1
+Energy difference to midpoint:          1.84E-06 H
+Abs. Gradient difference to midpoint:   5.64E-04
+dl-find/turbomole/=============================== Tstep:  109.7 Ttot:39000.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  187/ 255 direction= 1
+Energy difference to midpoint:          1.74E-06 H
+Abs. Gradient difference to midpoint:   7.18E-04
+dl-find/turbomole/=============================== Tstep:  110.2 Ttot:39110.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  187/ 255 direction=-1
+Energy difference to midpoint:          1.06E-06 H
+Abs. Gradient difference to midpoint:   7.15E-04
+dl-find/turbomole/=============================== Tstep:  107.1 Ttot:39217.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  188/ 255 direction= 1
+Energy difference to midpoint:          1.39E-06 H
+Abs. Gradient difference to midpoint:   6.89E-04
+dl-find/turbomole/=============================== Tstep:  110.0 Ttot:39327.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  188/ 255 direction=-1
+Energy difference to midpoint:          9.91E-07 H
+Abs. Gradient difference to midpoint:   6.91E-04
+dl-find/turbomole/=============================== Tstep:   99.2 Ttot:39426.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  189/ 255 direction= 1
+Energy difference to midpoint:          8.04E-07 H
+Abs. Gradient difference to midpoint:   5.34E-04
+dl-find/turbomole/=============================== Tstep:  104.3 Ttot:39531.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  189/ 255 direction=-1
+Energy difference to midpoint:          8.46E-07 H
+Abs. Gradient difference to midpoint:   5.35E-04
+dl-find/turbomole/=============================== Tstep:  106.8 Ttot:39637.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable  190/ 255 direction= 1
+Energy difference to midpoint:          8.20E-06 H
+Abs. Gradient difference to midpoint:   2.09E-03
+dl-find/turbomole/=============================== Tstep:  110.1 Ttot:39748.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable  190/ 255 direction=-1
+Energy difference to midpoint:          5.43E-06 H
+Abs. Gradient difference to midpoint:   2.11E-03
+dl-find/turbomole/=============================== Tstep:  106.4 Ttot:39854.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable  191/ 255 direction= 1
+Energy difference to midpoint:          9.15E-06 H
+Abs. Gradient difference to midpoint:   2.07E-03
+dl-find/turbomole/=============================== Tstep:  100.3 Ttot:39954.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable  191/ 255 direction=-1
+Energy difference to midpoint:          4.90E-06 H
+Abs. Gradient difference to midpoint:   2.05E-03
+dl-find/turbomole/=============================== Tstep:  107.4 Ttot:40062.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable  192/ 255 direction= 1
+Energy difference to midpoint:          9.18E-06 H
+Abs. Gradient difference to midpoint:   2.49E-03
+dl-find/turbomole/=============================== Tstep:  106.3 Ttot:40168.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable  192/ 255 direction=-1
+Energy difference to midpoint:          8.59E-06 H
+Abs. Gradient difference to midpoint:   2.46E-03
+dl-find/turbomole/=============================== Tstep:  103.8 Ttot:40272.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  193/ 255 direction= 1
+Energy difference to midpoint:          1.65E-06 H
+Abs. Gradient difference to midpoint:   4.88E-04
+dl-find/turbomole/=============================== Tstep:  113.4 Ttot:40385.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  193/ 255 direction=-1
+Energy difference to midpoint:          1.14E-06 H
+Abs. Gradient difference to midpoint:   4.87E-04
+dl-find/turbomole/=============================== Tstep:  111.9 Ttot:40497.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  194/ 255 direction= 1
+Energy difference to midpoint:          2.87E-06 H
+Abs. Gradient difference to midpoint:   1.21E-03
+dl-find/turbomole/=============================== Tstep:  103.7 Ttot:40601.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  194/ 255 direction=-1
+Energy difference to midpoint:          3.39E-06 H
+Abs. Gradient difference to midpoint:   1.22E-03
+dl-find/turbomole/=============================== Tstep:  108.4 Ttot:40709.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  195/ 255 direction= 1
+Energy difference to midpoint:          2.02E-06 H
+Abs. Gradient difference to midpoint:   5.85E-04
+dl-find/turbomole/=============================== Tstep:  110.5 Ttot:40820.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  195/ 255 direction=-1
+Energy difference to midpoint:          1.65E-06 H
+Abs. Gradient difference to midpoint:   5.85E-04
+dl-find/turbomole/=============================== Tstep:  116.0 Ttot:40935.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  196/ 255 direction= 1
+Energy difference to midpoint:          1.22E-06 H
+Abs. Gradient difference to midpoint:   5.20E-04
+dl-find/turbomole/=============================== Tstep:  106.2 Ttot:41042.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686307E+03
+Finite-difference Hessian: variable  196/ 255 direction=-1
+Energy difference to midpoint:         -3.96E-06 H
+Abs. Gradient difference to midpoint:   5.20E-04
+dl-find/turbomole/=============================== Tstep:  104.4 Ttot:41146.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686307E+03
+Finite-difference Hessian: variable  197/ 255 direction= 1
+Energy difference to midpoint:         -3.32E-06 H
+Abs. Gradient difference to midpoint:   1.20E-03
+dl-find/turbomole/=============================== Tstep:  107.6 Ttot:41254.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  197/ 255 direction=-1
+Energy difference to midpoint:          4.32E-06 H
+Abs. Gradient difference to midpoint:   1.19E-03
+dl-find/turbomole/=============================== Tstep:  108.1 Ttot:41362.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686308E+03
+Finite-difference Hessian: variable  198/ 255 direction= 1
+Energy difference to midpoint:         -4.66E-06 H
+Abs. Gradient difference to midpoint:   6.03E-04
+dl-find/turbomole/=============================== Tstep:  102.9 Ttot:41465.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  198/ 255 direction=-1
+Energy difference to midpoint:          1.97E-06 H
+Abs. Gradient difference to midpoint:   6.02E-04
+dl-find/turbomole/=============================== Tstep:   95.9 Ttot:41561.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686304E+03
+Finite-difference Hessian: variable  199/ 255 direction= 1
+Energy difference to midpoint:         -9.22E-07 H
+Abs. Gradient difference to midpoint:   8.06E-04
+dl-find/turbomole/=============================== Tstep:  103.9 Ttot:41665.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  199/ 255 direction=-1
+Energy difference to midpoint:          8.15E-07 H
+Abs. Gradient difference to midpoint:   8.11E-04
+dl-find/turbomole/=============================== Tstep:  103.9 Ttot:41768.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686288E+03
+Finite-difference Hessian: variable  200/ 255 direction= 1
+Energy difference to midpoint:          1.56E-05 H
+Abs. Gradient difference to midpoint:   3.77E-03
+dl-find/turbomole/=============================== Tstep:  107.0 Ttot:41875.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686288E+03
+Finite-difference Hessian: variable  200/ 255 direction=-1
+Energy difference to midpoint:          1.53E-05 H
+Abs. Gradient difference to midpoint:   3.66E-03
+dl-find/turbomole/=============================== Tstep:  110.3 Ttot:41986.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686304E+03
+Finite-difference Hessian: variable  201/ 255 direction= 1
+Energy difference to midpoint:         -5.30E-07 H
+Abs. Gradient difference to midpoint:   5.57E-04
+dl-find/turbomole/=============================== Tstep:  106.7 Ttot:42092.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  201/ 255 direction=-1
+Energy difference to midpoint:          4.92E-07 H
+Abs. Gradient difference to midpoint:   5.59E-04
+dl-find/turbomole/=============================== Tstep:   93.7 Ttot:42186.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686305E+03
+Finite-difference Hessian: variable  202/ 255 direction= 1
+Energy difference to midpoint:         -2.17E-06 H
+Abs. Gradient difference to midpoint:   8.21E-04
+dl-find/turbomole/=============================== Tstep:   93.7 Ttot:42280.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  202/ 255 direction=-1
+Energy difference to midpoint:          1.79E-06 H
+Abs. Gradient difference to midpoint:   8.11E-04
+dl-find/turbomole/=============================== Tstep:   93.7 Ttot:42373.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable  203/ 255 direction= 1
+Energy difference to midpoint:          1.58E-05 H
+Abs. Gradient difference to midpoint:   3.64E-03
+dl-find/turbomole/=============================== Tstep:  107.1 Ttot:42481.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686287E+03
+Finite-difference Hessian: variable  203/ 255 direction=-1
+Energy difference to midpoint:          1.58E-05 H
+Abs. Gradient difference to midpoint:   3.74E-03
+dl-find/turbomole/=============================== Tstep:  108.9 Ttot:42590.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  204/ 255 direction= 1
+Energy difference to midpoint:          4.67E-06 H
+Abs. Gradient difference to midpoint:   5.59E-04
+dl-find/turbomole/=============================== Tstep:  105.6 Ttot:42695.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686308E+03
+Finite-difference Hessian: variable  204/ 255 direction=-1
+Energy difference to midpoint:         -4.70E-06 H
+Abs. Gradient difference to midpoint:   5.54E-04
+dl-find/turbomole/=============================== Tstep:   96.1 Ttot:42791.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  205/ 255 direction= 1
+Energy difference to midpoint:          3.62E-06 H
+Abs. Gradient difference to midpoint:   7.61E-04
+dl-find/turbomole/=============================== Tstep:   97.5 Ttot:42889.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  205/ 255 direction=-1
+Energy difference to midpoint:          4.13E-06 H
+Abs. Gradient difference to midpoint:   7.60E-04
+dl-find/turbomole/=============================== Tstep:   98.5 Ttot:42987.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  206/ 255 direction= 1
+Energy difference to midpoint:          3.31E-06 H
+Abs. Gradient difference to midpoint:   7.79E-04
+dl-find/turbomole/=============================== Tstep:  109.0 Ttot:43096.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  206/ 255 direction=-1
+Energy difference to midpoint:          3.95E-06 H
+Abs. Gradient difference to midpoint:   7.77E-04
+dl-find/turbomole/=============================== Tstep:  110.6 Ttot:43207.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  207/ 255 direction= 1
+Energy difference to midpoint:          4.25E-06 H
+Abs. Gradient difference to midpoint:   9.43E-04
+dl-find/turbomole/=============================== Tstep:  107.8 Ttot:43315.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable  207/ 255 direction=-1
+Energy difference to midpoint:          4.96E-06 H
+Abs. Gradient difference to midpoint:   9.43E-04
+dl-find/turbomole/=============================== Tstep:  108.1 Ttot:43423.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  208/ 255 direction= 1
+Energy difference to midpoint:          3.69E-06 H
+Abs. Gradient difference to midpoint:   6.47E-04
+dl-find/turbomole/=============================== Tstep:  106.4 Ttot:43529.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  208/ 255 direction=-1
+Energy difference to midpoint:          1.76E-06 H
+Abs. Gradient difference to midpoint:   6.46E-04
+dl-find/turbomole/=============================== Tstep:  112.0 Ttot:43641.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  209/ 255 direction= 1
+Energy difference to midpoint:          2.63E-06 H
+Abs. Gradient difference to midpoint:   9.15E-04
+dl-find/turbomole/=============================== Tstep:  105.4 Ttot:43747.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  209/ 255 direction=-1
+Energy difference to midpoint:          4.35E-06 H
+Abs. Gradient difference to midpoint:   9.16E-04
+dl-find/turbomole/=============================== Tstep:  111.6 Ttot:43858.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  210/ 255 direction= 1
+Energy difference to midpoint:          4.28E-06 H
+Abs. Gradient difference to midpoint:   9.07E-04
+dl-find/turbomole/=============================== Tstep:   95.6 Ttot:43954.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  210/ 255 direction=-1
+Energy difference to midpoint:          2.78E-06 H
+Abs. Gradient difference to midpoint:   9.08E-04
+dl-find/turbomole/=============================== Tstep:  110.2 Ttot:44064.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable  211/ 255 direction= 1
+Energy difference to midpoint:          1.12E-05 H
+Abs. Gradient difference to midpoint:   2.28E-03
+dl-find/turbomole/=============================== Tstep:  103.2 Ttot:44167.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable  211/ 255 direction=-1
+Energy difference to midpoint:          7.82E-06 H
+Abs. Gradient difference to midpoint:   2.26E-03
+dl-find/turbomole/=============================== Tstep:  107.3 Ttot:44275.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable  212/ 255 direction= 1
+Energy difference to midpoint:          9.06E-06 H
+Abs. Gradient difference to midpoint:   1.44E-03
+dl-find/turbomole/=============================== Tstep:  102.7 Ttot:44377.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  212/ 255 direction=-1
+Energy difference to midpoint:          1.59E-06 H
+Abs. Gradient difference to midpoint:   1.45E-03
+dl-find/turbomole/=============================== Tstep:   97.9 Ttot:44475.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686291E+03
+Finite-difference Hessian: variable  213/ 255 direction= 1
+Energy difference to midpoint:          1.18E-05 H
+Abs. Gradient difference to midpoint:   2.76E-03
+dl-find/turbomole/=============================== Tstep:  104.6 Ttot:44580.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable  213/ 255 direction=-1
+Energy difference to midpoint:          1.28E-05 H
+Abs. Gradient difference to midpoint:   2.71E-03
+dl-find/turbomole/=============================== Tstep:  106.3 Ttot:44686.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  214/ 255 direction= 1
+Energy difference to midpoint:          3.50E-06 H
+Abs. Gradient difference to midpoint:   1.62E-03
+dl-find/turbomole/=============================== Tstep:  100.5 Ttot:44787.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable  214/ 255 direction=-1
+Energy difference to midpoint:          5.64E-06 H
+Abs. Gradient difference to midpoint:   1.61E-03
+dl-find/turbomole/=============================== Tstep:  101.7 Ttot:44888.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable  215/ 255 direction= 1
+Energy difference to midpoint:          1.30E-05 H
+Abs. Gradient difference to midpoint:   2.37E-03
+dl-find/turbomole/=============================== Tstep:   90.3 Ttot:44979.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  215/ 255 direction=-1
+Energy difference to midpoint:          2.54E-06 H
+Abs. Gradient difference to midpoint:   2.40E-03
+dl-find/turbomole/=============================== Tstep:  100.6 Ttot:45079.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686297E+03
+Finite-difference Hessian: variable  216/ 255 direction= 1
+Energy difference to midpoint:          6.54E-06 H
+Abs. Gradient difference to midpoint:   2.55E-03
+dl-find/turbomole/=============================== Tstep:   84.1 Ttot:45163.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable  216/ 255 direction=-1
+Energy difference to midpoint:          1.17E-05 H
+Abs. Gradient difference to midpoint:   2.51E-03
+dl-find/turbomole/=============================== Tstep:  101.9 Ttot:45265.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  217/ 255 direction= 1
+Energy difference to midpoint:          4.08E-06 H
+Abs. Gradient difference to midpoint:   1.78E-03
+dl-find/turbomole/=============================== Tstep:  103.2 Ttot:45368.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable  217/ 255 direction=-1
+Energy difference to midpoint:          7.74E-06 H
+Abs. Gradient difference to midpoint:   1.76E-03
+dl-find/turbomole/=============================== Tstep:  104.6 Ttot:45473.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  218/ 255 direction= 1
+Energy difference to midpoint:          3.24E-06 H
+Abs. Gradient difference to midpoint:   1.04E-03
+dl-find/turbomole/=============================== Tstep:   98.5 Ttot:45572.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  218/ 255 direction=-1
+Energy difference to midpoint:          2.99E-06 H
+Abs. Gradient difference to midpoint:   1.05E-03
+dl-find/turbomole/=============================== Tstep:   98.1 Ttot:45670.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686292E+03
+Finite-difference Hessian: variable  219/ 255 direction= 1
+Energy difference to midpoint:          1.12E-05 H
+Abs. Gradient difference to midpoint:   3.04E-03
+dl-find/turbomole/=============================== Tstep:   93.8 Ttot:45763.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable  219/ 255 direction=-1
+Energy difference to midpoint:          1.35E-05 H
+Abs. Gradient difference to midpoint:   2.96E-03
+dl-find/turbomole/=============================== Tstep:  102.2 Ttot:45866.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  220/ 255 direction= 1
+Energy difference to midpoint:          1.82E-06 H
+Abs. Gradient difference to midpoint:   4.91E-04
+dl-find/turbomole/=============================== Tstep:  105.5 Ttot:45971.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  220/ 255 direction=-1
+Energy difference to midpoint:          2.07E-06 H
+Abs. Gradient difference to midpoint:   4.93E-04
+dl-find/turbomole/=============================== Tstep:  109.7 Ttot:46081.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686298E+03
+Finite-difference Hessian: variable  221/ 255 direction= 1
+Energy difference to midpoint:          5.19E-06 H
+Abs. Gradient difference to midpoint:   1.00E-03
+dl-find/turbomole/=============================== Tstep:  102.5 Ttot:46183.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  221/ 255 direction=-1
+Energy difference to midpoint:          3.28E-06 H
+Abs. Gradient difference to midpoint:   9.95E-04
+dl-find/turbomole/=============================== Tstep:  117.5 Ttot:46301.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  222/ 255 direction= 1
+Energy difference to midpoint:          2.21E-06 H
+Abs. Gradient difference to midpoint:   2.09E-04
+dl-find/turbomole/=============================== Tstep:  108.1 Ttot:46409.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686304E+03
+Finite-difference Hessian: variable  222/ 255 direction=-1
+Energy difference to midpoint:         -4.24E-07 H
+Abs. Gradient difference to midpoint:   2.09E-04
+dl-find/turbomole/=============================== Tstep:   99.3 Ttot:46508.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  223/ 255 direction= 1
+Energy difference to midpoint:          3.44E-06 H
+Abs. Gradient difference to midpoint:   1.27E-03
+dl-find/turbomole/=============================== Tstep:  104.2 Ttot:46612.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  223/ 255 direction=-1
+Energy difference to midpoint:          3.28E-06 H
+Abs. Gradient difference to midpoint:   1.26E-03
+dl-find/turbomole/=============================== Tstep:   92.0 Ttot:46704.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  224/ 255 direction= 1
+Energy difference to midpoint:          3.00E-06 H
+Abs. Gradient difference to midpoint:   5.89E-04
+dl-find/turbomole/=============================== Tstep:  108.6 Ttot:46813.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  224/ 255 direction=-1
+Energy difference to midpoint:          1.78E-06 H
+Abs. Gradient difference to midpoint:   5.87E-04
+dl-find/turbomole/=============================== Tstep:  109.2 Ttot:46922.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  225/ 255 direction= 1
+Energy difference to midpoint:          1.22E-06 H
+Abs. Gradient difference to midpoint:   1.98E-04
+dl-find/turbomole/=============================== Tstep:  105.1 Ttot:47027.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  225/ 255 direction=-1
+Energy difference to midpoint:         -2.69E-07 H
+Abs. Gradient difference to midpoint:   1.98E-04
+dl-find/turbomole/=============================== Tstep:  101.2 Ttot:47128.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  226/ 255 direction= 1
+Energy difference to midpoint:          4.49E-06 H
+Abs. Gradient difference to midpoint:   8.70E-04
+dl-find/turbomole/=============================== Tstep:  109.4 Ttot:47238.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  226/ 255 direction=-1
+Energy difference to midpoint:          2.68E-06 H
+Abs. Gradient difference to midpoint:   8.74E-04
+dl-find/turbomole/=============================== Tstep:  111.9 Ttot:47350.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  227/ 255 direction= 1
+Energy difference to midpoint:          4.21E-06 H
+Abs. Gradient difference to midpoint:   7.21E-04
+dl-find/turbomole/=============================== Tstep:  111.7 Ttot:47461.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  227/ 255 direction=-1
+Energy difference to midpoint:          1.76E-06 H
+Abs. Gradient difference to midpoint:   7.17E-04
+dl-find/turbomole/=============================== Tstep:  115.3 Ttot:47577.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  228/ 255 direction= 1
+Energy difference to midpoint:          1.45E-06 H
+Abs. Gradient difference to midpoint:   3.05E-04
+dl-find/turbomole/=============================== Tstep:  110.5 Ttot:47687.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  228/ 255 direction=-1
+Energy difference to midpoint:          7.90E-07 H
+Abs. Gradient difference to midpoint:   3.05E-04
+dl-find/turbomole/=============================== Tstep:  104.5 Ttot:47792.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  229/ 255 direction= 1
+Energy difference to midpoint:          2.31E-06 H
+Abs. Gradient difference to midpoint:   1.03E-03
+dl-find/turbomole/=============================== Tstep:   99.7 Ttot:47891.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  229/ 255 direction=-1
+Energy difference to midpoint:          3.04E-06 H
+Abs. Gradient difference to midpoint:   1.03E-03
+dl-find/turbomole/=============================== Tstep:   98.5 Ttot:47990.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  230/ 255 direction= 1
+Energy difference to midpoint:          3.15E-06 H
+Abs. Gradient difference to midpoint:   1.02E-03
+dl-find/turbomole/=============================== Tstep:   92.4 Ttot:48082.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  230/ 255 direction=-1
+Energy difference to midpoint:          1.88E-06 H
+Abs. Gradient difference to midpoint:   1.01E-03
+dl-find/turbomole/=============================== Tstep:   99.5 Ttot:48182.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  231/ 255 direction= 1
+Energy difference to midpoint:          2.15E-06 H
+Abs. Gradient difference to midpoint:   1.18E-03
+dl-find/turbomole/=============================== Tstep:   96.6 Ttot:48278.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  231/ 255 direction=-1
+Energy difference to midpoint:          2.63E-06 H
+Abs. Gradient difference to midpoint:   1.18E-03
+dl-find/turbomole/=============================== Tstep:  100.5 Ttot:48379.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  232/ 255 direction= 1
+Energy difference to midpoint:          4.68E-06 H
+Abs. Gradient difference to midpoint:   5.54E-04
+dl-find/turbomole/=============================== Tstep:  101.3 Ttot:48480.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  232/ 255 direction=-1
+Energy difference to midpoint:          6.80E-08 H
+Abs. Gradient difference to midpoint:   5.55E-04
+dl-find/turbomole/=============================== Tstep:  109.5 Ttot:48590.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  233/ 255 direction= 1
+Energy difference to midpoint:          3.67E-06 H
+Abs. Gradient difference to midpoint:   1.17E-03
+dl-find/turbomole/=============================== Tstep:  111.5 Ttot:48701.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  233/ 255 direction=-1
+Energy difference to midpoint:          3.34E-06 H
+Abs. Gradient difference to midpoint:   1.18E-03
+dl-find/turbomole/=============================== Tstep:  112.6 Ttot:48814.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686325E+03
+Finite-difference Hessian: variable  234/ 255 direction= 1
+Energy difference to midpoint:         -2.18E-05 H
+Abs. Gradient difference to midpoint:   3.71E-04
+dl-find/turbomole/=============================== Tstep:  104.6 Ttot:48918.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686280E+03
+Finite-difference Hessian: variable  234/ 255 direction=-1
+Energy difference to midpoint:          2.30E-05 H
+Abs. Gradient difference to midpoint:   3.70E-04
+dl-find/turbomole/=============================== Tstep:  111.1 Ttot:49029.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  235/ 255 direction= 1
+Energy difference to midpoint:          2.02E-06 H
+Abs. Gradient difference to midpoint:   5.17E-04
+dl-find/turbomole/=============================== Tstep:  104.2 Ttot:49134.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  235/ 255 direction=-1
+Energy difference to midpoint:          2.31E-06 H
+Abs. Gradient difference to midpoint:   5.16E-04
+dl-find/turbomole/=============================== Tstep:  108.5 Ttot:49242.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  236/ 255 direction= 1
+Energy difference to midpoint:          3.07E-06 H
+Abs. Gradient difference to midpoint:   6.58E-04
+dl-find/turbomole/=============================== Tstep:  100.8 Ttot:49343.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  236/ 255 direction=-1
+Energy difference to midpoint:          2.50E-06 H
+Abs. Gradient difference to midpoint:   6.61E-04
+dl-find/turbomole/=============================== Tstep:  113.1 Ttot:49456.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  237/ 255 direction= 1
+Energy difference to midpoint:          1.17E-06 H
+Abs. Gradient difference to midpoint:   1.95E-04
+dl-find/turbomole/=============================== Tstep:  106.6 Ttot:49563.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  237/ 255 direction=-1
+Energy difference to midpoint:         -1.85E-07 H
+Abs. Gradient difference to midpoint:   1.95E-04
+dl-find/turbomole/=============================== Tstep:  104.7 Ttot:49667.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  238/ 255 direction= 1
+Energy difference to midpoint:          3.72E-07 H
+Abs. Gradient difference to midpoint:   5.73E-04
+dl-find/turbomole/=============================== Tstep:  109.2 Ttot:49777.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  238/ 255 direction=-1
+Energy difference to midpoint:          3.13E-06 H
+Abs. Gradient difference to midpoint:   5.69E-04
+dl-find/turbomole/=============================== Tstep:  112.7 Ttot:49889.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  239/ 255 direction= 1
+Energy difference to midpoint:          2.02E-07 H
+Abs. Gradient difference to midpoint:   3.27E-04
+dl-find/turbomole/=============================== Tstep:  109.4 Ttot:49999.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  239/ 255 direction=-1
+Energy difference to midpoint:          1.43E-06 H
+Abs. Gradient difference to midpoint:   3.26E-04
+dl-find/turbomole/=============================== Tstep:  109.0 Ttot:50108.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  240/ 255 direction= 1
+Energy difference to midpoint:         -7.60E-08 H
+Abs. Gradient difference to midpoint:   1.70E-04
+dl-find/turbomole/=============================== Tstep:  105.6 Ttot:50213.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  240/ 255 direction=-1
+Energy difference to midpoint:          6.73E-07 H
+Abs. Gradient difference to midpoint:   1.71E-04
+dl-find/turbomole/=============================== Tstep:  102.3 Ttot:50316.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  241/ 255 direction= 1
+Energy difference to midpoint:          3.58E-07 H
+Abs. Gradient difference to midpoint:   2.43E-04
+dl-find/turbomole/=============================== Tstep:   92.6 Ttot:50408.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  241/ 255 direction=-1
+Energy difference to midpoint:          7.14E-07 H
+Abs. Gradient difference to midpoint:   2.43E-04
+dl-find/turbomole/=============================== Tstep:  101.8 Ttot:50510.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  242/ 255 direction= 1
+Energy difference to midpoint:          1.63E-06 H
+Abs. Gradient difference to midpoint:   6.66E-04
+dl-find/turbomole/=============================== Tstep:  107.9 Ttot:50618.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  242/ 255 direction=-1
+Energy difference to midpoint:          2.90E-06 H
+Abs. Gradient difference to midpoint:   6.72E-04
+dl-find/turbomole/=============================== Tstep:  111.7 Ttot:50730.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  243/ 255 direction= 1
+Energy difference to midpoint:          1.17E-06 H
+Abs. Gradient difference to midpoint:   6.67E-05
+dl-find/turbomole/=============================== Tstep:  106.3 Ttot:50836.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686304E+03
+Finite-difference Hessian: variable  243/ 255 direction=-1
+Energy difference to midpoint:         -9.08E-07 H
+Abs. Gradient difference to midpoint:   6.69E-05
+dl-find/turbomole/=============================== Tstep:   97.5 Ttot:50933.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686285E+03
+Finite-difference Hessian: variable  244/ 255 direction= 1
+Energy difference to midpoint:          1.78E-05 H
+Abs. Gradient difference to midpoint:   3.79E-03
+dl-find/turbomole/=============================== Tstep:  107.9 Ttot:51041.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686284E+03
+Finite-difference Hessian: variable  244/ 255 direction=-1
+Energy difference to midpoint:          1.89E-05 H
+Abs. Gradient difference to midpoint:   3.90E-03
+dl-find/turbomole/=============================== Tstep:  111.0 Ttot:51152.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686302E+03
+Finite-difference Hessian: variable  245/ 255 direction= 1
+Energy difference to midpoint:          1.26E-06 H
+Abs. Gradient difference to midpoint:   5.57E-04
+dl-find/turbomole/=============================== Tstep:  103.4 Ttot:51256.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  245/ 255 direction=-1
+Energy difference to midpoint:          3.34E-06 H
+Abs. Gradient difference to midpoint:   5.66E-04
+dl-find/turbomole/=============================== Tstep:   96.3 Ttot:51352.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  246/ 255 direction= 1
+Energy difference to midpoint:          2.73E-06 H
+Abs. Gradient difference to midpoint:   5.11E-04
+dl-find/turbomole/=============================== Tstep:   92.7 Ttot:51444.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686303E+03
+Finite-difference Hessian: variable  246/ 255 direction=-1
+Energy difference to midpoint:         -2.28E-07 H
+Abs. Gradient difference to midpoint:   4.96E-04
+dl-find/turbomole/=============================== Tstep:  103.9 Ttot:51548.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable  247/ 255 direction= 1
+Energy difference to midpoint:          8.82E-06 H
+Abs. Gradient difference to midpoint:   1.81E-03
+dl-find/turbomole/=============================== Tstep:  101.9 Ttot:51650.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  247/ 255 direction=-1
+Energy difference to midpoint:          4.31E-06 H
+Abs. Gradient difference to midpoint:   1.83E-03
+dl-find/turbomole/=============================== Tstep:  103.5 Ttot:51754.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686285E+03
+Finite-difference Hessian: variable  248/ 255 direction= 1
+Energy difference to midpoint:          1.80E-05 H
+Abs. Gradient difference to midpoint:   3.15E-03
+dl-find/turbomole/=============================== Tstep:  103.1 Ttot:51857.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686290E+03
+Finite-difference Hessian: variable  248/ 255 direction=-1
+Energy difference to midpoint:          1.29E-05 H
+Abs. Gradient difference to midpoint:   3.23E-03
+dl-find/turbomole/=============================== Tstep:  104.3 Ttot:51961.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  249/ 255 direction= 1
+Energy difference to midpoint:          3.27E-06 H
+Abs. Gradient difference to midpoint:   7.24E-04
+dl-find/turbomole/=============================== Tstep:   92.5 Ttot:52054.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  249/ 255 direction=-1
+Energy difference to midpoint:          3.47E-06 H
+Abs. Gradient difference to midpoint:   7.34E-04
+dl-find/turbomole/=============================== Tstep:   96.9 Ttot:52151.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  250/ 255 direction= 1
+Energy difference to midpoint:          2.73E-06 H
+Abs. Gradient difference to midpoint:   8.01E-04
+dl-find/turbomole/=============================== Tstep:   95.9 Ttot:52246.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686300E+03
+Finite-difference Hessian: variable  250/ 255 direction=-1
+Energy difference to midpoint:          2.94E-06 H
+Abs. Gradient difference to midpoint:   7.91E-04
+dl-find/turbomole/=============================== Tstep:  102.1 Ttot:52349.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686288E+03
+Finite-difference Hessian: variable  251/ 255 direction= 1
+Energy difference to midpoint:          1.54E-05 H
+Abs. Gradient difference to midpoint:   3.57E-03
+dl-find/turbomole/=============================== Tstep:   99.0 Ttot:52448.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686285E+03
+Finite-difference Hessian: variable  251/ 255 direction=-1
+Energy difference to midpoint:          1.82E-05 H
+Abs. Gradient difference to midpoint:   3.48E-03
+dl-find/turbomole/=============================== Tstep:  102.0 Ttot:52550.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686299E+03
+Finite-difference Hessian: variable  252/ 255 direction= 1
+Energy difference to midpoint:          3.92E-06 H
+Abs. Gradient difference to midpoint:   1.15E-03
+dl-find/turbomole/=============================== Tstep:  110.1 Ttot:52660.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  252/ 255 direction=-1
+Energy difference to midpoint:          2.50E-06 H
+Abs. Gradient difference to midpoint:   1.15E-03
+dl-find/turbomole/=============================== Tstep:  109.2 Ttot:52769.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686295E+03
+Finite-difference Hessian: variable  253/ 255 direction= 1
+Energy difference to midpoint:          8.64E-06 H
+Abs. Gradient difference to midpoint:   2.44E-03
+dl-find/turbomole/=============================== Tstep:  111.1 Ttot:52880.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686294E+03
+Finite-difference Hessian: variable  253/ 255 direction=-1
+Energy difference to midpoint:          9.36E-06 H
+Abs. Gradient difference to midpoint:   2.39E-03
+dl-find/turbomole/=============================== Tstep:  107.4 Ttot:52987.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  254/ 255 direction= 1
+Energy difference to midpoint:          2.61E-06 H
+Abs. Gradient difference to midpoint:   6.45E-04
+dl-find/turbomole/=============================== Tstep:  105.8 Ttot:53093.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686301E+03
+Finite-difference Hessian: variable  254/ 255 direction=-1
+Energy difference to midpoint:          2.51E-06 H
+Abs. Gradient difference to midpoint:   6.41E-04
+dl-find/turbomole/=============================== Tstep:  105.3 Ttot:53198.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable  255/ 255 direction= 1
+Energy difference to midpoint:          1.06E-05 H
+Abs. Gradient difference to midpoint:   2.64E-03
+dl-find/turbomole/=============================== Tstep:   87.9 Ttot:53286.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138686293E+03
+Finite-difference Hessian: variable  255/ 255 direction=-1
+Energy difference to midpoint:          1.05E-05 H
+Abs. Gradient difference to midpoint:   2.69E-03
+
+Hessian eigenvalues:
+ -0.00463 -0.00003 -0.00000 -0.00000 -0.00000 -0.00000 -0.00000  0.00000  0.00000  0.00002  0.00002  0.00003
+  0.00004  0.00006  0.00008  0.00012  0.00015  0.00015  0.00020  0.00023  0.00025  0.00030  0.00032  0.00037
+  0.00037  0.00050  0.00052  0.00064  0.00068  0.00072  0.00086  0.00090  0.00099  0.00103  0.00122  0.00133
+  0.00149  0.00167  0.00183  0.00217  0.00235  0.00238  0.00240  0.00251  0.00291  0.00329  0.00372  0.00420
+  0.00430  0.00461  0.00500  0.00510  0.00569  0.00609  0.00622  0.00639  0.00685  0.00696  0.00734  0.00748
+  0.00780  0.00855  0.00901  0.00927  0.01014  0.01091  0.01105  0.01116  0.01134  0.01177  0.01178  0.01230
+  0.01370  0.01405  0.01455  0.01486  0.01492  0.01561  0.01592  0.01627  0.01666  0.01754  0.01802  0.01882
+  0.01923  0.01940  0.01984  0.01996  0.02058  0.02076  0.02156  0.02194  0.02248  0.02279  0.02320  0.02340
+  0.02368  0.02383  0.02455  0.02515  0.02523  0.02553  0.02629  0.02696  0.02768  0.02773  0.02882  0.02887
+  0.02949  0.03024  0.03071  0.03091  0.03155  0.03171  0.03229  0.03272  0.03367  0.03546  0.03575  0.03752
+  0.03844  0.03851  0.03867  0.03891  0.03930  0.03965  0.03971  0.03976  0.04015  0.04061  0.04132  0.04141
+  0.04167  0.04218  0.04239  0.04249  0.04261  0.04501  0.04525  0.04541  0.04584  0.04699  0.04790  0.04858
+  0.04864  0.04920  0.04986  0.04987  0.05022  0.05077  0.05088  0.05128  0.05190  0.05198  0.05354  0.05381
+  0.05523  0.05705  0.05773  0.05791  0.05886  0.05934  0.06016  0.06095  0.06134  0.06162  0.06266  0.06402
+  0.06608  0.06755  0.06795  0.06878  0.07041  0.07078  0.07136  0.07244  0.07261  0.07519  0.07551  0.07599
+  0.07618  0.07704  0.07721  0.07746  0.07861  0.07913  0.07931  0.07970  0.07977  0.07998  0.08067  0.08141
+  0.08199  0.08288  0.08308  0.08396  0.08413  0.08426  0.08602  0.08741  0.08854  0.08993  0.09017  0.09413
+  0.09530  0.09987  0.10305  0.10363  0.10547  0.10693  0.10763  0.10793  0.10864  0.10895  0.11162  0.11191
+  0.11586  0.12183  0.12635  0.35571  0.35619  0.36299  0.36522  0.36605  0.36645  0.37559  0.37725  0.38045
+  0.38304  0.38550  0.38843  0.38904  0.38929  0.38965  0.38988  0.39017  0.39145  0.39154  0.39157  0.39305
+  0.39330  0.39346  0.39357  0.39438  0.39535  0.39600  0.39603  0.39627  0.39642  0.39717  0.39954  0.39986
+  0.40671  0.41443  0.41896
+Testing convergence  in cycle    1
+  Max grad  2.2521E-03 Target: 4.5000E-04 converged?   no component   234
+  RMS grad  2.0816E-04 Target: 3.0000E-04 converged?  yes
+ 
+Projecting out translational and rotational modes
+
+Number of translational/rotational modes:   6
+ 
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0046313636   349.831i
+    2  -0.0000112863   -17.269    24.847   0.0000393428   0.0007346202  -0.0016412577
+    3  -0.0000023504    -7.881    11.339   0.0000179540   0.0007346202  -0.0016412577
+    4   0.0000165373    20.904    30.077   0.0000476236   0.0007346202  -0.0016412577
+    5   0.0000218260    24.015    34.553   0.0000547113   0.0007346202  -0.0016412577
+    6   0.0000330651    29.559    42.529   0.0000673403   0.0007346202  -0.0016412577
+    7   0.0000418178    33.242    47.828   0.0000757305   0.0007346202  -0.0016412577
+    8   0.0000558646    38.421    55.280   0.0000875302   0.0007346202  -0.0016412577
+    9   0.0000793590    45.793    65.886   0.0001043249   0.0007346202  -0.0016412577
+   10   0.0001159293    55.348    79.633   0.0001260917   0.0007346202  -0.0016412577
+   11   0.0001458923    62.090    89.333   0.0001414510   0.0007346202  -0.0016412577
+   12   0.0001524630    63.473    91.323   0.0001446013   0.0007346202  -0.0016412577
+   13   0.0001990179    72.519   104.338   0.0001652099   0.0007346202  -0.0016412577
+   14   0.0002279357    77.609   111.662   0.0001768056   0.0007346202  -0.0016412577
+   15   0.0002482144    80.987   116.523   0.0001845030   0.0007346202  -0.0016412577
+   16   0.0002966631    88.539   127.388   0.0002017074   0.0007346202  -0.0016412577
+   17   0.0003178047    91.640   131.849   0.0002087710   0.0007346202  -0.0016412577
+   18   0.0003680000    98.612   141.880   0.0002246538   0.0007346202  -0.0016412577
+   19   0.0003711815    99.037   142.492   0.0002256229   0.0007346202  -0.0016412577
+   20   0.0005023584   115.216   165.769   0.0002624803   0.0007059030  -0.0015104883
+   21   0.0005244403   117.721   169.374   0.0002681872   0.0007012542  -0.0014907062
+   22   0.0006357063   129.608   186.477   0.0002952693   0.0006794961  -0.0014025193
+   23   0.0006799514   134.043   192.858   0.0003053718   0.0006715073  -0.0013718046
+   24   0.0007197776   137.912   198.425   0.0003141877   0.0006645924  -0.0013458764
+   25   0.0008577278   150.549   216.607   0.0003429768   0.0006423763  -0.0012663577
+   26   0.0009020323   154.389   222.131   0.0003517232   0.0006357370  -0.0012436255
+   27   0.0009885821   161.626   232.543   0.0003682106   0.0006233605  -0.0012024074
+   28   0.0010324389   165.172   237.646   0.0003762895   0.0006173619  -0.0011829446
+   29   0.0012178820   179.394   258.107   0.0004086886   0.0005937393  -0.0011092981
+   30   0.0013268710   187.249   269.409   0.0004265837   0.0005809872  -0.0010713732
+   31   0.0014896733   198.404   285.459   0.0004519969   0.0005632357  -0.0010205126
+   32   0.0016698768   210.062   302.232   0.0004785553   0.0005451290  -0.0009707613
+   33   0.0018338447   220.133   316.723   0.0005015003   0.0005298482  -0.0009303071
+   34   0.0021700498   239.463   344.534   0.0005455377   0.0005014489  -0.0008584986
+   35   0.0023471144   249.041   358.315   0.0005673579   0.0004878235  -0.0008254736
+   36   0.0023757494   250.556   360.494   0.0005708083   0.0004856956  -0.0008203945
+   37   0.0023996885   251.815   362.306   0.0005736769   0.0004839321  -0.0008162006
+   38   0.0025147225   257.780   370.888   0.0005872662   0.0004756463  -0.0007966818
+   39   0.0029143302   277.507   399.270   0.0006322071   0.0004490370  -0.0007359755
+   40   0.0032917186   294.928   424.335   0.0006718948   0.0004265330  -0.0006868147
+   41   0.0037165225   313.381   450.885   0.0007139345   0.0004036893  -0.0006387763
+   42   0.0041982778   333.073   479.218   0.0007587969   0.0003804112  -0.0005916040
+   43   0.0043036593   337.228   485.195   0.0007682612   0.0003756426  -0.0005821494
+   44   0.0046129185   349.134   502.326   0.0007953858   0.0003622451  -0.0005559503
+   45   0.0049975498   363.398   522.849   0.0008278821   0.0003467125  -0.0005262229
+   46   0.0051033248   367.224   528.353   0.0008365975   0.0003426413  -0.0005185422
+   47   0.0056927759   387.852   558.033   0.0008835925   0.0003213636  -0.0004791194
+   48   0.0060897630   401.148   577.162   0.0009138821   0.0003082406  -0.0004553859
+   49   0.0062225262   405.497   583.420   0.0009237901   0.0003040463  -0.0004478904
+   50   0.0063932766   411.023   591.370   0.0009363791   0.0002987862  -0.0004385504
+   51   0.0068460620   425.329   611.953   0.0009689701   0.0002855223  -0.0004152911
+   52   0.0069636778   428.967   617.187   0.0009772581   0.0002822295  -0.0004095805
+   53   0.0073412450   440.442   633.698   0.0010034017   0.0002720522  -0.0003920867
+   54   0.0074841417   444.708   639.836   0.0010131202   0.0002683490  -0.0003857791
+   55   0.0078031344   454.087   653.330   0.0010344857   0.0002603581  -0.0003722712
+   56   0.0085497373   475.314   683.871   0.0010828451   0.0002430170  -0.0003434320
+   57   0.0090144142   488.060   702.209   0.0011118820   0.0002330878  -0.0003272036
+   58   0.0092709509   494.956   712.131   0.0011275923   0.0002278626  -0.0003187448
+   59   0.0101385917   517.599   744.709   0.0011791764   0.0002114108  -0.0002924696
+   60   0.0109068476   536.851   772.409   0.0012230369   0.0001982434  -0.0002718225
+   61   0.0110526236   540.427   777.554   0.0012311831   0.0001958782  -0.0002681491
+   62   0.0111593645   543.030   781.299   0.0012371139   0.0001941718  -0.0002655055
+   63   0.0113448158   547.524   787.765   0.0012473510   0.0001912569  -0.0002610025
+   64   0.0117678981   557.640   802.319   0.0012703968   0.0001848348  -0.0002511379
+   65   0.0117798443   557.923   802.726   0.0012710415   0.0001846579  -0.0002508673
+   66   0.0122969416   570.037   820.156   0.0012986392   0.0001772234  -0.0002395462
+   67   0.0136997617   601.673   865.674   0.0013707128   0.0001590378  -0.0002122827
+   68   0.0140466343   609.243   876.564   0.0013879573   0.0001549400  -0.0002062222
+   69   0.0145483014   620.027   892.080   0.0014125249   0.0001492641  -0.0001978777
+   70   0.0148563360   626.556   901.475   0.0014274004   0.0001459182  -0.0001929856
+   71   0.0149172269   627.839   903.320   0.0014303226   0.0001452688  -0.0001920385
+   72   0.0156056042   642.162   923.928   0.0014629526   0.0001381913  -0.0001817644
+   73   0.0159216059   648.631   933.235   0.0014776902   0.0001350972  -0.0001773006
+   74   0.0162748076   655.786   943.530   0.0014939907   0.0001317474  -0.0001724871
+   75   0.0166588849   663.479   954.598   0.0015115166   0.0001282293  -0.0001674530
+   76   0.0175350766   680.704   979.381   0.0015507571   0.0001206570  -0.0001566918
+   77   0.0180203637   690.059   992.841   0.0015720695   0.0001167157  -0.0001511305
+   78   0.0188181692   705.169  1014.580   0.0016064923   0.0001105954  -0.0001425488
+   79   0.0192295621   712.835  1025.610   0.0016239575   0.0001076029  -0.0001383765
+   80   0.0193971234   715.934  1030.069   0.0016310175   0.0001064142  -0.0001367237
+   81   0.0198420774   724.099  1041.817   0.0016496185   0.0001033393  -0.0001324596
+   82   0.0199615179   726.275  1044.948   0.0016545761   0.0001025336  -0.0001313449
+   83   0.0205792391   737.427  1060.993   0.0016799819   0.0000984936  -0.0001257734
+   84   0.0207604208   740.666  1065.653   0.0016873611   0.0000973476  -0.0001241983
+   85   0.0215618543   754.827  1086.027   0.0017196221   0.0000924796  -0.0001175329
+   86   0.0219432108   761.473  1095.589   0.0017347626   0.0000902726  -0.0001145250
+   87   0.0224826850   770.776  1108.975   0.0017559577   0.0000872642  -0.0001104386
+   88   0.0227852880   775.946  1116.413   0.0017677352   0.0000856326  -0.0001082291
+   89   0.0231972378   782.929  1126.460   0.0017836436   0.0000834731  -0.0001053121
+   90   0.0234005016   786.352  1131.385   0.0017914411   0.0000824331  -0.0001039102
+   91   0.0236808530   791.048  1138.142   0.0018021404   0.0000810254  -0.0001020159
+   92   0.0238250709   793.453  1141.602   0.0018076197   0.0000803131  -0.0001010587
+   93   0.0245527061   805.479  1158.904   0.0018350151   0.0000768375  -0.0000964013
+   94   0.0251511013   815.235  1172.941   0.0018572418   0.0000741203  -0.0000927754
+   95   0.0252286888   816.491  1174.749   0.0018601043   0.0000737769  -0.0000923181
+   96   0.0255271783   821.307  1181.678   0.0018710757   0.0000724742  -0.0000905854
+   97   0.0262881355   833.459  1199.161   0.0018987590   0.0000692813  -0.0000863517
+   98   0.0269564764   843.987  1214.309   0.0019227442   0.0000666209  -0.0000828383
+   99   0.0276766707   855.187  1230.424   0.0019482598   0.0000638951  -0.0000792523
+  100   0.0277288224   855.993  1231.582   0.0019500945   0.0000637032  -0.0000790003
+  101   0.0288204917   872.680  1255.592   0.0019881111   0.0000598446  -0.0000739493
+  102   0.0288677543   873.395  1256.621   0.0019897406   0.0000596842  -0.0000737399
+  103   0.0294853260   882.688  1269.991   0.0020109113   0.0000576361  -0.0000710710
+  104   0.0302367287   893.864  1286.072   0.0020363731   0.0000552597  -0.0000679845
+  105   0.0307058011   900.771  1296.009   0.0020521078   0.0000538374  -0.0000661422
+  106   0.0309066557   903.712  1300.241   0.0020588085   0.0000532421  -0.0000653724
+  107   0.0315525632   913.107  1313.757   0.0020802105   0.0000513818  -0.0000629712
+  108   0.0317111769   915.399  1317.055   0.0020854325   0.0000509372  -0.0000623983
+  109   0.0322894727   923.708  1329.010   0.0021043619   0.0000493557  -0.0000603637
+  110   0.0327174584   929.810  1337.789   0.0021182623   0.0000482238  -0.0000589106
+  111   0.0336702638   943.252  1357.129   0.0021488852   0.0000458156  -0.0000558276
+  112   0.0354607463   968.006  1392.745   0.0022052808   0.0000416737  -0.0000505531
+  113   0.0357523748   971.979  1398.460   0.0022143303   0.0000410429  -0.0000497529
+  114   0.0375246575   995.778  1432.703   0.0022685498   0.0000374480  -0.0000452091
+  115   0.0384424024  1007.882  1450.117   0.0022961233   0.0000357361  -0.0000430551
+  116   0.0385139631  1008.819  1451.466   0.0022982595   0.0000356066  -0.0000428925
+  117   0.0386652633  1010.799  1454.314   0.0023027693   0.0000353347  -0.0000425510
+  118   0.0389106080  1014.001  1458.921   0.0023100637   0.0000348990  -0.0000420043
+  119   0.0393007243  1019.071  1466.216   0.0023216152   0.0000342195  -0.0000411524
+  120   0.0396540163  1023.641  1472.792   0.0023320268   0.0000336178  -0.0000403989
+  121   0.0397129026  1024.401  1473.885   0.0023337577   0.0000335187  -0.0000402749
+  122   0.0397571201  1024.971  1474.705   0.0023350566   0.0000334446  -0.0000401822
+  123   0.0401525524  1030.056  1482.021   0.0023466403   0.0000327901  -0.0000393638
+  124   0.0406145596  1035.965  1490.523   0.0023601023   0.0000320448  -0.0000384331
+  125   0.0413167588  1044.882  1503.353   0.0023804172   0.0000309505  -0.0000370688
+  126   0.0414126405  1046.094  1505.096   0.0023831776   0.0000308046  -0.0000368871
+  127   0.0416720101  1049.365  1509.802   0.0023906290   0.0000304139  -0.0000364009
+  128   0.0421774914  1055.710  1518.931   0.0024050844   0.0000296694  -0.0000354753
+  129   0.0423869849  1058.329  1522.699   0.0024110500   0.0000293672  -0.0000351000
+  130   0.0424896102  1059.609  1524.541   0.0024139670   0.0000292206  -0.0000349179
+  131   0.0426050311  1061.047  1526.610   0.0024172435   0.0000290566  -0.0000347145
+  132   0.0450148967  1090.642  1569.191   0.0024846664   0.0000258715  -0.0000307744
+  133   0.0452481226  1093.464  1573.251   0.0024910947   0.0000255858  -0.0000304222
+  134   0.0454072467  1095.385  1576.015   0.0024954711   0.0000253930  -0.0000301847
+  135   0.0458420029  1100.617  1583.542   0.0025073892   0.0000248751  -0.0000295470
+  136   0.0469915092  1114.330  1603.273   0.0025386314   0.0000235648  -0.0000279369
+  137   0.0478993911  1125.043  1618.686   0.0025630374   0.0000225874  -0.0000267387
+  138   0.0485838109  1133.053  1630.210   0.0025812837   0.0000218821  -0.0000258757
+  139   0.0486425667  1133.738  1631.195   0.0025828441   0.0000218228  -0.0000258031
+  140   0.0491983152  1140.196  1640.487   0.0025975569   0.0000212709  -0.0000251289
+  141   0.0498578177  1147.812  1651.446   0.0026149090   0.0000206372  -0.0000243556
+  142   0.0498666978  1147.915  1651.593   0.0026151419   0.0000206288  -0.0000243454
+  143   0.0502221030  1151.998  1657.468   0.0026244445   0.0000202967  -0.0000239406
+  144   0.0507748194  1158.320  1666.564   0.0026388466   0.0000197925  -0.0000233268
+  145   0.0508789224  1159.507  1668.271   0.0026415504   0.0000196993  -0.0000232133
+  146   0.0512794320  1164.061  1674.825   0.0026519269   0.0000193451  -0.0000227827
+  147   0.0518997895  1171.081  1684.925   0.0026679197   0.0000188113  -0.0000221341
+  148   0.0519760166  1171.941  1686.162   0.0026698782   0.0000187469  -0.0000220559
+  149   0.0535355306  1189.393  1711.271   0.0027096363   0.0000174844  -0.0000205257
+  150   0.0538079609  1192.415  1715.620   0.0027165220   0.0000172742  -0.0000202714
+  151   0.0552345936  1208.119  1738.214   0.0027522985   0.0000162206  -0.0000189988
+  152   0.0570491850  1227.804  1766.536   0.0027971430   0.0000149870  -0.0000175131
+  153   0.0577346476  1235.158  1777.117   0.0028138971   0.0000145498  -0.0000169877
+  154   0.0579123692  1237.058  1779.850   0.0028182247   0.0000144388  -0.0000168545
+  155   0.0588572999  1247.109  1794.312   0.0028411236   0.0000138653  -0.0000161664
+  156   0.0593428632  1252.243  1801.698   0.0028528189   0.0000135809  -0.0000158256
+  157   0.0601562650  1260.796  1814.004   0.0028723039   0.0000131195  -0.0000152734
+  158   0.0609507002  1269.094  1825.942   0.0028912078   0.0000126864  -0.0000147556
+  159   0.0613366392  1273.105  1831.714   0.0029003469   0.0000124819  -0.0000145115
+  160   0.0616189363  1276.031  1835.925   0.0029070135   0.0000123348  -0.0000143359
+  161   0.0626591759  1286.757  1851.357   0.0029314487   0.0000118098  -0.0000137098
+  162   0.0640163813  1300.618  1871.299   0.0029630264   0.0000111632  -0.0000129402
+  163   0.0660804320  1321.420  1901.228   0.0030104151   0.0000102567  -0.0000118638
+  164   0.0675455394  1335.988  1922.189   0.0030436050   0.0000096647  -0.0000111626
+  165   0.0679495427  1339.978  1927.929   0.0030526936   0.0000095084  -0.0000109777
+  166   0.0687788745  1348.130  1939.658   0.0030712664   0.0000091967  -0.0000106093
+  167   0.0704056634  1363.980  1962.463   0.0031073756   0.0000086187  -0.0000099272
+  168   0.0707789876  1367.592  1967.659   0.0031156031   0.0000084920  -0.0000097779
+  169   0.0713646729  1373.238  1975.784   0.0031284671   0.0000082976  -0.0000095488
+  170   0.0724409987  1383.555  1990.627   0.0031519707   0.0000079534  -0.0000091438
+  171   0.0726147708  1385.214  1993.013   0.0031557489   0.0000078993  -0.0000090803
+  172   0.0751897404  1409.560  2028.042   0.0032112140   0.0000071462  -0.0000081962
+  173   0.0755110025  1412.568  2032.370   0.0032180669   0.0000070581  -0.0000080930
+  174   0.0759913887  1417.054  2038.825   0.0032282870   0.0000069287  -0.0000079414
+  175   0.0761835819  1418.845  2041.401   0.0032323669   0.0000068777  -0.0000078817
+  176   0.0770396439  1426.794  2052.839   0.0032504769   0.0000066557  -0.0000076219
+  177   0.0772061349  1428.335  2055.056   0.0032539873   0.0000066135  -0.0000075725
+  178   0.0774623761  1430.704  2058.463   0.0032593827   0.0000065491  -0.0000074972
+  179   0.0786066533  1441.232  2073.611   0.0032833683   0.0000062701  -0.0000071713
+  180   0.0791339035  1446.058  2080.554   0.0032943615   0.0000061462  -0.0000070266
+  181   0.0793077111  1447.645  2082.838   0.0032979773   0.0000061060  -0.0000069796
+  182   0.0796977861  1451.200  2087.954   0.0033060779   0.0000060167  -0.0000068755
+  183   0.0797743438  1451.897  2088.956   0.0033076654   0.0000059994  -0.0000068553
+  184   0.0799832615  1453.797  2091.690   0.0033119937   0.0000059524  -0.0000068004
+  185   0.0806682141  1460.009  2100.627   0.0033261450   0.0000058011  -0.0000066241
+  186   0.0814124929  1466.729  2110.295   0.0033414539   0.0000056417  -0.0000064385
+  187   0.0819902385  1471.924  2117.770   0.0033532893   0.0000055214  -0.0000062984
+  188   0.0828800010  1479.889  2129.230   0.0033714353   0.0000053418  -0.0000060895
+  189   0.0830781823  1481.657  2131.774   0.0033754637   0.0000053027  -0.0000060440
+  190   0.0839631889  1489.528  2143.099   0.0033933950   0.0000051320  -0.0000058457
+  191   0.0841269294  1490.980  2145.187   0.0033967022   0.0000051011  -0.0000058099
+  192   0.0842576443  1492.138  2146.853   0.0033993400   0.0000050766  -0.0000057814
+  193   0.0860222145  1507.681  2169.217   0.0034347510   0.0000047586  -0.0000054124
+  194   0.0874114260  1519.807  2186.663   0.0034623746   0.0000045240  -0.0000051407
+  195   0.0885409350  1529.595  2200.745   0.0034846728   0.0000043430  -0.0000049312
+  196   0.0899323434  1541.566  2217.970   0.0035119466   0.0000041311  -0.0000046863
+  197   0.0901665779  1543.573  2220.857   0.0035165172   0.0000040966  -0.0000046464
+  198   0.0941305150  1577.137  2269.149   0.0035929831   0.0000035595  -0.0000040271
+  199   0.0953017427  1586.919  2283.222   0.0036152670   0.0000034164  -0.0000038624
+  200   0.0998727239  1624.530  2337.336   0.0037009516   0.0000029166  -0.0000032886
+  201   0.1030510654  1650.177  2374.236   0.0037593797   0.0000026176  -0.0000029463
+  202   0.1036263604  1654.777  2380.854   0.0037698587   0.0000025673  -0.0000028887
+  203   0.1054661638  1669.402  2401.897   0.0038031769   0.0000024134  -0.0000027130
+  204   0.1069293749  1680.942  2418.501   0.0038294682   0.0000022985  -0.0000025818
+  205   0.1076313532  1686.451  2426.426   0.0038420176   0.0000022455  -0.0000025214
+  206   0.1079325057  1688.809  2429.819   0.0038473889   0.0000022232  -0.0000024959
+  207   0.1086411086  1694.343  2437.782   0.0038599977   0.0000021717  -0.0000024372
+  208   0.1089454094  1696.714  2441.193   0.0038653998   0.0000021499  -0.0000024125
+  209   0.1116243223  1717.448  2471.025   0.0039126353   0.0000019690  -0.0000022065
+  210   0.1119063179  1719.616  2474.144   0.0039175744   0.0000019509  -0.0000021860
+  211   0.1158569993  1749.707  2517.438   0.0039861266   0.0000017167  -0.0000019200
+  212   0.1218319872  1794.258  2581.537   0.0040876210   0.0000014198  -0.0000015838
+  213   0.1263475813  1827.207  2628.943   0.0041626838   0.0000012333  -0.0000013732
+  214   0.3557091580  3065.856  4411.083   0.0069845347   0.0000000052  -0.0000000056
+  215   0.3561859797  3067.911  4414.039   0.0069892144   0.0000000052  -0.0000000055
+  216   0.3629886365  3097.068  4455.990   0.0070556409   0.0000000046  -0.0000000049
+  217   0.3652209804  3106.577  4469.671   0.0070773034   0.0000000044  -0.0000000047
+  218   0.3660523264  3110.111  4474.756   0.0070853538   0.0000000043  -0.0000000046
+  219   0.3664501726  3111.800  4477.187   0.0070892031   0.0000000043  -0.0000000046
+  220   0.3755870078  3150.355  4532.659   0.0071770378   0.0000000036  -0.0000000038
+  221   0.3772517469  3157.329  4542.693   0.0071929258   0.0000000035  -0.0000000037
+  222   0.3804463792  3170.670  4561.886   0.0072233171   0.0000000033  -0.0000000035
+  223   0.3830416060  3181.466  4577.419   0.0072479123   0.0000000031  -0.0000000033
+  224   0.3854978192  3191.650  4592.072   0.0072711134   0.0000000030  -0.0000000032
+  225   0.3884347713  3203.785  4609.531   0.0072987587   0.0000000028  -0.0000000030
+  226   0.3890400700  3206.280  4613.122   0.0073044433   0.0000000028  -0.0000000030
+  227   0.3892883443  3207.303  4614.593   0.0073067736   0.0000000028  -0.0000000030
+  228   0.3896534281  3208.806  4616.757   0.0073101991   0.0000000028  -0.0000000029
+  229   0.3898816868  3209.746  4618.109   0.0073123399   0.0000000027  -0.0000000029
+  230   0.3901660143  3210.916  4619.792   0.0073150058   0.0000000027  -0.0000000029
+  231   0.3914474285  3216.185  4627.372   0.0073270082   0.0000000027  -0.0000000028
+  232   0.3915355480  3216.547  4627.893   0.0073278328   0.0000000027  -0.0000000028
+  233   0.3915674936  3216.678  4628.082   0.0073281318   0.0000000027  -0.0000000028
+  234   0.3930492657  3222.759  4636.831   0.0073419842   0.0000000026  -0.0000000028
+  235   0.3932958245  3223.769  4638.285   0.0073442867   0.0000000026  -0.0000000027
+  236   0.3934575667  3224.432  4639.238   0.0073457967   0.0000000026  -0.0000000027
+  237   0.3935696641  3224.891  4639.899   0.0073468430   0.0000000026  -0.0000000027
+  238   0.3943827358  3228.221  4644.689   0.0073544280   0.0000000025  -0.0000000027
+  239   0.3953497963  3232.176  4650.380   0.0073634393   0.0000000025  -0.0000000026
+  240   0.3959983768  3234.826  4654.193   0.0073694768   0.0000000024  -0.0000000026
+  241   0.3960288242  3234.951  4654.372   0.0073697601   0.0000000024  -0.0000000026
+  242   0.3962677078  3235.926  4655.776   0.0073719825   0.0000000024  -0.0000000026
+  243   0.3964209831  3236.552  4656.676   0.0073734081   0.0000000024  -0.0000000026
+  244   0.3971670269  3239.596  4661.056   0.0073803430   0.0000000024  -0.0000000026
+  245   0.3995399553  3249.259  4674.959   0.0074023576   0.0000000023  -0.0000000024
+  246   0.3998647719  3250.580  4676.859   0.0074053660   0.0000000023  -0.0000000024
+  247   0.4067120821  3278.293  4716.733   0.0074685018   0.0000000020  -0.0000000021
+  248   0.4144291537  3309.249  4761.271   0.0075390236   0.0000000017  -0.0000000019
+  249   0.4189569072  3327.277  4787.209   0.0075800947   0.0000000016  -0.0000000017
+total                                      0.6870943401   0.0379255791  -0.0694992088
+Wave numbers > 0 and <    100.0 cm^-1 were raised to that value for vibrational H and S.
+Temperature:            298.15 Kelvin
+ 
+Energy contributions for the gas phase:
+The standard state is an ideal gas at a pressure of 101300.0 Pa
+Molar volume (V_m):      24.47 L
+                                  Hartree     kJ/mol   kcal/mol          K
+ZPE .........................    0.687094   1803.966    431.158   216967.2
+H_trans .....................    0.002360      6.197      1.481      745.4
+H_rot .......................    0.001416      3.718      0.889      447.2
+H_vib .......................    0.037926     99.574     23.799    11976.0
+H_total .....................    0.041702    109.489     26.169    13168.6
+ 
+S_trans*T ...................    0.021527     56.520     13.509     6797.8
+S_rot*T .....................    0.018202     47.789     11.422     5747.7
+S_vib*T .....................    0.069499    182.470     43.611    21946.1
+S_total*T ...................    0.109229    286.779     68.542    34491.6
+ 
+H(T) ........................    0.728797   1913.455    457.327   230135.8
+S(T)*T ......................    0.109229    286.779     68.542    34491.6
+G(T) ........................    0.619568   1626.676    388.785   195644.1
+Total free energy G (electronic energy+ZPE+RRHO):  -2138.066735 Hartree
+ 
+Energy contributions for solutions:
+The standard state is a concentration of c_0 = 1 mol / L:
+R*T*ln(c_0*V_m) .............    0.003019      7.926      1.894      953.3
+S_trans*T ...................    0.018508     48.594     11.614     5844.5
+S_total*T ...................    0.106209    278.853     66.647    33538.3
+S(T)*T ......................    0.106209    278.853     66.647    33538.3
+G(T) ........................    0.622587   1634.602    390.679   196597.5
+Total free energy G (electronic energy+ZPE+RRHO):  -2138.063716 Hartree
+ 
+Crossover temperature for tunnelling       80.11713 K
+ Writing file qts_ts.txt
+ Writing Hessian file qts_hessian_ts.txt
+
+DL-FIND Report:
+===============
+Optimisation algorithm: no optimisation, just calculate the
+    Hessian and thermal corrections
+Modes assumed to have zero vibrational frequency          6
+Temperature ....................................  2.981E+02 K
+Minimum wave number ............................  1.000E+02 cm^-1
+Finite difference for Hessian calculation ......  1.000E-02
+ 
+Step length: simple scaled
+Maximum step length ............................  5.000E-01
+Scaling step by ................................  1.000E+00
+ 
+Coordinate system: Mass-weighted Cartesian coordinates
+ 
+Number of atoms ................................         85
+Number of input geometries .....................          1
+Variables to be optimised ......................        255
+No restart information is written
+This run has not been restarted.
+Number of energy evaluations on this processor .        511
+Number of steps ................................          1
+Number of accepted steps / line searches .......          0
+ 
+
+Timing report
+=============
+Module                                      CPU time            Wall clock time
+Total .................................   318.647 (100.00%)********** (******%) seconds
+Energy and Gradient ...................   318.243 ( 99.87%)********** (******%) seconds
+Step direction ........................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+Coordinate transformation .............     0.005 (  0.00%)     0.012 (100.00%) seconds
+Checkpoint file I/O ...................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+XYZ-file I/O ..........................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+exit 0
+
+ Timing Analysis by Executable 
+                                    grad  [    511]  10501.649  19.7%
+                                    dscf  [    512]  42567.214  79.7%
+                                  define  [      1]      0.423   0.0%
+                               ChemShell               325.305   0.6%
+
+                                   Total             53394.592
+
+  Timing Analysis by Module       module   # calls        time time (exc) percent 
+                                 dl-find  [      1]  53394.129      2.435   0.0%
+                               turbomole  [    511]  53391.694  53275.445  99.8%
+                      set_matrix_element  [33358591]    115.912    115.912   0.2%
+                       get_number_of_bqs  [    512]      0.010      0.010   0.0%
+                          get_atom_entry  [  43435]      0.245      0.245   0.0%
+                         set_matrix_size  [   1024]      0.070      0.070   0.0%
+                     get_number_of_atoms  [    512]      0.014      0.014   0.0%
+                             copy_object  [      1]      0.000      0.000   0.0%
+                                read_xyz  [      1]      0.001      0.001   0.0%
+                                   Other                 0.461              0.0%
+
+                                   Total             53394.592
+ChemShell exiting code 0

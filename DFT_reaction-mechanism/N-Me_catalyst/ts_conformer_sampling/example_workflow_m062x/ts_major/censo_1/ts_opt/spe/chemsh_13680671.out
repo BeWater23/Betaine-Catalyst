@@ -1,0 +1,32 @@
+Initialising ChemShell DEVELOPMENT VERSION 3.7_2023_DLF_GPR.dev on linux
+read_xyz/======================================== Tstep:    0.5 Ttot:    0.5 ==
+energy/========================================== Tstep:    0.0 Ttot:    0.5 ==
+energy/turbomole/================================ Tstep:    0.0 Ttot:    0.5 ==
+energy
+Size of integral file returned by statistics run:  159046
+Spin: 
+-----------------------------------------------------------------------------------
+Energy (  turbomole):                                           -2141.052215 (a.u.)
+-----------------------------------------------------------------------------------
+
+ Timing Analysis by Executable 
+                                    dscf  [      2]   2194.429  99.9%
+                                  define  [      1]      0.876   0.0%
+                               ChemShell                 0.754   0.0%
+
+                                   Total              2196.058
+
+  Timing Analysis by Module       module   # calls        time time (exc) percent 
+                                  energy  [      1]   2195.575      0.008   0.0%
+                      get_matrix_element  [      1]      0.000      0.000   0.0%
+                               turbomole  [      1]   2195.567   2195.542 100.0%
+                      set_matrix_element  [      1]      0.000      0.000   0.0%
+                         set_matrix_size  [      1]      0.000      0.000   0.0%
+                       get_number_of_bqs  [      2]      0.001      0.001   0.0%
+                          get_atom_entry  [     85]      0.025      0.025   0.0%
+                     get_number_of_atoms  [      1]      0.000      0.000   0.0%
+                                read_xyz  [      1]      0.002      0.002   0.0%
+                                   Other                 0.481              0.0%
+
+                                   Total              2196.058
+ChemShell exiting code 0

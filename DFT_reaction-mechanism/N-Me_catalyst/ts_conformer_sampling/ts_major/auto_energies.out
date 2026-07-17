@@ -1,0 +1,161 @@
+Energy evaluation TS mode starting...
+
+Directory: ./censo_1
+SPE calculation finished for censo_1
+SPE = -2141.179820 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0030411587   283.481i
+    2   0.0000031387     9.107    13.103   0.0000207473   0.0007346202  -0.0016412577
+    3   0.0000145396    19.601    28.202   0.0000446547   0.0007346202  -0.0016412577
+    4   0.0000261386    26.281    37.813   0.0000598730   0.0007346202  -0.0016412577
+G(T) = 0.622399 H
+censo_1 total free energy G = -2140.557421 H
+
+Directory: ./censo_10
+SPE calculation finished for censo_10
+SPE = -2141.180536 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0018467351   220.906i
+    2   0.0000077970    14.354    20.652   0.0000327005   0.0007346202  -0.0016412577
+    3   0.0000251281    25.768    37.075   0.0000587043   0.0007346202  -0.0016412577
+    4   0.0000261109    26.267    37.793   0.0000598413   0.0007346202  -0.0016412577
+G(T) = 0.623244 H
+censo_10 total free energy G = -2140.557292 H
+
+Directory: ./censo_11
+SPE calculation finished for censo_11
+SPE = -2141.181518 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0019847329   229.010i
+    2   0.0000069296    13.532    19.469   0.0000308279   0.0007346202  -0.0016412577
+    3   0.0000137871    19.087    27.462   0.0000434836   0.0007346202  -0.0016412577
+    4   0.0000345927    30.234    43.500   0.0000688783   0.0007346202  -0.0016412577
+G(T) = 0.622870 H
+censo_11 total free energy G = -2140.558648 H
+
+Directory: ./censo_12
+SPE calculation finished for censo_12
+SPE = -2141.174515 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0034619337   302.457i
+    2  -0.0000041444   -10.465    15.057   0.0000238408   0.0007346202  -0.0016412577
+    3   0.0000015502     6.400     9.208   0.0000145807   0.0007346202  -0.0016412577
+    4   0.0000074103    13.993    20.133   0.0000318792   0.0007346202  -0.0016412577
+G(T) = 0.621678 H
+censo_12 total free energy G = -2140.552837 H
+
+Directory: ./censo_2
+SPE calculation finished for censo_2
+SPE = -2141.182640 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0026983874   267.028i
+    2   0.0000028804     8.724    12.552   0.0000198754   0.0007346202  -0.0016412577
+    3   0.0000126758    18.302    26.332   0.0000416944   0.0007346202  -0.0016412577
+    4   0.0000217280    23.962    34.475   0.0000545884   0.0007346202  -0.0016412577
+G(T) = 0.623194 H
+censo_2 total free energy G = -2140.559446 H
+
+Directory: ./censo_3
+SPE calculation finished for censo_3
+SPE = -2141.182397 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0020815734   234.531i
+    2  -0.0000089018   -15.337    22.067   0.0000349406   0.0007346202  -0.0016412577
+    3   0.0000019926     7.256    10.440   0.0000165312   0.0007346202  -0.0016412577
+    4   0.0000090842    15.493    22.292   0.0000352967   0.0007346202  -0.0016412577
+G(T) = 0.621822 H
+censo_3 total free energy G = -2140.560575 H
+
+Directory: ./censo_4
+SPE calculation finished for censo_4
+SPE = -2141.182328 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0020339732   231.834i
+    2  -0.0000012696    -5.792     8.334   0.0000131954   0.0007346202  -0.0016412577
+    3   0.0000082256    14.743    21.212   0.0000335872   0.0007346202  -0.0016412577
+    4   0.0000254818    25.949    37.335   0.0000591160   0.0007346202  -0.0016412577
+G(T) = 0.622214 H
+censo_4 total free energy G = -2140.560114 H
+
+Directory: ./censo_5
+SPE calculation finished for censo_5
+SPE = -2141.182135 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0026032514   262.278i
+    2   0.0000073767    13.962    20.088   0.0000318069   0.0007346202  -0.0016412577
+    3   0.0000154347    20.195    29.057   0.0000460087   0.0007346202  -0.0016412577
+    4   0.0000206293    23.348    33.592   0.0000531903   0.0007346202  -0.0016412577
+G(T) = 0.623003 H
+censo_5 total free energy G = -2140.559132 H
+
+Directory: ./censo_6
+SPE calculation finished for censo_6
+SPE = -2141.180564 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0037871057   316.343i
+    2   0.0000028352     8.656    12.454   0.0000197190   0.0007346202  -0.0016412577
+    3   0.0000152380    20.066    28.871   0.0000457145   0.0007346202  -0.0016412577
+    4   0.0000311323    28.682    41.267   0.0000653424   0.0007346202  -0.0016412577
+G(T) = 0.622917 H
+censo_6 total free energy G = -2140.557647 H
+
+Directory: ./censo_7
+SPE calculation finished for censo_7
+SPE = -2141.179273 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0030900229   285.749i
+    2   0.0000034902     9.603    13.817   0.0000218783   0.0007346202  -0.0016412577
+    3   0.0000152248    20.058    28.859   0.0000456948   0.0007346202  -0.0016412577
+    4   0.0000350808    30.447    43.806   0.0000693625   0.0007346202  -0.0016412577
+G(T) = 0.622823 H
+censo_7 total free energy G = -2140.556450 H
+
+Directory: ./censo_8
+SPE calculation finished for censo_8
+SPE = -2141.182194 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0014759223   197.486i
+    2   0.0000070047    13.605    19.575   0.0000309945   0.0007346202  -0.0016412577
+    3   0.0000208081    23.449    33.738   0.0000534203   0.0007346202  -0.0016412577
+    4   0.0000249457    25.674    36.940   0.0000584908   0.0007346202  -0.0016412577
+G(T) = 0.622539 H
+censo_8 total free energy G = -2140.559655 H
+
+Directory: ./censo_9
+SPE calculation finished for censo_9
+SPE = -2141.180944 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0023290561   248.081i
+    2  -0.0000331649   -29.604    42.593   0.0000674418   0.0007346202  -0.0016412577
+    3   0.0000021149     7.476    10.756   0.0000170309   0.0007346202  -0.0016412577
+    4   0.0000126801    18.305    26.337   0.0000417015   0.0007346202  -0.0016412577
+G(T) = 0.621464 H
+censo_9 total free energy G = -2140.559480 H
+
+Relative energies of all conformers written to conformer_energies.txt
+Warning: Relative energies/ts_opt/spe/ts_opt.xyz not found or directory missing!
+All ts_opt.xyz files have been combined into ts_conformers.xyz.

@@ -1,0 +1,10 @@
+*.tgz
+*.tar
+*.zip
+*.gz
+
+*.tmp
+*.err
+*.log
+
+run_*/

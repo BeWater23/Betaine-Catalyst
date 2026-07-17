@@ -1,0 +1,116 @@
+
+### Setting up shell environment ...
+
+
+### Printing basic job infos to stdout ...
+
+START_TIME           = 2024-10-16 22:57:29
+HOSTNAME             = n1026
+JOB USER             = cluster_user
+JOB NAME             = ts_opt_m06-2x
+JOB ID               = 13794743
+Submit directory     = /path/to/cluster/workdir
+Number of CPUs       = 48
+Number of nodes      = 1
+
+### Creating RUN directory on local disc and changing to it ...
+
+runDIR               = /tmp/autoconf_run
+Basename of runDIR   = run_directory
+Dirname  of runDIR   = /tmp
+Tar archive name     = run_directory
+
+### Loading modules and defining environment:
+
+Loaded module        = chem/xtb/6.6.0 compiler/intel/19.1 numlib/mkl/2020 chem/turbomole/7.7.1
+
+TURBOMOLE_VERSION    = 7.7.1_tmolex20232
+TURBOTMPDIR          = /tmp/autoconf_run (/tmp/autoconf_run=/tmp/autoconf_run)
+TURBOMOLE_MODE       = compute
+PARA_ARCH            = SMP
+PARNODES             = 48
+
+### Copying input files for job (if required):
+
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_initial.xyz'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt_m06-2x.chm'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt_m06-2x.err'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt_m06-2x.out'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt_m06-2x.sh'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_second.xyz'
+
+### Performing Turbomole calculations ...
+
+
+### Cleaning up files ... removing unnecessary scratch files ...
+
+
+### Compressing results and copying back result archive ...
+
+Creating tgz-file '/path/to/cluster/workdir' ...
+run_directory/
+run_directory/wfile_a
+run_directory/vfile_a
+run_directory/cphf_a
+run_directory/rhs_a
+run_directory/restarthess
+run_directory/amat.tmp
+run_directory/a3mat.tmp
+run_directory/a2mat.tmp
+run_directory/blockpar
+run_directory/ddens
+run_directory/aoforce.log
+run_directory/control
+run_directory/control.dbg
+run_directory/dl-find.result
+run_directory/ts_opt.xyz
+run_directory/dl-find.gradient
+run_directory/dl-find.energy
+run_directory/dl-find.coo
+run_directory/tsmode.c
+run_directory/ts_opt.c
+run_directory/gradient
+run_directory/grad.log
+run_directory/energy
+run_directory/out.ccf
+run_directory/statistics
+run_directory/dscf.log
+run_directory/cosmo_transfer.tmp
+run_directory/dscf_stat.log
+run_directory/mos
+run_directory/basis
+run_directory/define.log
+run_directory/script
+run_directory/point_charges
+run_directory/coord.save
+run_directory/coord
+run_directory/path_force.xyz
+run_directory/path_tsmode.xyz
+run_directory/path_active.xyz
+run_directory/path.xyz
+run_directory/c2
+run_directory/c
+run_directory/chemsh.err
+run_directory/ts_second.xyz
+run_directory/ts_opt_m06-2x.sh
+run_directory/ts_opt_m06-2x.out
+run_directory/ts_opt_m06-2x.err
+run_directory/ts_opt_m06-2x.chm
+run_directory/ts_initial.xyz
+
+### Cleanup of /tmp/autoconf_run is done by SYSTEM automatically
+
+END_TIME             = 2024-10-17 23:43:52
+
+======================== JOB EFFICIENCY REPORT ========================
+Job ID: 13794743
+Cluster: justus2
+User/Group: cluster_user/cluster_group
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 48
+CPU Utilized: 47-05:55:38
+CPU Efficiency: 95.36% of 49-13:07:12 core-walltime
+Job Wall-clock time: 1-00:46:24
+Memory Utilized: 15.33 GB
+Memory Efficiency: 14.87% of 103.12 GB

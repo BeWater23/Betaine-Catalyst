@@ -1,0 +1,168 @@
+source path_to/turbomole.tcl
+read_xyz file=reactant.xyz coords=c
+
+# internal units of the MD engine (dl-poly) are picoseconds and Angstrom
+
+set TITLE case
+set NSTEP 10000
+# F=start new
+set RESTART F
+set RANDOMIZE T
+set WRITETRA 1 
+#set WRITETRA 4 
+set WRITERSTRT 100000000
+set UPDATE 2500000000
+
+set tmole_args \
+    [ list \
+         basis=def2-SVP \
+         hamiltonian=m06-2x\
+         ri_memory=1000\
+         accuracy=high\
+         charge=0 \
+         maxcyc=10000 \
+         disp3=yes\
+         mult=1 \
+         cosmo=yes \
+	 epsilon=7.53 \
+        ]
+
+# Create dynamics object
+dynamics dyn1 coords= c \
+    theory= turbomole: $tmole_args \
+    timestep= 1.e-3 \
+    ensemble= NVT \
+    temperature= 298.15 \
+    nosehoover= 0 \
+    taut= 0.1 \
+    list_option=none  \
+    trajectory_type= 0
+
+
+# Organize restart, protocol, etc.
+if { $RESTART == "T" } {
+    dyn1 load
+    set first 1
+
+    # Get the last step no. from protocol (if it exists)
+} else {
+    # No restart
+    exec rm -f path.xyz
+    set first 1
+}
+
+set fprot 0
+#puts $fprot \
+{  #Step        time[ps]    E_pot[au]    E_kin[au]    E_tot[au]           T[K]     F_c[au]       Fric     }
+
+# Remove existing EXIT file
+if [ file exists EXIT ] { exec rm EXIT }
+
+# Initial velocity distribution
+if { $RANDOMIZE == "T" } { dyn1 initvel }
+
+########################################
+# DYNAMICS PROCEDURES
+########################################
+
+# Take a step        
+proc mdstep { } {
+    global istep fprot WRITETRA WRITERSTRT UPDATE
+    if { ! ($istep % $UPDATE) } { dyn1 update }
+    dyn1 force
+    dyn1 step
+    dyn1 printe
+    #if { ! ($istep % $WRITERSTRT) } { dyn1 dump }
+    if { ! ($istep % $WRITETRA) } { writetra full }
+#    if { ! ($istep % $WRITETRA) } { writetra QM }
+#    puts $fprot [ format "%8d %14.4f %12.6f %12.6f %12.6f %14.2f %13.5e %12.3e " \
+		      $istep \
+		      [ dyn1 get time ] \
+		      [ dyn1 get potential_energy ] \
+		      [ dyn1 get kinetic_energy ] \
+		      [ dyn1 get total_energy ] \
+		      [ dyn1 get temperature ] \
+		      [ dyn1 get constraint_force ] \
+		      [ dyn1 get friction ] ]
+#    flush $fprot
+    return 0
+}
+
+
+# Write trajectory
+proc writetra { {type full} } {
+    switch $type {
+
+	full {
+	  # The standard ChemShell trajectory
+	  #dyn1 trajectory
+	  write_xyz coords=dyn1.tempc file=temp.xyz
+	  exec cat temp.xyz >> path.xyz
+	  # dl-poly seems to have strange units...
+	    #eandg theory=xtb coords=dyn1.tempc energy=ene gradient=grad
+	    #write_xsf coords=dyn1.tempc file=temp.xsf energy= ene gradient=grad append=true
+	  #puts "--- ChemShell trajectory written."
+	}
+
+
+	QM {
+	    # QM part only
+	    #write_xyz coords=hybrid.dl_poly.coords file=temp.xyz
+	    #exec cat temp.xyz >> path.xyz
+
+	    #write_xyz coords=hybrid.mndo.coords file=temp.xyz
+	    #exec cat temp.xyz >> dynamics_tra.xyz
+	    #puts "--- xyz trajectory written (QM part only)."
+	}
+
+	none { }
+
+	default {
+	    puts "*** Invalid trajectory type: $type."
+	    puts "*** No trajectory written."
+	    return 1
+	}
+    }
+    return 0
+}
+
+# Closing down
+proc mdstop { } {
+    global fprot 
+    dyn1 dump
+    #write_xyz file=afterdyn.xyz coords=dyn1.tempc
+    #close $fprot
+    dyn1 destroy
+    times
+#    delete_object ${sys_name_id}.c
+    return OK
+}
+
+
+########################################
+# SIMULATION LOOP
+########################################
+
+for { set istep $first } { $istep < $first + $NSTEP } { incr istep } {
+    
+    # Try to catch errors and abort gracefully (1 if error occurred)
+    #set errorflag [ catch { 
+    mdstep
+    #} ]
+    #if { $errorflag } {
+#	puts "*** Error during MD step. Aborting..."
+#	mdstop
+#    }
+    
+    # Allow graceful termination via EXIT file (1 if file exists)
+    set exitflag [ file exists EXIT ]
+    if { $exitflag } {
+	puts "*** EXIT file detected. Terminating..."
+	mdstop
+    }
+
+}
+
+
+mdstop
+

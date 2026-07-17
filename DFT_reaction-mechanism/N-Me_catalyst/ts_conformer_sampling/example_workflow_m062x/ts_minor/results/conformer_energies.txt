@@ -1,0 +1,11 @@
+Relative energies:
+censo_8: 0.00 kcal/mol
+censo_6: 0.16 kcal/mol
+censo_9: 0.33 kcal/mol
+censo_3: 0.82 kcal/mol
+censo_1: 0.94 kcal/mol
+censo_4: 1.09 kcal/mol
+censo_5: 1.72 kcal/mol
+censo_10: 2.33 kcal/mol
+censo_2: 4.20 kcal/mol
+censo_7: 1343198.56 kcal/mol

@@ -1,0 +1,1247 @@
+
+         ______________________________________________________________
+        |                                                              |
+        |                                                              |
+        |                   CENSO - Commandline ENSO                   |
+        |                           v 1.2.0                            |
+        |    energetic sorting of CREST Conformer Rotamer Ensembles    |
+        |                    University of Bonn, MCTC                  |
+        |                           Feb 2021                           |
+        |                 based on ENSO version 2.0.1                  |
+        |                     F. Bohle and S. Grimme                   |
+        |                                                              |
+        |______________________________________________________________|
+
+        Please cite: 
+        S. Grimme, F. Bohle, A. Hansen, P. Pracht, S. Spicher, and M. Stahn 
+        J. Phys. Chem. A 2021, 125, 19, 4039-4054.
+        DOI: https://doi.org/10.1021/acs.jpca.1c00971
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+----------------------------------------------------------------------------------------------------
+                                             PARAMETERS                                             
+----------------------------------------------------------------------------------------------------
+
+program call: /home/<user>/bin/censo -inprc /home/<user>/scripts/censo/clusterrc/.censorc -inp crest_conformers.xyz
+The configuration file .censorc is read from /home/<user>/scripts/censo/clusterrc/.censorc.
+Reading conformer rotamer ensemble from: /SCR/<cluster>/<user>/run_censo.110393-20240320/crest_conformers.xyz.
+Reading file: censo_solvents.json
+
+Reading file: censo_orca_editable.dat
+
+
+--------------------------------------------------
+               CRE SORTING SETTINGS               
+--------------------------------------------------
+
+number of atoms in system:                                     85
+number of considered conformers:                               138
+number of all conformers from input:                           138
+charge:                                                        0
+unpaired:                                                      0
+solvent:                                                       thf
+temperature:                                                   298.15
+calculate mRRHO contribution:                                  on
+consider symmetry for mRRHO contribution:                      on
+cautious checking for error and failed calculations:           on
+checking the DFT-ensemble using CREST:                         off
+maxthreads:                                                    8
+omp:                                                           2
+automatically balance maxthreads and omp:                      on
+
+--------------------------------------------------
+          CRE CHEAP-PRESCREENING - PART0          
+--------------------------------------------------
+part0:                                                         on
+starting number of considered conformers:                      138
+program for part0:                                             tm
+functional for fast single-point:                              b97-d3(0)
+basis set for fast single-point:                               def2-SV(P)
+threshold g_thr(0) for sorting in part0:                       5.0
+Solvent model used with xTB:                                   alpb
+
+short-notation:
+b97-d3(0)/def2-SV(P) // GFNn-xTB (Input geometry)
+
+--------------------------------------------------
+             CRE PRESCREENING - PART1             
+--------------------------------------------------
+part1:                                                         on
+program for part1:                                             tm
+functional for initial evaluation:                             r2scan-3c
+basis set for initial evaluation:                              def2-mTZVPP
+calculate mRRHO contribution:                                  on
+program for mRRHO contribution:                                xtb
+GFN version for mRRHO and/or GBSA_Gsolv:                       gfn2
+Apply constraint to input geometry during mRRHO calculation:   on
+solvent model applied with xTB:                                alpb
+evaluate at different temperatures:                            off
+threshold g_thr(1) and G_thr(1) for sorting in part1:          3.5
+solvent model for Gsolv contribution of part1:                 alpb_gsolv
+
+short-notation:
+r2scan-3c + ALPB_GSOLV[thf] + GmRRHO(GFN2[alpb]-bhess) // GFNn-xTB (Input geometry)
+END of parameters
+
+
+------------------------------------------------------------
+               PATHS of external QM programs                
+------------------------------------------------------------
+
+The following program paths are used:
+    xTB:          /software/kaestner/xtb/xtb-6.6.1/bin/xtb
+    TURBOMOLE:    /software/linux/Turbomole-7.7/bin/em64t-unknown-linux-gnu
+
+    Using cefine from /scr/<cluster>/<user>/_MEIPvHe9t/cefine
+    PARNODES for TM or COSMO-RS calculation was set to 2
+
+****************************************************************************************************
+list index out of range
+WARNING:     Could not read settings for COSMO-RS from .censorc!
+             Most probably there is a user input error.
+list index out of range
+WARNING:     Could not read settings for COSMO-RS from .censorc!
+             Most probably there is a user input error.
+****************************************************************************************************
+
+----------------------------------------------------------------------------------------------------
+                            Processing data from previous run (enso.json)                           
+----------------------------------------------------------------------------------------------------
+
+INFORMATION: No restart information exists and is created during this run!
+
+
+----------------------------------------------------------------------------------------------------
+                                   CRE CHEAP-PRESCREENING - PART0                                   
+----------------------------------------------------------------------------------------------------
+
+program:                                                       tm
+functional for part0:                                          b97-d3(0)
+basis set for part0:                                           def2-SV(P)
+threshold g_thr(0):                                            5.0
+starting number of considered conformers:                      138
+temperature:                                                   298.15
+
+Calculating efficient gas-phase single-point energies:
+The efficient gas-phase single-point is calculated for:
+  CONF1,   CONF2,   CONF3,   CONF4,   CONF5,   CONF6,   CONF7,   CONF8,   CONF9
+ CONF10,  CONF11,  CONF12,  CONF13,  CONF14,  CONF15,  CONF16,  CONF17,  CONF18
+ CONF19,  CONF20,  CONF21,  CONF22,  CONF23,  CONF24,  CONF25,  CONF26,  CONF27
+ CONF28,  CONF29,  CONF30,  CONF31,  CONF32,  CONF33,  CONF34,  CONF35,  CONF36
+ CONF37,  CONF38,  CONF39,  CONF40,  CONF41,  CONF42,  CONF43,  CONF44,  CONF45
+ CONF46,  CONF47,  CONF48,  CONF49,  CONF50,  CONF51,  CONF52,  CONF53,  CONF54
+ CONF55,  CONF56,  CONF57,  CONF58,  CONF59,  CONF60,  CONF61,  CONF62,  CONF63
+ CONF64,  CONF65,  CONF66,  CONF67,  CONF68,  CONF69,  CONF70,  CONF71,  CONF72
+ CONF73,  CONF74,  CONF75,  CONF76,  CONF77,  CONF78,  CONF79,  CONF80,  CONF81
+ CONF82,  CONF83,  CONF84,  CONF85,  CONF86,  CONF87,  CONF88,  CONF89,  CONF90
+ CONF91,  CONF92,  CONF93,  CONF94,  CONF95,  CONF96,  CONF97,  CONF98,  CONF99
+CONF100, CONF101, CONF102, CONF103, CONF104, CONF105, CONF106, CONF107, CONF108
+CONF109, CONF110, CONF111, CONF112, CONF113, CONF114, CONF115, CONF116, CONF117
+CONF118, CONF119, CONF120, CONF121, CONF122, CONF123, CONF124, CONF125, CONF126
+CONF127, CONF128, CONF129, CONF130, CONF131, CONF132, CONF133, CONF134, CONF135
+CONF136, CONF137, CONF138
+
+Constructed folders!
+
+Starting 138 ALPB-Gsolv calculations
+Running single-point in CONF4/part0_sp    
+Running single-point in CONF1/part0_sp    
+Running single-point in CONF2/part0_sp    
+Running single-point in CONF3/part0_sp    
+Running single-point in CONF5/part0_sp    
+Running single-point in CONF6/part0_sp    
+Running single-point in CONF7/part0_sp    
+Running single-point in CONF8/part0_sp    
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF7/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF8/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF6/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF4/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF5/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF2/part0_sp
+Running single-point in CONF9/part0_sp    
+Running single-point in CONF10/part0_sp   
+Running single-point in CONF11/part0_sp   
+Running single-point in CONF12/part0_sp   
+Running single-point in CONF13/part0_sp   
+Running single-point in CONF14/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF1/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF3/part0_sp
+Running single-point in CONF15/part0_sp   
+Running single-point in CONF16/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF9/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF10/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF13/part0_sp
+Running single-point in CONF17/part0_sp   
+Running single-point in CONF18/part0_sp   
+Running single-point in CONF19/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF15/part0_sp
+Running single-point in CONF20/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF11/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF12/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF14/part0_sp
+Running single-point in CONF21/part0_sp   
+Running single-point in CONF22/part0_sp   
+Running single-point in CONF23/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF16/part0_sp
+Running single-point in CONF24/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF19/part0_sp
+Running single-point in CONF25/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF20/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF17/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF18/part0_sp
+Running single-point in CONF26/part0_sp   
+Running single-point in CONF27/part0_sp   
+Running single-point in CONF28/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF21/part0_sp
+Running single-point in CONF29/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF22/part0_sp
+Running single-point in CONF30/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF23/part0_sp
+Running single-point in CONF31/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF24/part0_sp
+Running single-point in CONF32/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF25/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF27/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF26/part0_sp
+Running single-point in CONF33/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF28/part0_sp
+Running single-point in CONF34/part0_sp   
+Running single-point in CONF35/part0_sp   
+Running single-point in CONF36/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF29/part0_sp
+Running single-point in CONF37/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF30/part0_sp
+Running single-point in CONF38/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF31/part0_sp
+Running single-point in CONF39/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF32/part0_sp
+Running single-point in CONF40/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF33/part0_sp
+Running single-point in CONF41/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF35/part0_sp
+Running single-point in CONF42/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF37/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF34/part0_sp
+Running single-point in CONF43/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF36/part0_sp
+Running single-point in CONF44/part0_sp   
+Running single-point in CONF45/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF39/part0_sp
+Running single-point in CONF46/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF40/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF38/part0_sp
+Running single-point in CONF47/part0_sp   
+Running single-point in CONF48/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF41/part0_sp
+Running single-point in CONF49/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF42/part0_sp
+Running single-point in CONF50/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF43/part0_sp
+Running single-point in CONF51/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF45/part0_sp
+Running single-point in CONF52/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF44/part0_sp
+Running single-point in CONF53/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF47/part0_sp
+Running single-point in CONF54/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF48/part0_sp
+Running single-point in CONF55/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF46/part0_sp
+Running single-point in CONF56/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF49/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF52/part0_sp
+Running single-point in CONF57/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF50/part0_sp
+Running single-point in CONF58/part0_sp   
+Running single-point in CONF59/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF53/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF51/part0_sp
+Running single-point in CONF60/part0_sp   
+Running single-point in CONF61/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF54/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF55/part0_sp
+Running single-point in CONF62/part0_sp   
+Running single-point in CONF63/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF56/part0_sp
+Running single-point in CONF64/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF57/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF58/part0_sp
+Running single-point in CONF65/part0_sp   
+Running single-point in CONF66/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF61/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF59/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF62/part0_sp
+Running single-point in CONF67/part0_sp   
+Running single-point in CONF68/part0_sp   
+Running single-point in CONF69/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF63/part0_sp
+Running single-point in CONF70/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF60/part0_sp
+Running single-point in CONF71/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF64/part0_sp
+Running single-point in CONF72/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF67/part0_sp
+Running single-point in CONF73/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF68/part0_sp
+Running single-point in CONF74/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF70/part0_sp
+Running single-point in CONF75/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF65/part0_sp
+Running single-point in CONF76/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF66/part0_sp
+Running single-point in CONF77/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF69/part0_sp
+Running single-point in CONF78/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF71/part0_sp
+Running single-point in CONF79/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF72/part0_sp
+Running single-point in CONF80/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF73/part0_sp
+Running single-point in CONF81/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF75/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF74/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF77/part0_sp
+Running single-point in CONF82/part0_sp   
+Running single-point in CONF83/part0_sp   
+Running single-point in CONF84/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF76/part0_sp
+Running single-point in CONF85/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF78/part0_sp
+Running single-point in CONF86/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF79/part0_sp
+Running single-point in CONF87/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF80/part0_sp
+Running single-point in CONF88/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF84/part0_sp
+Running single-point in CONF89/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF85/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF82/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF81/part0_sp
+Running single-point in CONF90/part0_sp   
+Running single-point in CONF91/part0_sp   
+Running single-point in CONF92/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF87/part0_sp
+Running single-point in CONF93/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF83/part0_sp
+Running single-point in CONF94/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF86/part0_sp
+Running single-point in CONF95/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF88/part0_sp
+Running single-point in CONF96/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF90/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF91/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF92/part0_sp
+Running single-point in CONF97/part0_sp   
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF89/part0_sp
+Running single-point in CONF98/part0_sp   
+Running single-point in CONF99/part0_sp   
+Running single-point in CONF100/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF93/part0_sp
+Running single-point in CONF101/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF94/part0_sp
+Running single-point in CONF102/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF95/part0_sp
+Running single-point in CONF103/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF96/part0_sp
+Running single-point in CONF104/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF99/part0_sp
+Running single-point in CONF105/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF100/part0_sp
+Running single-point in CONF106/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF98/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF97/part0_sp
+Running single-point in CONF107/part0_sp  
+Running single-point in CONF108/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF101/part0_sp
+Running single-point in CONF109/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF102/part0_sp
+Running single-point in CONF110/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF103/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF104/part0_sp
+Running single-point in CONF111/part0_sp  
+Running single-point in CONF112/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF106/part0_sp
+Running single-point in CONF113/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF105/part0_sp
+Running single-point in CONF114/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF107/part0_sp
+Running single-point in CONF115/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF108/part0_sp
+Running single-point in CONF116/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF109/part0_sp
+Running single-point in CONF117/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF110/part0_sp
+Running single-point in CONF118/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF111/part0_sp
+Running single-point in CONF119/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF112/part0_sp
+Running single-point in CONF120/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF114/part0_sp
+Running single-point in CONF121/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF115/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF113/part0_sp
+Running single-point in CONF122/part0_sp  
+Running single-point in CONF123/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF116/part0_sp
+Running single-point in CONF124/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF118/part0_sp
+Running single-point in CONF125/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF119/part0_sp
+Running single-point in CONF126/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF117/part0_sp
+Running single-point in CONF127/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF120/part0_sp
+Running single-point in CONF128/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF121/part0_sp
+Running single-point in CONF129/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF122/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF123/part0_sp
+Running single-point in CONF130/part0_sp  
+Running single-point in CONF131/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF124/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF126/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF127/part0_sp
+Running single-point in CONF132/part0_sp  
+Running single-point in CONF133/part0_sp  
+Running single-point in CONF134/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF128/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF125/part0_sp
+Running single-point in CONF135/part0_sp  
+Running single-point in CONF136/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF130/part0_sp
+Running single-point in CONF137/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF129/part0_sp
+Running single-point in CONF138/part0_sp  
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF131/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF133/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF132/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF136/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF135/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF134/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF137/part0_sp
+Running ALPB_GSOLV calculation in run_censo.110393-20240320/CONF138/part0_sp
+Tasks completed!
+
+The efficient gas-phase single-point was successful for   CONF1/part0_sp: E(DFT) = -2137.59726024 Gsolv = -0.07542905
+The efficient gas-phase single-point was successful for   CONF2/part0_sp: E(DFT) = -2137.59705245 Gsolv = -0.07496281
+The efficient gas-phase single-point was successful for   CONF3/part0_sp: E(DFT) = -2137.59705462 Gsolv = -0.07508330
+The efficient gas-phase single-point was successful for   CONF4/part0_sp: E(DFT) = -2137.59431200 Gsolv = -0.07618810
+The efficient gas-phase single-point was successful for   CONF5/part0_sp: E(DFT) = -2137.59352704 Gsolv = -0.07640182
+The efficient gas-phase single-point was successful for   CONF6/part0_sp: E(DFT) = -2137.59321836 Gsolv = -0.07664320
+The efficient gas-phase single-point was successful for   CONF7/part0_sp: E(DFT) = -2137.59323311 Gsolv = -0.07677071
+The efficient gas-phase single-point was successful for   CONF8/part0_sp: E(DFT) = -2137.59307038 Gsolv = -0.07791410
+The efficient gas-phase single-point was successful for   CONF9/part0_sp: E(DFT) = -2137.59293115 Gsolv = -0.07799388
+The efficient gas-phase single-point was successful for  CONF10/part0_sp: E(DFT) = -2137.59275592 Gsolv = -0.07809191
+The efficient gas-phase single-point was successful for  CONF11/part0_sp: E(DFT) = -2137.59506287 Gsolv = -0.07555606
+The efficient gas-phase single-point was successful for  CONF12/part0_sp: E(DFT) = -2137.59497824 Gsolv = -0.07639926
+The efficient gas-phase single-point was successful for  CONF13/part0_sp: E(DFT) = -2137.59257834 Gsolv = -0.07818962
+The efficient gas-phase single-point was successful for  CONF14/part0_sp: E(DFT) = -2137.59536292 Gsolv = -0.07646142
+The efficient gas-phase single-point was successful for  CONF15/part0_sp: E(DFT) = -2137.59579629 Gsolv = -0.07715793
+The efficient gas-phase single-point was successful for  CONF16/part0_sp: E(DFT) = -2137.59873265 Gsolv = -0.07570276
+The efficient gas-phase single-point was successful for  CONF17/part0_sp: E(DFT) = -2137.59809242 Gsolv = -0.07574189
+The efficient gas-phase single-point was successful for  CONF18/part0_sp: E(DFT) = -2137.59922560 Gsolv = -0.07579858
+The efficient gas-phase single-point was successful for  CONF19/part0_sp: E(DFT) = -2137.59617330 Gsolv = -0.07759119
+The efficient gas-phase single-point was successful for  CONF20/part0_sp: E(DFT) = -2137.59735523 Gsolv = -0.07702733
+The efficient gas-phase single-point was successful for  CONF21/part0_sp: E(DFT) = -2137.59784816 Gsolv = -0.07691721
+The efficient gas-phase single-point was successful for  CONF22/part0_sp: E(DFT) = -2137.59784267 Gsolv = -0.07672544
+The efficient gas-phase single-point was successful for  CONF23/part0_sp: E(DFT) = -2137.59422114 Gsolv = -0.07935765
+The efficient gas-phase single-point was successful for  CONF24/part0_sp: E(DFT) = -2137.59313881 Gsolv = -0.08019919
+The efficient gas-phase single-point was successful for  CONF25/part0_sp: E(DFT) = -2137.59381348 Gsolv = -0.08055330
+The efficient gas-phase single-point was successful for  CONF26/part0_sp: E(DFT) = -2137.58928815 Gsolv = -0.07796170
+The efficient gas-phase single-point was successful for  CONF27/part0_sp: E(DFT) = -2137.59492708 Gsolv = -0.08094531
+The efficient gas-phase single-point was successful for  CONF28/part0_sp: E(DFT) = -2137.59494835 Gsolv = -0.08118583
+The efficient gas-phase single-point was successful for  CONF29/part0_sp: E(DFT) = -2137.58841438 Gsolv = -0.07939922
+The efficient gas-phase single-point was successful for  CONF30/part0_sp: E(DFT) = -2137.58869371 Gsolv = -0.07931977
+The efficient gas-phase single-point was successful for  CONF31/part0_sp: E(DFT) = -2137.58834100 Gsolv = -0.07828088
+The efficient gas-phase single-point was successful for  CONF32/part0_sp: E(DFT) = -2137.59502233 Gsolv = -0.08140138
+The efficient gas-phase single-point was successful for  CONF33/part0_sp: E(DFT) = -2137.57851810 Gsolv = -0.08489533
+The efficient gas-phase single-point was successful for  CONF34/part0_sp: E(DFT) = -2137.59505962 Gsolv = -0.08157156
+The efficient gas-phase single-point was successful for  CONF35/part0_sp: E(DFT) = -2137.57905705 Gsolv = -0.08516149
+The efficient gas-phase single-point was successful for  CONF36/part0_sp: E(DFT) = -2137.59546338 Gsolv = -0.07565774
+The efficient gas-phase single-point was successful for  CONF37/part0_sp: E(DFT) = -2137.57879720 Gsolv = -0.08505562
+The efficient gas-phase single-point was successful for  CONF38/part0_sp: E(DFT) = -2137.59641839 Gsolv = -0.07453580
+The efficient gas-phase single-point was successful for  CONF39/part0_sp: E(DFT) = -2137.57763878 Gsolv = -0.08517985
+The efficient gas-phase single-point was successful for  CONF40/part0_sp: E(DFT) = -2137.58778289 Gsolv = -0.08325380
+The efficient gas-phase single-point was successful for  CONF41/part0_sp: E(DFT) = -2137.58764127 Gsolv = -0.08324638
+The efficient gas-phase single-point was successful for  CONF42/part0_sp: E(DFT) = -2137.57789079 Gsolv = -0.08519974
+The efficient gas-phase single-point was successful for  CONF43/part0_sp: E(DFT) = -2137.57771152 Gsolv = -0.08517253
+The efficient gas-phase single-point was successful for  CONF44/part0_sp: E(DFT) = -2137.57963787 Gsolv = -0.08406563
+The efficient gas-phase single-point was successful for  CONF45/part0_sp: E(DFT) = -2137.58714439 Gsolv = -0.08421469
+The efficient gas-phase single-point was successful for  CONF46/part0_sp: E(DFT) = -2137.59588677 Gsolv = -0.07494651
+The efficient gas-phase single-point was successful for  CONF47/part0_sp: E(DFT) = -2137.58651943 Gsolv = -0.08259138
+The efficient gas-phase single-point was successful for  CONF48/part0_sp: E(DFT) = -2137.57697089 Gsolv = -0.08426553
+The efficient gas-phase single-point was successful for  CONF49/part0_sp: E(DFT) = -2137.59496219 Gsolv = -0.07580516
+The efficient gas-phase single-point was successful for  CONF50/part0_sp: E(DFT) = -2137.59352945 Gsolv = -0.07724434
+The efficient gas-phase single-point was successful for  CONF51/part0_sp: E(DFT) = -2137.59418105 Gsolv = -0.07673074
+The efficient gas-phase single-point was successful for  CONF52/part0_sp: E(DFT) = -2137.58707584 Gsolv = -0.08475104
+The efficient gas-phase single-point was successful for  CONF53/part0_sp: E(DFT) = -2137.58726930 Gsolv = -0.08469484
+The efficient gas-phase single-point was successful for  CONF54/part0_sp: E(DFT) = -2137.57718161 Gsolv = -0.08357179
+The efficient gas-phase single-point was successful for  CONF55/part0_sp: E(DFT) = -2137.58691540 Gsolv = -0.08476108
+The efficient gas-phase single-point was successful for  CONF56/part0_sp: E(DFT) = -2137.57821129 Gsolv = -0.08522945
+The efficient gas-phase single-point was successful for  CONF57/part0_sp: E(DFT) = -2137.57892278 Gsolv = -0.08462192
+The efficient gas-phase single-point was successful for  CONF58/part0_sp: E(DFT) = -2137.57668199 Gsolv = -0.08592495
+The efficient gas-phase single-point was successful for  CONF59/part0_sp: E(DFT) = -2137.59039346 Gsolv = -0.08007436
+The efficient gas-phase single-point was successful for  CONF60/part0_sp: E(DFT) = -2137.59262501 Gsolv = -0.07025822
+The efficient gas-phase single-point was successful for  CONF61/part0_sp: E(DFT) = -2137.57765645 Gsolv = -0.08543147
+The efficient gas-phase single-point was successful for  CONF62/part0_sp: E(DFT) = -2137.58666552 Gsolv = -0.08358349
+The efficient gas-phase single-point was successful for  CONF63/part0_sp: E(DFT) = -2137.58747343 Gsolv = -0.08418301
+The efficient gas-phase single-point was successful for  CONF64/part0_sp: E(DFT) = -2137.57767879 Gsolv = -0.08673415
+The efficient gas-phase single-point was successful for  CONF65/part0_sp: E(DFT) = -2137.59519968 Gsolv = -0.07539748
+The efficient gas-phase single-point was successful for  CONF66/part0_sp: E(DFT) = -2137.58176120 Gsolv = -0.07756487
+The efficient gas-phase single-point was successful for  CONF67/part0_sp: E(DFT) = -2137.58503783 Gsolv = -0.08698708
+The efficient gas-phase single-point was successful for  CONF68/part0_sp: E(DFT) = -2137.57713626 Gsolv = -0.08704553
+The efficient gas-phase single-point was successful for  CONF69/part0_sp: E(DFT) = -2137.59449591 Gsolv = -0.07442908
+The efficient gas-phase single-point was successful for  CONF70/part0_sp: E(DFT) = -2137.57602515 Gsolv = -0.08752162
+The efficient gas-phase single-point was successful for  CONF71/part0_sp: E(DFT) = -2137.58367383 Gsolv = -0.08163568
+The efficient gas-phase single-point was successful for  CONF72/part0_sp: E(DFT) = -2137.58987771 Gsolv = -0.07739610
+The efficient gas-phase single-point was successful for  CONF73/part0_sp: E(DFT) = -2137.58943529 Gsolv = -0.07949309
+The efficient gas-phase single-point was successful for  CONF74/part0_sp: E(DFT) = -2137.58908159 Gsolv = -0.07975894
+The efficient gas-phase single-point was successful for  CONF75/part0_sp: E(DFT) = -2137.58109203 Gsolv = -0.07932173
+The efficient gas-phase single-point was successful for  CONF76/part0_sp: E(DFT) = -2137.58930088 Gsolv = -0.07892825
+The efficient gas-phase single-point was successful for  CONF77/part0_sp: E(DFT) = -2137.58252420 Gsolv = -0.08166107
+The efficient gas-phase single-point was successful for  CONF78/part0_sp: E(DFT) = -2137.58364151 Gsolv = -0.08174403
+The efficient gas-phase single-point was successful for  CONF79/part0_sp: E(DFT) = -2137.58380035 Gsolv = -0.07997138
+The efficient gas-phase single-point was successful for  CONF80/part0_sp: E(DFT) = -2137.58628469 Gsolv = -0.08181067
+The efficient gas-phase single-point was successful for  CONF81/part0_sp: E(DFT) = -2137.58146108 Gsolv = -0.08023910
+The efficient gas-phase single-point was successful for  CONF82/part0_sp: E(DFT) = -2137.58383959 Gsolv = -0.08019342
+The efficient gas-phase single-point was successful for  CONF83/part0_sp: E(DFT) = -2137.58676557 Gsolv = -0.08065420
+The efficient gas-phase single-point was successful for  CONF84/part0_sp: E(DFT) = -2137.58430156 Gsolv = -0.07977448
+The efficient gas-phase single-point was successful for  CONF85/part0_sp: E(DFT) = -2137.58278554 Gsolv = -0.08254578
+The efficient gas-phase single-point was successful for  CONF86/part0_sp: E(DFT) = -2137.57352860 Gsolv = -0.08232168
+The efficient gas-phase single-point was successful for  CONF87/part0_sp: E(DFT) = -2137.58232351 Gsolv = -0.08269803
+The efficient gas-phase single-point was successful for  CONF88/part0_sp: E(DFT) = -2137.58665355 Gsolv = -0.07607156
+The efficient gas-phase single-point was successful for  CONF89/part0_sp: E(DFT) = -2137.58258201 Gsolv = -0.08276357
+The efficient gas-phase single-point was successful for  CONF90/part0_sp: E(DFT) = -2137.58219514 Gsolv = -0.08270474
+The efficient gas-phase single-point was successful for  CONF91/part0_sp: E(DFT) = -2137.58212453 Gsolv = -0.08276102
+The efficient gas-phase single-point was successful for  CONF92/part0_sp: E(DFT) = -2137.58213442 Gsolv = -0.08289385
+The efficient gas-phase single-point was successful for  CONF93/part0_sp: E(DFT) = -2137.58388918 Gsolv = -0.07899567
+The efficient gas-phase single-point was successful for  CONF94/part0_sp: E(DFT) = -2137.57519108 Gsolv = -0.08615707
+The efficient gas-phase single-point was successful for  CONF95/part0_sp: E(DFT) = -2137.58217433 Gsolv = -0.08271764
+The efficient gas-phase single-point was successful for  CONF96/part0_sp: E(DFT) = -2137.57472881 Gsolv = -0.08620250
+The efficient gas-phase single-point was successful for  CONF97/part0_sp: E(DFT) = -2137.58610166 Gsolv = -0.08221229
+The efficient gas-phase single-point was successful for  CONF98/part0_sp: E(DFT) = -2137.57994347 Gsolv = -0.08134643
+The efficient gas-phase single-point was successful for  CONF99/part0_sp: E(DFT) = -2137.56725021 Gsolv = -0.09003312
+The efficient gas-phase single-point was successful for CONF100/part0_sp: E(DFT) = -2137.58158484 Gsolv = -0.08289766
+The efficient gas-phase single-point was successful for CONF101/part0_sp: E(DFT) = -2137.58378090 Gsolv = -0.07846800
+The efficient gas-phase single-point was successful for CONF102/part0_sp: E(DFT) = -2137.58099683 Gsolv = -0.08280452
+The efficient gas-phase single-point was successful for CONF103/part0_sp: E(DFT) = -2137.58085195 Gsolv = -0.08280220
+The efficient gas-phase single-point was successful for CONF104/part0_sp: E(DFT) = -2137.56664305 Gsolv = -0.09039670
+The efficient gas-phase single-point was successful for CONF105/part0_sp: E(DFT) = -2137.57489982 Gsolv = -0.08750855
+The efficient gas-phase single-point was successful for CONF106/part0_sp: E(DFT) = -2137.56584038 Gsolv = -0.09123611
+The efficient gas-phase single-point was successful for CONF107/part0_sp: E(DFT) = -2137.56549148 Gsolv = -0.09147460
+The efficient gas-phase single-point was successful for CONF108/part0_sp: E(DFT) = -2137.58278905 Gsolv = -0.07980310
+The efficient gas-phase single-point was successful for CONF109/part0_sp: E(DFT) = -2137.58492445 Gsolv = -0.07968238
+The efficient gas-phase single-point was successful for CONF110/part0_sp: E(DFT) = -2137.58316824 Gsolv = -0.07815762
+The efficient gas-phase single-point was successful for CONF111/part0_sp: E(DFT) = -2137.57396165 Gsolv = -0.08767713
+The efficient gas-phase single-point was successful for CONF112/part0_sp: E(DFT) = -2137.58462325 Gsolv = -0.07737488
+The efficient gas-phase single-point was successful for CONF113/part0_sp: E(DFT) = -2137.58462882 Gsolv = -0.07735305
+The efficient gas-phase single-point was successful for CONF114/part0_sp: E(DFT) = -2137.56511766 Gsolv = -0.09210243
+The efficient gas-phase single-point was successful for CONF115/part0_sp: E(DFT) = -2137.56618572 Gsolv = -0.09114689
+The efficient gas-phase single-point was successful for CONF116/part0_sp: E(DFT) = -2137.56623927 Gsolv = -0.09096939
+The efficient gas-phase single-point was successful for CONF117/part0_sp: E(DFT) = -2137.58270027 Gsolv = -0.07926578
+The efficient gas-phase single-point was successful for CONF118/part0_sp: E(DFT) = -2137.56620182 Gsolv = -0.09092866
+The efficient gas-phase single-point was successful for CONF119/part0_sp: E(DFT) = -2137.56609811 Gsolv = -0.09117951
+The efficient gas-phase single-point was successful for CONF120/part0_sp: E(DFT) = -2137.58082399 Gsolv = -0.08303124
+The efficient gas-phase single-point was successful for CONF121/part0_sp: E(DFT) = -2137.58281612 Gsolv = -0.08701985
+The efficient gas-phase single-point was successful for CONF122/part0_sp: E(DFT) = -2137.56638586 Gsolv = -0.09108594
+The efficient gas-phase single-point was successful for CONF123/part0_sp: E(DFT) = -2137.56657985 Gsolv = -0.09155067
+The efficient gas-phase single-point was successful for CONF124/part0_sp: E(DFT) = -2137.59311636 Gsolv = -0.07089162
+The efficient gas-phase single-point was successful for CONF125/part0_sp: E(DFT) = -2137.59307343 Gsolv = -0.07087487
+The efficient gas-phase single-point was successful for CONF126/part0_sp: E(DFT) = -2137.57378678 Gsolv = -0.08733237
+The efficient gas-phase single-point was successful for CONF127/part0_sp: E(DFT) = -2137.56780528 Gsolv = -0.08962754
+The efficient gas-phase single-point was successful for CONF128/part0_sp: E(DFT) = -2137.56734231 Gsolv = -0.09048130
+The efficient gas-phase single-point was successful for CONF129/part0_sp: E(DFT) = -2137.58730270 Gsolv = -0.07464575
+The efficient gas-phase single-point was successful for CONF130/part0_sp: E(DFT) = -2137.57240996 Gsolv = -0.08731531
+The efficient gas-phase single-point was successful for CONF131/part0_sp: E(DFT) = -2137.58560567 Gsolv = -0.07565429
+The efficient gas-phase single-point was successful for CONF132/part0_sp: E(DFT) = -2137.58104403 Gsolv = -0.07796026
+The efficient gas-phase single-point was successful for CONF133/part0_sp: E(DFT) = -2137.58445656 Gsolv = -0.08118927
+The efficient gas-phase single-point was successful for CONF134/part0_sp: E(DFT) = -2137.56834205 Gsolv = -0.09269459
+The efficient gas-phase single-point was successful for CONF135/part0_sp: E(DFT) = -2137.58576026 Gsolv = -0.07632130
+The efficient gas-phase single-point was successful for CONF136/part0_sp: E(DFT) = -2137.57895647 Gsolv = -0.08017770
+The efficient gas-phase single-point was successful for CONF137/part0_sp: E(DFT) = -2137.58569043 Gsolv = -0.07586953
+The efficient gas-phase single-point was successful for CONF138/part0_sp: E(DFT) = -2137.58549260 Gsolv = -0.07584296
+
+----------------------------------------------------------------------------------------------------
+                   Removing high lying conformers by improved energy description                    
+----------------------------------------------------------------------------------------------------
+
+  CONF#       E [Eh] ΔE [kcal/mol]               E [Eh]   Gsolv [Eh]          gtot    ΔE(DFT)     ΔGsolv      Δgtot
+            GFN2-xTB      GFN2-xTB b97-d3(0)/def2-SV(P)         alpb          [Eh] [kcal/mol] [kcal/mol] [kcal/mol]
+              [alpb]        [alpb]                            [gfn2]                                               
+CONF1   -136.1417994          0.00        -2137.5972602   -0.0754291 -2137.6726893      -1.38       3.85       2.47
+CONF2   -136.1416228          0.11        -2137.5970525   -0.0749628 -2137.6720153      -1.25       4.15       2.90
+CONF3   -136.1413093          0.31        -2137.5970546   -0.0750833 -2137.6721379      -1.25       4.07       2.82
+CONF4   -136.1412796          0.33        -2137.5943120   -0.0761881 -2137.6705001       0.47       3.38       3.85
+CONF5   -136.1411942          0.38        -2137.5935270   -0.0764018 -2137.6699289       0.96       3.24       4.21
+CONF6   -136.1410384          0.48        -2137.5932184   -0.0766432 -2137.6698616       1.16       3.09       4.25
+CONF7   -136.1408894          0.57        -2137.5932331   -0.0767707 -2137.6700038       1.15       3.01       4.16
+CONF8   -136.1406147          0.74        -2137.5930704   -0.0779141 -2137.6709845       1.25       2.30       3.54
+CONF9   -136.1405297          0.80        -2137.5929311   -0.0779939 -2137.6709250       1.34       2.25       3.58
+CONF10  -136.1404211          0.86        -2137.5927559   -0.0780919 -2137.6708478       1.45       2.18       3.63
+CONF11  -136.1403945          0.88        -2137.5950629   -0.0755561 -2137.6706189      -0.00       3.77       3.77
+CONF12  -136.1402940          0.94        -2137.5949782   -0.0763993 -2137.6713775       0.05       3.25       3.30
+CONF13  -136.1402664          0.96        -2137.5925783   -0.0781896 -2137.6707680       1.56       2.12       3.68
+CONF14  -136.1400713          1.08        -2137.5953629   -0.0764614 -2137.6718243      -0.19       3.21       3.02
+CONF15  -136.1392118          1.62        -2137.5957963   -0.0771579 -2137.6729542      -0.46       2.77       2.31
+CONF16  -136.1390013          1.76        -2137.5987326   -0.0757028 -2137.6744354      -2.30       3.68       1.38
+CONF17  -136.1389817          1.77        -2137.5980924   -0.0757419 -2137.6738343      -1.90       3.66       1.76
+CONF18  -136.1389627          1.78        -2137.5992256   -0.0757986 -2137.6750242      -2.61       3.62       1.01
+CONF19  -136.1388297          1.86        -2137.5961733   -0.0775912 -2137.6737645      -0.70       2.50       1.80
+CONF20  -136.1387703          1.90        -2137.5973552   -0.0770273 -2137.6743826      -1.44       2.85       1.41
+CONF21  -136.1385197          2.06        -2137.5978482   -0.0769172 -2137.6747654      -1.75       2.92       1.17
+CONF22  -136.1384859          2.08        -2137.5978427   -0.0767254 -2137.6745681      -1.75       3.04       1.29
+CONF23  -136.1383741          2.15        -2137.5942211   -0.0793576 -2137.6735788       0.53       1.39       1.92
+CONF24  -136.1382185          2.25        -2137.5931388   -0.0801992 -2137.6733380       1.21       0.86       2.07
+CONF25  -136.1381285          2.30        -2137.5938135   -0.0805533 -2137.6743668       0.78       0.64       1.42
+CONF26  -136.1377387          2.55        -2137.5892881   -0.0779617 -2137.6672498       3.62       2.27       5.89
+CONF27  -136.1376612          2.60        -2137.5949271   -0.0809453 -2137.6758724       0.08       0.39       0.48
+CONF28  -136.1375747          2.65        -2137.5949483   -0.0811858 -2137.6761342       0.07       0.24       0.31
+CONF29  -136.1375347          2.68        -2137.5884144   -0.0793992 -2137.6678136       4.17       1.36       5.53
+CONF30  -136.1374965          2.70        -2137.5886937   -0.0793198 -2137.6680135       3.99       1.41       5.41
+CONF31  -136.1374530          2.73        -2137.5883410   -0.0782809 -2137.6666219       4.22       2.06       6.28
+CONF32  -136.1374747          2.71        -2137.5950223   -0.0814014 -2137.6764237       0.02       0.11       0.13
+CONF33  -136.1374394          2.74        -2137.5785181   -0.0848953 -2137.6634134      10.38      -2.09       8.29
+CONF34  -136.1373934          2.76        -2137.5950596   -0.0815716 -2137.6766312       0.00       0.00       0.00     <------
+CONF35  -136.1373595          2.79        -2137.5790571   -0.0851615 -2137.6642185      10.04      -2.25       7.79
+CONF36  -136.1373382          2.80        -2137.5954634   -0.0756577 -2137.6711211      -0.25       3.71       3.46
+CONF37  -136.1373330          2.80        -2137.5787972   -0.0850556 -2137.6638528      10.20      -2.19       8.02
+CONF38  -136.1373377          2.80        -2137.5964184   -0.0745358 -2137.6709542      -0.85       4.42       3.56
+CONF39  -136.1372962          2.83        -2137.5776388   -0.0851798 -2137.6628186      10.93      -2.26       8.67
+CONF40  -136.1372200          2.87        -2137.5877829   -0.0832538 -2137.6710367       4.57      -1.06       3.51
+CONF41  -136.1372044          2.88        -2137.5876413   -0.0832464 -2137.6708877       4.66      -1.05       3.60
+CONF42  -136.1371854          2.90        -2137.5778908   -0.0851997 -2137.6630905      10.77      -2.28       8.50
+CONF43  -136.1371547          2.91        -2137.5777115   -0.0851725 -2137.6628840      10.89      -2.26       8.63
+CONF44  -136.1371687          2.91        -2137.5796379   -0.0840656 -2137.6637035       9.68      -1.57       8.11
+CONF45  -136.1371016          2.95        -2137.5871444   -0.0842147 -2137.6713591       4.97      -1.66       3.31
+CONF46  -136.1370060          3.01        -2137.5958868   -0.0749465 -2137.6708333      -0.52       4.16       3.64
+CONF47  -136.1369860          3.02        -2137.5865194   -0.0825914 -2137.6691108       5.36      -0.64       4.72
+CONF48  -136.1369777          3.03        -2137.5769709   -0.0842655 -2137.6612364      11.35      -1.69       9.66
+CONF49  -136.1369719          3.03        -2137.5949622   -0.0758052 -2137.6707674       0.06       3.62       3.68
+CONF50  -136.1369601          3.04        -2137.5935295   -0.0772443 -2137.6707738       0.96       2.72       3.68
+CONF51  -136.1369572          3.04        -2137.5941811   -0.0767307 -2137.6709118       0.55       3.04       3.59
+CONF52  -136.1369475          3.04        -2137.5870758   -0.0847510 -2137.6718269       5.01      -2.00       3.01
+CONF53  -136.1369320          3.05        -2137.5872693   -0.0846948 -2137.6719641       4.89      -1.96       2.93
+CONF54  -136.1369340          3.05        -2137.5771816   -0.0835718 -2137.6607534      11.22      -1.26       9.96
+CONF55  -136.1369313          3.05        -2137.5869154   -0.0847611 -2137.6716765       5.11      -2.00       3.11
+CONF56  -136.1367983          3.14        -2137.5782113   -0.0852295 -2137.6634407      10.57      -2.30       8.28
+CONF57  -136.1367567          3.16        -2137.5789228   -0.0846219 -2137.6635447      10.13      -1.91       8.21
+CONF58  -136.1366105          3.26        -2137.5766820   -0.0859250 -2137.6626069      11.53      -2.73       8.80
+CONF59  -136.1365900          3.27        -2137.5903935   -0.0800744 -2137.6704678       2.93       0.94       3.87
+CONF60  -136.1365839          3.27        -2137.5926250   -0.0702582 -2137.6628832       1.53       7.10       8.63
+CONF61  -136.1365707          3.28        -2137.5776564   -0.0854315 -2137.6630879      10.92      -2.42       8.50
+CONF62  -136.1364840          3.34        -2137.5866655   -0.0835835 -2137.6702490       5.27      -1.26       4.00
+CONF63  -136.1364106          3.38        -2137.5874734   -0.0841830 -2137.6716564       4.76      -1.64       3.12
+CONF64  -136.1362976          3.45        -2137.5776788   -0.0867342 -2137.6644129      10.91      -3.24       7.67
+CONF65  -136.1362804          3.46        -2137.5951997   -0.0753975 -2137.6705972      -0.09       3.87       3.79
+CONF66  -136.1362719          3.47        -2137.5817612   -0.0775649 -2137.6593261       8.34       2.51      10.86
+CONF67  -136.1362250          3.50        -2137.5850378   -0.0869871 -2137.6720249       6.29      -3.40       2.89
+CONF68  -136.1361530          3.54        -2137.5771363   -0.0870455 -2137.6641818      11.25      -3.43       7.81
+CONF69  -136.1360182          3.63        -2137.5944959   -0.0744291 -2137.6689250       0.35       4.48       4.84
+CONF70  -136.1359983          3.64        -2137.5760252   -0.0875216 -2137.6635468      11.94      -3.73       8.21
+CONF71  -136.1358634          3.72        -2137.5836738   -0.0816357 -2137.6653095       7.14      -0.04       7.10
+CONF72  -136.1357181          3.82        -2137.5898777   -0.0773961 -2137.6672738       3.25       2.62       5.87
+CONF73  -136.1356956          3.83        -2137.5894353   -0.0794931 -2137.6689284       3.53       1.30       4.83
+CONF74  -136.1355849          3.90        -2137.5890816   -0.0797589 -2137.6688405       3.75       1.14       4.89
+CONF75  -136.1355469          3.92        -2137.5810920   -0.0793217 -2137.6604138       8.76       1.41      10.18
+CONF76  -136.1355109          3.95        -2137.5893009   -0.0789283 -2137.6682291       3.61       1.66       5.27
+CONF77  -136.1354797          3.97        -2137.5825242   -0.0816611 -2137.6641853       7.87      -0.06       7.81
+CONF78  -136.1354781          3.97        -2137.5836415   -0.0817440 -2137.6653855       7.16      -0.11       7.06
+CONF79  -136.1354017          4.01        -2137.5838003   -0.0799714 -2137.6637717       7.07       1.00       8.07
+CONF80  -136.1353576          4.04        -2137.5862847   -0.0818107 -2137.6680954       5.51      -0.15       5.36
+CONF81  -136.1353483          4.05        -2137.5814611   -0.0802391 -2137.6617002       8.53       0.84       9.37
+CONF82  -136.1352956          4.08        -2137.5838396   -0.0801934 -2137.6640330       7.04       0.86       7.91
+CONF83  -136.1352386          4.12        -2137.5867656   -0.0806542 -2137.6674198       5.20       0.58       5.78
+CONF84  -136.1351364          4.18        -2137.5843016   -0.0797745 -2137.6640760       6.75       1.13       7.88
+CONF85  -136.1349690          4.29        -2137.5827855   -0.0825458 -2137.6653313       7.70      -0.61       7.09
+CONF86  -136.1349607          4.29        -2137.5735286   -0.0823217 -2137.6558503      13.51      -0.47      13.04
+CONF87  -136.1349041          4.33        -2137.5823235   -0.0826980 -2137.6650215       7.99      -0.71       7.29
+CONF88  -136.1348638          4.35        -2137.5866535   -0.0760716 -2137.6627251       5.27       3.45       8.73
+CONF89  -136.1347825          4.40        -2137.5825820   -0.0827636 -2137.6653456       7.83      -0.75       7.08
+CONF90  -136.1347685          4.41        -2137.5821951   -0.0827047 -2137.6648999       8.07      -0.71       7.36
+CONF91  -136.1347309          4.44        -2137.5821245   -0.0827610 -2137.6648856       8.12      -0.75       7.37
+CONF92  -136.1346516          4.49        -2137.5821344   -0.0828938 -2137.6650283       8.11      -0.83       7.28
+CONF93  -136.1346304          4.50        -2137.5838892   -0.0789957 -2137.6628849       7.01       1.62       8.63
+CONF94  -136.1345323          4.56        -2137.5751911   -0.0861571 -2137.6613481      12.47      -2.88       9.59
+CONF95  -136.1345241          4.57        -2137.5821743   -0.0827176 -2137.6648920       8.09      -0.72       7.37
+CONF96  -136.1344758          4.60        -2137.5747288   -0.0862025 -2137.6609313      12.76      -2.91       9.85
+CONF97  -136.1342198          4.76        -2137.5861017   -0.0822123 -2137.6683139       5.62      -0.40       5.22
+CONF98  -136.1341153          4.82        -2137.5799435   -0.0813464 -2137.6612899       9.49       0.14       9.63
+CONF99  -136.1340268          4.88        -2137.5672502   -0.0900331 -2137.6572833      17.45      -5.31      12.14
+CONF100 -136.1339960          4.90        -2137.5815848   -0.0828977 -2137.6644825       8.46      -0.83       7.62
+CONF101 -136.1339576          4.92        -2137.5837809   -0.0784680 -2137.6622489       7.08       1.95       9.03
+CONF102 -136.1339480          4.93        -2137.5809968   -0.0828045 -2137.6638013       8.82      -0.77       8.05
+CONF103 -136.1339400          4.93        -2137.5808520   -0.0828022 -2137.6636542       8.92      -0.77       8.14
+CONF104 -136.1339389          4.93        -2137.5666431   -0.0903967 -2137.6570398      17.83      -5.54      12.29
+CONF105 -136.1338975          4.96        -2137.5748998   -0.0875086 -2137.6624084      12.65      -3.73       8.92
+CONF106 -136.1338527          4.99        -2137.5658404   -0.0912361 -2137.6570765      18.34      -6.06      12.27
+CONF107 -136.1338361          5.00        -2137.5654915   -0.0914746 -2137.6569661      18.55      -6.21      12.34
+CONF108 -136.1338322          5.00        -2137.5827891   -0.0798031 -2137.6625922       7.70       1.11       8.81
+CONF109 -136.1338114          5.01        -2137.5849244   -0.0796824 -2137.6646068       6.36       1.19       7.55
+CONF110 -136.1337948          5.02        -2137.5831682   -0.0781576 -2137.6613259       7.46       2.14       9.60
+CONF111 -136.1337805          5.03        -2137.5739616   -0.0876771 -2137.6616388      13.24      -3.83       9.41
+CONF112 -136.1336731          5.10        -2137.5846232   -0.0773749 -2137.6619981       6.55       2.63       9.18
+CONF113 -136.1336707          5.10        -2137.5846288   -0.0773531 -2137.6619819       6.55       2.65       9.19
+CONF114 -136.1336246          5.13        -2137.5651177   -0.0921024 -2137.6572201      18.79      -6.61      12.18
+CONF115 -136.1336157          5.14        -2137.5661857   -0.0911469 -2137.6573326      18.12      -6.01      12.11
+CONF116 -136.1336014          5.14        -2137.5662393   -0.0909694 -2137.6572087      18.09      -5.90      12.19
+CONF117 -136.1336144          5.14        -2137.5827003   -0.0792658 -2137.6619660       7.76       1.45       9.20
+CONF118 -136.1335936          5.15        -2137.5662018   -0.0909287 -2137.6571305      18.11      -5.87      12.24
+CONF119 -136.1335554          5.17        -2137.5660981   -0.0911795 -2137.6572776      18.17      -6.03      12.14
+CONF120 -136.1335564          5.17        -2137.5808240   -0.0830312 -2137.6638552       8.93      -0.92       8.02
+CONF121 -136.1335286          5.19        -2137.5828161   -0.0870198 -2137.6698360       7.68      -3.42       4.26
+CONF122 -136.1335211          5.19        -2137.5663859   -0.0910859 -2137.6574718      17.99      -5.97      12.02
+CONF123 -136.1334487          5.24        -2137.5665799   -0.0915507 -2137.6581305      17.87      -6.26      11.61
+CONF124 -136.1334140          5.26        -2137.5931164   -0.0708916 -2137.6640080       1.22       6.70       7.92
+CONF125 -136.1333991          5.27        -2137.5930734   -0.0708749 -2137.6639483       1.25       6.71       7.96
+CONF126 -136.1333848          5.28        -2137.5737868   -0.0873324 -2137.6611191      13.35      -3.61       9.73
+CONF127 -136.1333464          5.30        -2137.5678053   -0.0896275 -2137.6574328      17.10      -5.06      12.05
+CONF128 -136.1333247          5.32        -2137.5673423   -0.0904813 -2137.6578236      17.39      -5.59      11.80
+CONF129 -136.1332181          5.38        -2137.5873027   -0.0746457 -2137.6619485       4.87       4.35       9.21
+CONF130 -136.1330233          5.51        -2137.5724100   -0.0873153 -2137.6597253      14.21      -3.60      10.61
+CONF131 -136.1328875          5.59        -2137.5856057   -0.0756543 -2137.6612600       5.93       3.71       9.65
+CONF132 -136.1327517          5.68        -2137.5810440   -0.0779603 -2137.6590043       8.79       2.27      11.06
+CONF133 -136.1327451          5.68        -2137.5844566   -0.0811893 -2137.6656458       6.65       0.24       6.89
+CONF134 -136.1326491          5.74        -2137.5683420   -0.0926946 -2137.6610366      16.77      -6.98       9.79
+CONF135 -136.1326509          5.74        -2137.5857603   -0.0763213 -2137.6620816       5.84       3.29       9.13
+CONF136 -136.1323628          5.92        -2137.5789565   -0.0801777 -2137.6591342      10.10       0.87      10.98
+CONF137 -136.1323234          5.95        -2137.5856904   -0.0758695 -2137.6615600       5.88       3.58       9.46
+CONF138 -136.1323213          5.95        -2137.5854926   -0.0758430 -2137.6613356       6.00       3.59       9.60
+----------------------------------------------------------------------------------------------------
+
+Number of conformers observed within the following Δg windows:
+Δg [kcal/mol]  #CONF   sum(Boltzmann_weights)
+---------------------------------------------
+   0 - 0.5          4          0.74
+   0 - 1.0          4          0.74
+   0 - 1.5         10          0.92
+   0 - 2.0         13          0.96
+   0 - 2.5         16          0.97
+   0 - 3.0         20          0.98
+   0 - 3.5         27          0.99
+   0 - 4.0         42          1.00
+   0 - 4.5         47          1.00
+   0 - 5.0         51          1.00
+   0 - 5.5         55          1.00
+---------------------------------------------
+
+--------------------------------------------------
+          Conformers considered further           
+--------------------------------------------------
+
+These conformers are below the 5.000 kcal/mol g_thr(0) threshold.
+
+  CONF1,   CONF2,   CONF3,   CONF4,   CONF5,   CONF6,   CONF7,   CONF8,   CONF9
+ CONF10,  CONF11,  CONF12,  CONF13,  CONF14,  CONF15,  CONF16,  CONF17,  CONF18
+ CONF19,  CONF20,  CONF21,  CONF22,  CONF23,  CONF24,  CONF25,  CONF27,  CONF28
+ CONF32,  CONF34,  CONF36,  CONF38,  CONF40,  CONF41,  CONF45,  CONF46,  CONF47
+ CONF49,  CONF50,  CONF51,  CONF52,  CONF53,  CONF55,  CONF59,  CONF62,  CONF63
+ CONF65,  CONF67,  CONF69,  CONF73,  CONF74, CONF121
+
+
+Calculating Boltzmann averaged (free) energy of ensemble on input geometries (not DFT optimized)!
+
+temperature /K:   avE(T) /a.u.   avG(T) /a.u. 
+----------------------------------------------------------------------------------------------------
+    298.15       -2137.5954681   -2137.6757561     <<==part0==
+----------------------------------------------------------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>END of Part0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Ran part0 in 1702.7242 seconds
+
+----------------------------------------------------------------------------------------------------
+                                      CRE PRESCREENING - PART1                                      
+----------------------------------------------------------------------------------------------------
+
+program:                                                       tm
+functional for part1 and 2:                                    r2scan-3c
+basis set for part1 and 2:                                     def2-mTZVPP
+Solvent:                                                       thf
+solvent model for Gsolv contribution:                          alpb_gsolv
+threshold g_thr(1) and G_thr(1):                               3.5
+starting number of considered conformers:                      51
+calculate mRRHO contribution:                                  on
+program for mRRHO contribution:                                xtb
+GFN version for mRRHO and/or GBSA_Gsolv:                       gfn2
+Apply constraint to input geometry during mRRHO calculation:   on
+temperature:                                                   298.15
+
+Calculating single-point energies and solvation contribution (G_solv):
+The prescreening ALPB_GSOLV is calculated for:
+  CONF1,   CONF2,   CONF3,   CONF4,   CONF5,   CONF6,   CONF7,   CONF8,   CONF9
+ CONF10,  CONF11,  CONF12,  CONF13,  CONF14,  CONF15,  CONF16,  CONF17,  CONF18
+ CONF19,  CONF20,  CONF21,  CONF22,  CONF23,  CONF24,  CONF25,  CONF27,  CONF28
+ CONF32,  CONF34,  CONF36,  CONF38,  CONF40,  CONF41,  CONF45,  CONF46,  CONF47
+ CONF49,  CONF50,  CONF51,  CONF52,  CONF53,  CONF55,  CONF59,  CONF62,  CONF63
+ CONF65,  CONF67,  CONF69,  CONF73,  CONF74, CONF121
+
+Constructed folders!
+Constructed folders!
+
+Starting 51 ALPB-Gsolv calculations
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF8/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF5/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF7/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF6/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF2/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF4/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF1/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF3/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF9/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF10/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF13/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF16/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF12/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF11/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF14/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF15/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF18/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF17/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF21/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF19/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF22/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF20/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF24/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF23/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF25/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF27/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF34/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF28/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF32/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF40/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF36/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF38/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF45/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF41/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF47/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF52/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF46/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF49/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF50/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF51/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF53/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF55/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF62/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF63/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF67/r2scan-3c/Gsolv
+Running single-point in r2scan-3c/Gsolv   
+Running ALPB_GSOLV calculation in CONF59/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF65/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF69/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF121/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF73/r2scan-3c/Gsolv
+Running ALPB_GSOLV calculation in CONF74/r2scan-3c/Gsolv
+Tasks completed!
+
+prescreening ALPB_GSOLV calculation was successful for CONF1/r2scan-3c/Gsolv: -0.07542905
+prescreening ALPB_GSOLV calculation was successful for CONF2/r2scan-3c/Gsolv: -0.07496281
+prescreening ALPB_GSOLV calculation was successful for CONF3/r2scan-3c/Gsolv: -0.07508330
+prescreening ALPB_GSOLV calculation was successful for CONF4/r2scan-3c/Gsolv: -0.07618810
+prescreening ALPB_GSOLV calculation was successful for CONF5/r2scan-3c/Gsolv: -0.07640182
+prescreening ALPB_GSOLV calculation was successful for CONF6/r2scan-3c/Gsolv: -0.07664320
+prescreening ALPB_GSOLV calculation was successful for CONF7/r2scan-3c/Gsolv: -0.07677071
+prescreening ALPB_GSOLV calculation was successful for CONF8/r2scan-3c/Gsolv: -0.07791410
+prescreening ALPB_GSOLV calculation was successful for CONF9/r2scan-3c/Gsolv: -0.07799388
+prescreening ALPB_GSOLV calculation was successful for CONF10/r2scan-3c/Gsolv: -0.07809191
+prescreening ALPB_GSOLV calculation was successful for CONF11/r2scan-3c/Gsolv: -0.07555606
+prescreening ALPB_GSOLV calculation was successful for CONF12/r2scan-3c/Gsolv: -0.07639926
+prescreening ALPB_GSOLV calculation was successful for CONF13/r2scan-3c/Gsolv: -0.07818962
+prescreening ALPB_GSOLV calculation was successful for CONF14/r2scan-3c/Gsolv: -0.07646142
+prescreening ALPB_GSOLV calculation was successful for CONF15/r2scan-3c/Gsolv: -0.07715793
+prescreening ALPB_GSOLV calculation was successful for CONF16/r2scan-3c/Gsolv: -0.07570276
+prescreening ALPB_GSOLV calculation was successful for CONF17/r2scan-3c/Gsolv: -0.07574189
+prescreening ALPB_GSOLV calculation was successful for CONF18/r2scan-3c/Gsolv: -0.07579858
+prescreening ALPB_GSOLV calculation was successful for CONF19/r2scan-3c/Gsolv: -0.07759119
+prescreening ALPB_GSOLV calculation was successful for CONF20/r2scan-3c/Gsolv: -0.07702733
+prescreening ALPB_GSOLV calculation was successful for CONF21/r2scan-3c/Gsolv: -0.07691721
+prescreening ALPB_GSOLV calculation was successful for CONF22/r2scan-3c/Gsolv: -0.07672544
+prescreening ALPB_GSOLV calculation was successful for CONF23/r2scan-3c/Gsolv: -0.07935765
+prescreening ALPB_GSOLV calculation was successful for CONF24/r2scan-3c/Gsolv: -0.08019919
+prescreening ALPB_GSOLV calculation was successful for CONF25/r2scan-3c/Gsolv: -0.08055330
+prescreening ALPB_GSOLV calculation was successful for CONF27/r2scan-3c/Gsolv: -0.08094531
+prescreening ALPB_GSOLV calculation was successful for CONF28/r2scan-3c/Gsolv: -0.08118583
+prescreening ALPB_GSOLV calculation was successful for CONF32/r2scan-3c/Gsolv: -0.08140138
+prescreening ALPB_GSOLV calculation was successful for CONF34/r2scan-3c/Gsolv: -0.08157156
+prescreening ALPB_GSOLV calculation was successful for CONF36/r2scan-3c/Gsolv: -0.07565774
+prescreening ALPB_GSOLV calculation was successful for CONF38/r2scan-3c/Gsolv: -0.07453580
+prescreening ALPB_GSOLV calculation was successful for CONF40/r2scan-3c/Gsolv: -0.08325380
+prescreening ALPB_GSOLV calculation was successful for CONF41/r2scan-3c/Gsolv: -0.08324638
+prescreening ALPB_GSOLV calculation was successful for CONF45/r2scan-3c/Gsolv: -0.08421469
+prescreening ALPB_GSOLV calculation was successful for CONF46/r2scan-3c/Gsolv: -0.07494651
+prescreening ALPB_GSOLV calculation was successful for CONF47/r2scan-3c/Gsolv: -0.08259138
+prescreening ALPB_GSOLV calculation was successful for CONF49/r2scan-3c/Gsolv: -0.07580516
+prescreening ALPB_GSOLV calculation was successful for CONF50/r2scan-3c/Gsolv: -0.07724434
+prescreening ALPB_GSOLV calculation was successful for CONF51/r2scan-3c/Gsolv: -0.07673074
+prescreening ALPB_GSOLV calculation was successful for CONF52/r2scan-3c/Gsolv: -0.08475104
+prescreening ALPB_GSOLV calculation was successful for CONF53/r2scan-3c/Gsolv: -0.08469484
+prescreening ALPB_GSOLV calculation was successful for CONF55/r2scan-3c/Gsolv: -0.08476108
+prescreening ALPB_GSOLV calculation was successful for CONF59/r2scan-3c/Gsolv: -0.08007436
+prescreening ALPB_GSOLV calculation was successful for CONF62/r2scan-3c/Gsolv: -0.08358349
+prescreening ALPB_GSOLV calculation was successful for CONF63/r2scan-3c/Gsolv: -0.08418301
+prescreening ALPB_GSOLV calculation was successful for CONF65/r2scan-3c/Gsolv: -0.07539748
+prescreening ALPB_GSOLV calculation was successful for CONF67/r2scan-3c/Gsolv: -0.08698708
+prescreening ALPB_GSOLV calculation was successful for CONF69/r2scan-3c/Gsolv: -0.07442908
+prescreening ALPB_GSOLV calculation was successful for CONF73/r2scan-3c/Gsolv: -0.07949309
+prescreening ALPB_GSOLV calculation was successful for CONF74/r2scan-3c/Gsolv: -0.07975894
+prescreening ALPB_GSOLV calculation was successful for CONF121/r2scan-3c/Gsolv: -0.08701985
+
+--------------------------------------------------
+          Removing high lying conformers          
+--------------------------------------------------
+
+  CONF#  E(GFNn-xTB) ΔE(GFNn-xTB)        E [Eh]   Gsolv [Eh]          gtot      Δgtot
+              [a.u.]   [kcal/mol]     r2scan-3c   alpb_gsolv          [Eh] [kcal/mol]
+                                                      [gfn2]                         
+CONF1   -136.1408716         0.00 -2140.6323784   -0.0754291 -2140.7078074       2.18
+CONF2   -136.1406961         0.11 -2140.6322655   -0.0749628 -2140.7072283       2.54
+CONF3   -136.1403814         0.31 -2140.6319645   -0.0750833 -2140.7070478       2.65
+CONF4   -136.1403536         0.33 -2140.6291368   -0.0761881 -2140.7053249       3.73
+CONF5   -136.1402686         0.38 -2140.6284162   -0.0764018 -2140.7048180       4.05
+CONF6   -136.1401123         0.48 -2140.6278105   -0.0766432 -2140.7044537       4.28
+CONF7   -136.1399628         0.57 -2140.6275133   -0.0767707 -2140.7042840       4.39
+CONF8   -136.1396874         0.74 -2140.6276022   -0.0779141 -2140.7055163       3.61
+CONF9   -136.1396029         0.80 -2140.6274284   -0.0779939 -2140.7054223       3.67
+CONF10  -136.1394946         0.86 -2140.6271787   -0.0780919 -2140.7052707       3.77
+CONF11  -136.1394662         0.88 -2140.6333584   -0.0755561 -2140.7089145       1.48
+CONF12  -136.1393659         0.94 -2140.6336373   -0.0763993 -2140.7100365       0.78
+CONF13  -136.1393398         0.96 -2140.6269327   -0.0781896 -2140.7051224       3.86
+CONF14  -136.1391417         1.09 -2140.6331790   -0.0764614 -2140.7096404       1.03
+CONF15  -136.1382878         1.62 -2140.6316222   -0.0771579 -2140.7087801       1.57
+CONF16  -136.1380728         1.76 -2140.6349632   -0.0757028 -2140.7106660       0.38
+CONF17  -136.1380541         1.77 -2140.6344656   -0.0757419 -2140.7102075       0.67
+CONF18  -136.1380335         1.78 -2140.6350936   -0.0757986 -2140.7108922       0.24
+CONF19  -136.1379064         1.86 -2140.6318820   -0.0775912 -2140.7094732       1.13
+CONF20  -136.1378426         1.90 -2140.6331337   -0.0770273 -2140.7101610       0.70
+CONF21  -136.1375916         2.06 -2140.6325300   -0.0769172 -2140.7094473       1.15
+CONF22  -136.1375562         2.08 -2140.6345499   -0.0767254 -2140.7112753       0.00     <------
+CONF23  -136.1374440         2.15 -2140.6309945   -0.0793576 -2140.7103522       0.58
+CONF24  -136.1372867         2.25 -2140.6301082   -0.0801992 -2140.7103074       0.61
+CONF25  -136.1371976         2.31 -2140.6304703   -0.0805533 -2140.7110236       0.16
+CONF27  -136.1367330         2.60 -2140.6300733   -0.0809453 -2140.7110186       0.16
+CONF28  -136.1366460         2.65 -2140.6297890   -0.0811858 -2140.7109748       0.19
+CONF32  -136.1365455         2.71 -2140.6295169   -0.0814014 -2140.7109182       0.22
+CONF34  -136.1364640         2.77 -2140.6293003   -0.0815716 -2140.7108719       0.25
+CONF36  -136.1364044         2.80 -2140.6317891   -0.0756577 -2140.7074469       2.40
+CONF38  -136.1364000         2.81 -2140.6328567   -0.0745358 -2140.7073925       2.44
+CONF40  -136.1362916         2.87 -2140.6245287   -0.0832538 -2140.7077825       2.19
+CONF41  -136.1362764         2.88 -2140.6244945   -0.0832464 -2140.7077408       2.22
+CONF45  -136.1361744         2.95 -2140.6235296   -0.0842147 -2140.7077443       2.22
+CONF46  -136.1360703         3.01 -2140.6318406   -0.0749465 -2140.7067871       2.82
+CONF47  -136.1360606         3.02 -2140.6230794   -0.0825914 -2140.7056708       3.52
+CONF49  -136.1360374         3.03 -2140.6313577   -0.0758052 -2140.7071629       2.58
+CONF50  -136.1360267         3.04 -2140.6296200   -0.0772443 -2140.7068643       2.77
+CONF51  -136.1360231         3.04 -2140.6304096   -0.0767307 -2140.7071403       2.59
+CONF52  -136.1360205         3.04 -2140.6236057   -0.0847510 -2140.7083568       1.83
+CONF53  -136.1360053         3.05 -2140.6236109   -0.0846948 -2140.7083057       1.86
+CONF55  -136.1360038         3.05 -2140.6235201   -0.0847611 -2140.7082812       1.88
+CONF59  -136.1356616         3.27 -2140.6289620   -0.0800744 -2140.7090363       1.40
+CONF62  -136.1355510         3.34 -2140.6238730   -0.0835835 -2140.7074565       2.40
+CONF63  -136.1354805         3.38 -2140.6233638   -0.0841830 -2140.7075468       2.34
+CONF65  -136.1353460         3.47 -2140.6302545   -0.0753975 -2140.7056520       3.53
+CONF67  -136.1352913         3.50 -2140.6205084   -0.0869871 -2140.7074955       2.37
+CONF69  -136.1350836         3.63 -2140.6305541   -0.0744291 -2140.7049831       3.95
+CONF73  -136.1347703         3.83 -2140.6259581   -0.0794931 -2140.7054512       3.65
+CONF74  -136.1346575         3.90 -2140.6253241   -0.0797589 -2140.7050830       3.89
+CONF121 -136.1325948         5.19 -2140.6186766   -0.0870198 -2140.7056964       3.50
+
+--------------------------------------------------
+          Conformers considered further           
+--------------------------------------------------
+
+Below the g_thr(1) threshold of 3.5 kcal/mol.
+
+ CONF1,  CONF2,  CONF3, CONF11, CONF12, CONF14, CONF15, CONF16, CONF17, CONF18, CONF19
+CONF20, CONF21, CONF22, CONF23, CONF24, CONF25, CONF27, CONF28, CONF32, CONF34, CONF36
+CONF38, CONF40, CONF41, CONF45, CONF46, CONF49, CONF50, CONF51, CONF52, CONF53, CONF55
+CONF59, CONF62, CONF63, CONF67
+
+--------------------------------------------------
+
+Calculating prescreening G_mRRHO with implicit solvation!
+The prescreening G_mRRHO calculation is now performed for:
+ CONF1,  CONF2,  CONF3, CONF11, CONF12, CONF14, CONF15, CONF16, CONF17, CONF18, CONF19
+CONF20, CONF21, CONF22, CONF23, CONF24, CONF25, CONF27, CONF28, CONF32, CONF34, CONF36
+CONF38, CONF40, CONF41, CONF45, CONF46, CONF49, CONF50, CONF51, CONF52, CONF53, CONF55
+CONF59, CONF62, CONF63, CONF67
+
+Constructed folders!
+
+Starting 37 G_RRHO calculations.
+Running GFN2-xTB mRRHO in CONF1/rrho_part1
+Running GFN2-xTB mRRHO in CONF2/rrho_part1
+Running GFN2-xTB mRRHO in CONF3/rrho_part1
+Running GFN2-xTB mRRHO in CONF11/rrho_part1
+Running GFN2-xTB mRRHO in CONF12/rrho_part1
+Running GFN2-xTB mRRHO in CONF14/rrho_part1
+Running GFN2-xTB mRRHO in CONF15/rrho_part1
+Running GFN2-xTB mRRHO in CONF16/rrho_part1
+Running GFN2-xTB mRRHO in CONF17/rrho_part1
+Running GFN2-xTB mRRHO in CONF18/rrho_part1
+Running GFN2-xTB mRRHO in CONF19/rrho_part1
+Running GFN2-xTB mRRHO in CONF20/rrho_part1
+Running GFN2-xTB mRRHO in CONF21/rrho_part1
+Running GFN2-xTB mRRHO in CONF22/rrho_part1
+Running GFN2-xTB mRRHO in CONF23/rrho_part1
+Running GFN2-xTB mRRHO in CONF24/rrho_part1
+Running GFN2-xTB mRRHO in CONF25/rrho_part1
+Running GFN2-xTB mRRHO in CONF27/rrho_part1
+Running GFN2-xTB mRRHO in CONF28/rrho_part1
+Running GFN2-xTB mRRHO in CONF32/rrho_part1
+Running GFN2-xTB mRRHO in CONF34/rrho_part1
+Running GFN2-xTB mRRHO in CONF36/rrho_part1
+Running GFN2-xTB mRRHO in CONF38/rrho_part1
+Running GFN2-xTB mRRHO in CONF40/rrho_part1
+Running GFN2-xTB mRRHO in CONF41/rrho_part1
+Running GFN2-xTB mRRHO in CONF45/rrho_part1
+Running GFN2-xTB mRRHO in CONF46/rrho_part1
+Running GFN2-xTB mRRHO in CONF49/rrho_part1
+Running GFN2-xTB mRRHO in CONF50/rrho_part1
+Running GFN2-xTB mRRHO in CONF51/rrho_part1
+Running GFN2-xTB mRRHO in CONF52/rrho_part1
+Running GFN2-xTB mRRHO in CONF53/rrho_part1
+Running GFN2-xTB mRRHO in CONF55/rrho_part1
+Running GFN2-xTB mRRHO in CONF59/rrho_part1
+Running GFN2-xTB mRRHO in CONF62/rrho_part1
+Running GFN2-xTB mRRHO in CONF63/rrho_part1
+Running GFN2-xTB mRRHO in CONF67/rrho_part1
+Tasks completed!
+
+The prescreening G_mRRHO run @ c1 was successful for   CONF1/rrho_part1: 0.59029088 S_rot(sym)= 0.0000000 using= 0.5902909
+The prescreening G_mRRHO run @ c1 was successful for   CONF2/rrho_part1: 0.59072673 S_rot(sym)= 0.0000000 using= 0.5907267
+The prescreening G_mRRHO run @ c1 was successful for   CONF3/rrho_part1: 0.58636781 S_rot(sym)= 0.0000000 using= 0.5863678
+The prescreening G_mRRHO run @ c1 was successful for  CONF11/rrho_part1: 0.58474296 S_rot(sym)= 0.0000000 using= 0.5847430
+The prescreening G_mRRHO run @ c1 was successful for  CONF12/rrho_part1: 0.58446358 S_rot(sym)= 0.0000000 using= 0.5844636
+The prescreening G_mRRHO run @ c1 was successful for  CONF14/rrho_part1: 0.58489577 S_rot(sym)= 0.0000000 using= 0.5848958
+The prescreening G_mRRHO run @ c1 was successful for  CONF15/rrho_part1: 0.58622563 S_rot(sym)= 0.0000000 using= 0.5862256
+The prescreening G_mRRHO run @ c1 was successful for  CONF16/rrho_part1: 0.58530284 S_rot(sym)= 0.0000000 using= 0.5853028
+The prescreening G_mRRHO run @ c1 was successful for  CONF17/rrho_part1: 0.59017371 S_rot(sym)= 0.0000000 using= 0.5901737
+The prescreening G_mRRHO run @ c1 was successful for  CONF18/rrho_part1: 0.58542992 S_rot(sym)= 0.0000000 using= 0.5854299
+The prescreening G_mRRHO run @ c1 was successful for  CONF19/rrho_part1: 0.58962362 S_rot(sym)= 0.0000000 using= 0.5896236
+The prescreening G_mRRHO run @ c1 was successful for  CONF20/rrho_part1: 0.58960037 S_rot(sym)= 0.0000000 using= 0.5896004
+The prescreening G_mRRHO run @ c1 was successful for  CONF21/rrho_part1: 0.58470788 S_rot(sym)= 0.0000000 using= 0.5847079
+The prescreening G_mRRHO run @ c1 was successful for  CONF22/rrho_part1: 0.58938649 S_rot(sym)= 0.0000000 using= 0.5893865
+The prescreening G_mRRHO run @ c1 was successful for  CONF23/rrho_part1: 0.58505919 S_rot(sym)= 0.0000000 using= 0.5850592
+The prescreening G_mRRHO run @ c1 was successful for  CONF24/rrho_part1: 0.58503849 S_rot(sym)= 0.0000000 using= 0.5850385
+The prescreening G_mRRHO run @ c1 was successful for  CONF25/rrho_part1: 0.58462205 S_rot(sym)= 0.0000000 using= 0.5846220
+The prescreening G_mRRHO run @ c1 was successful for  CONF27/rrho_part1: 0.58445353 S_rot(sym)= 0.0000000 using= 0.5844535
+The prescreening G_mRRHO run @ c1 was successful for  CONF28/rrho_part1: 0.58977211 S_rot(sym)= 0.0000000 using= 0.5897721
+The prescreening G_mRRHO run @ c1 was successful for  CONF32/rrho_part1: 0.58439713 S_rot(sym)= 0.0000000 using= 0.5843971
+The prescreening G_mRRHO run @ c1 was successful for  CONF34/rrho_part1: 0.58965452 S_rot(sym)= 0.0000000 using= 0.5896545
+The prescreening G_mRRHO run @ c1 was successful for  CONF36/rrho_part1: 0.58536849 S_rot(sym)= 0.0000000 using= 0.5853685
+The prescreening G_mRRHO run @ c1 was successful for  CONF38/rrho_part1: 0.58555560 S_rot(sym)= 0.0000000 using= 0.5855556
+The prescreening G_mRRHO run @ c1 was successful for  CONF40/rrho_part1: 0.58500218 S_rot(sym)= 0.0000000 using= 0.5850022
+The prescreening G_mRRHO run @ c1 was successful for  CONF41/rrho_part1: 0.58510793 S_rot(sym)= 0.0000000 using= 0.5851079
+The prescreening G_mRRHO run @ c1 was successful for  CONF45/rrho_part1: 0.58478338 S_rot(sym)= 0.0000000 using= 0.5847834
+The prescreening G_mRRHO run @ c1 was successful for  CONF46/rrho_part1: 0.58537434 S_rot(sym)= 0.0000000 using= 0.5853743
+The prescreening G_mRRHO run @ c1 was successful for  CONF49/rrho_part1: 0.58477995 S_rot(sym)= 0.0000000 using= 0.5847800
+The prescreening G_mRRHO run @ c1 was successful for  CONF50/rrho_part1: 0.58451972 S_rot(sym)= 0.0000000 using= 0.5845197
+The prescreening G_mRRHO run @ c1 was successful for  CONF51/rrho_part1: 0.58467397 S_rot(sym)= 0.0000000 using= 0.5846740
+The prescreening G_mRRHO run @ c1 was successful for  CONF52/rrho_part1: 0.58432187 S_rot(sym)= 0.0000000 using= 0.5843219
+The prescreening G_mRRHO run @ c1 was successful for  CONF53/rrho_part1: 0.58437700 S_rot(sym)= 0.0000000 using= 0.5843770
+The prescreening G_mRRHO run @ c1 was successful for  CONF55/rrho_part1: 0.58441413 S_rot(sym)= 0.0000000 using= 0.5844141
+The prescreening G_mRRHO run @ c1 was successful for  CONF59/rrho_part1: 0.58546077 S_rot(sym)= 0.0000000 using= 0.5854608
+The prescreening G_mRRHO run @ c1 was successful for  CONF62/rrho_part1: 0.58444926 S_rot(sym)= 0.0000000 using= 0.5844493
+The prescreening G_mRRHO run @ c1 was successful for  CONF63/rrho_part1: 0.58370150 S_rot(sym)= 0.0000000 using= 0.5837015
+The prescreening G_mRRHO run @ c1 was successful for  CONF67/rrho_part1: 0.58409322 S_rot(sym)= 0.0000000 using= 0.5840932
+
+--------------------------------------------------
+         * Gibbs free energies of part1 *         
+--------------------------------------------------
+
+ CONF#  G(GFNn-xTB) ΔG(GFNn-xTB)        E [Eh]   Gsolv [Eh]  GmRRHO [Eh]          Gtot      ΔGtot
+             [a.u.]   [kcal/mol]     r2scan-3c   alpb_gsolv         GFN2          [Eh] [kcal/mol]
+                                                     [gfn2] [alpb]-bhess                         
+CONF1  -135.5505808         2.71 -2140.6323784   -0.0754291    0.5902909 -2140.1175165       5.68
+CONF2  -135.5499693         3.10 -2140.6322655   -0.0749628    0.5907267 -2140.1165015       6.31
+CONF3  -135.5540135         0.56 -2140.6319645   -0.0750833    0.5863678 -2140.1206800       3.69
+CONF11 -135.5547232         0.11 -2140.6333584   -0.0755561    0.5847430 -2140.1241716       1.50
+CONF12 -135.5549023         0.00 -2140.6336373   -0.0763993    0.5844636 -2140.1255730       0.62
+CONF14 -135.5542460         0.41 -2140.6331790   -0.0764614    0.5848958 -2140.1247446       1.14
+CONF15 -135.5520622         1.78 -2140.6316222   -0.0771579    0.5862256 -2140.1225545       2.52
+CONF16 -135.5527700         1.34 -2140.6349632   -0.0757028    0.5853028 -2140.1253631       0.75
+CONF17 -135.5478804         4.41 -2140.6344656   -0.0757419    0.5901737 -2140.1200338       4.10
+CONF18 -135.5526036         1.44 -2140.6350936   -0.0757986    0.5854299 -2140.1254623       0.69
+CONF19 -135.5482828         4.15 -2140.6318820   -0.0775912    0.5896236 -2140.1198496       4.21
+CONF20 -135.5482422         4.18 -2140.6331337   -0.0770273    0.5896004 -2140.1205607       3.77
+CONF21 -135.5528837         1.27 -2140.6325300   -0.0769172    0.5847079 -2140.1247394       1.15
+CONF22 -135.5481697         4.22 -2140.6345499   -0.0767254    0.5893865 -2140.1218888       2.93
+CONF23 -135.5523848         1.58 -2140.6309945   -0.0793576    0.5850592 -2140.1252930       0.80
+CONF24 -135.5522482         1.67 -2140.6301082   -0.0801992    0.5850385 -2140.1252689       0.81
+CONF25 -135.5525756         1.46 -2140.6304703   -0.0805533    0.5846220 -2140.1264016       0.10
+CONF27 -135.5522795         1.65 -2140.6300733   -0.0809453    0.5844535 -2140.1265651       0.00     <------
+CONF28 -135.5468739         5.04 -2140.6297890   -0.0811858    0.5897721 -2140.1212027       3.36
+CONF32 -135.5521483         1.73 -2140.6295169   -0.0814014    0.5843971 -2140.1265211       0.03
+CONF34 -135.5468094         5.08 -2140.6293003   -0.0815716    0.5896545 -2140.1212173       3.36
+CONF36 -135.5510360         2.43 -2140.6317891   -0.0756577    0.5853685 -2140.1220784       2.82
+CONF38 -135.5508444         2.55 -2140.6328567   -0.0745358    0.5855556 -2140.1218369       2.97
+CONF40 -135.5512894         2.27 -2140.6245287   -0.0832538    0.5850022 -2140.1227803       2.37
+CONF41 -135.5511685         2.34 -2140.6244945   -0.0832464    0.5851079 -2140.1226329       2.47
+CONF45 -135.5513910         2.20 -2140.6235296   -0.0842147    0.5847834 -2140.1229609       2.26
+CONF46 -135.5506959         2.64 -2140.6318406   -0.0749465    0.5853743 -2140.1214127       3.23
+CONF49 -135.5512574         2.29 -2140.6313577   -0.0758052    0.5847800 -2140.1223829       2.62
+CONF50 -135.5515070         2.13 -2140.6296200   -0.0772443    0.5845197 -2140.1223446       2.65
+CONF51 -135.5513491         2.23 -2140.6304096   -0.0767307    0.5846740 -2140.1224663       2.57
+CONF52 -135.5516986         2.01 -2140.6236057   -0.0847510    0.5843219 -2140.1240349       1.59
+CONF53 -135.5516282         2.05 -2140.6236109   -0.0846948    0.5843770 -2140.1239287       1.65
+CONF55 -135.5515897         2.08 -2140.6235201   -0.0847611    0.5844141 -2140.1238670       1.69
+CONF59 -135.5502008         2.95 -2140.6289620   -0.0800744    0.5854608 -2140.1235756       1.88
+CONF62 -135.5511017         2.38 -2140.6238730   -0.0835835    0.5844493 -2140.1230073       2.23
+CONF63 -135.5517790         1.96 -2140.6233638   -0.0841830    0.5837015 -2140.1238453       1.71
+CONF67 -135.5511980         2.32 -2140.6205084   -0.0869871    0.5840932 -2140.1234023       1.98
+
+Number of conformers observed within the following ΔG windows:
+ΔG [kcal/mol]  #CONF   sum(Boltzmann_weights)
+---------------------------------------------
+   0 - 0.5         3          0.55
+   0 - 1.0         8          0.83
+   0 - 1.5        10          0.89
+   0 - 2.0        17          0.97
+   0 - 2.5        21          0.98
+   0 - 3.0        28          1.00
+   0 - 3.5        31          1.00
+   0 - 4.0        33          1.00
+   0 - 4.5        35          1.00
+   0 - 5.0        35          1.00
+   0 - 5.5        35          1.00
+---------------------------------------------
+
+Additional global 'fuzzy-threshold' based on the standard deviation of (G_mRRHO):
+Std_dev(G_mRRHO) = 1.360 kcal/mol
+Fuzzythreshold   = 1.000 kcal/mol
+Final sorting threshold G_thr(1) = 3.500 + 1.000 = 4.500 kcal/mol
+Spearman correlation coefficient between (E + Solv) and (E + Solv + mRRHO) = 0.431
+
+--------------------------------------------------
+          Conformers considered further           
+--------------------------------------------------
+
+Considered CONF3 because of increased fuzzythr.
+Considered CONF17 because of increased fuzzythr.
+Considered CONF19 because of increased fuzzythr.
+Considered CONF20 because of increased fuzzythr.
+These conformers are below the 4.500 kcal/mol G_thr(1) threshold.
+
+ CONF3, CONF11, CONF12, CONF14, CONF15, CONF16, CONF17, CONF18, CONF19, CONF20, CONF21
+CONF22, CONF23, CONF24, CONF25, CONF27, CONF28, CONF32, CONF34, CONF36, CONF38, CONF40
+CONF41, CONF45, CONF46, CONF49, CONF50, CONF51, CONF52, CONF53, CONF55, CONF59, CONF62
+CONF63, CONF67
+
+
+Calculating Boltzmann averaged free energy of ensemble on input geometries (not DFT optimized)!
+
+temperature /K:   avE(T) /a.u. avGmRRHO(T) /a.u. avGsolv(T) /a.u.   avG(T) /a.u.
+----------------------------------------------------------------------------------------------------
+    298.15       -2140.6306540        0.5846899       -0.0797866  -2140.1257508      <<==part1==
+----------------------------------------------------------------------------------------------------
+
+
+Calculating unbiased GFNn-xTB energy
+Constructed folders!
+
+Starting 35 xTB - single-point calculations.
+gfn2-xTB energy for CONF3/GFN_unbiased = -136.1413093
+gfn2-xTB energy for CONF11/GFN_unbiased = -136.1403945
+gfn2-xTB energy for CONF12/GFN_unbiased = -136.1402940
+gfn2-xTB energy for CONF14/GFN_unbiased = -136.1400713
+gfn2-xTB energy for CONF15/GFN_unbiased = -136.1392118
+gfn2-xTB energy for CONF16/GFN_unbiased = -136.1390013
+gfn2-xTB energy for CONF17/GFN_unbiased = -136.1389817
+gfn2-xTB energy for CONF18/GFN_unbiased = -136.1389627
+gfn2-xTB energy for CONF19/GFN_unbiased = -136.1388297
+gfn2-xTB energy for CONF20/GFN_unbiased = -136.1387703
+gfn2-xTB energy for CONF21/GFN_unbiased = -136.1385197
+gfn2-xTB energy for CONF22/GFN_unbiased = -136.1384859
+gfn2-xTB energy for CONF23/GFN_unbiased = -136.1383741
+gfn2-xTB energy for CONF24/GFN_unbiased = -136.1382185
+gfn2-xTB energy for CONF25/GFN_unbiased = -136.1381285
+gfn2-xTB energy for CONF27/GFN_unbiased = -136.1376612
+gfn2-xTB energy for CONF28/GFN_unbiased = -136.1375747
+gfn2-xTB energy for CONF32/GFN_unbiased = -136.1374747
+gfn2-xTB energy for CONF34/GFN_unbiased = -136.1373934
+gfn2-xTB energy for CONF36/GFN_unbiased = -136.1373382
+gfn2-xTB energy for CONF38/GFN_unbiased = -136.1373377
+gfn2-xTB energy for CONF40/GFN_unbiased = -136.1372200
+gfn2-xTB energy for CONF41/GFN_unbiased = -136.1372044
+gfn2-xTB energy for CONF45/GFN_unbiased = -136.1371016
+gfn2-xTB energy for CONF46/GFN_unbiased = -136.1370060
+gfn2-xTB energy for CONF49/GFN_unbiased = -136.1369719
+gfn2-xTB energy for CONF50/GFN_unbiased = -136.1369601
+gfn2-xTB energy for CONF51/GFN_unbiased = -136.1369572
+gfn2-xTB energy for CONF52/GFN_unbiased = -136.1369475
+gfn2-xTB energy for CONF53/GFN_unbiased = -136.1369320
+gfn2-xTB energy for CONF55/GFN_unbiased = -136.1369313
+gfn2-xTB energy for CONF59/GFN_unbiased = -136.1365900
+gfn2-xTB energy for CONF62/GFN_unbiased = -136.1364840
+gfn2-xTB energy for CONF63/GFN_unbiased = -136.1364106
+gfn2-xTB energy for CONF67/GFN_unbiased = -136.1362250
+Tasks completed!
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>END of Part1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Ran part1 in 3390.1904 seconds
+
+
+Part                : #conf         time      time (including restarts)
+-----------------------------------------------------------------------
+Input               :   138         -              -     
+Part0_all           :    51      1702.72 s    1702.72 s
+Part1_initial_sort  :    37      2637.71 s    2637.71 s
+Part1_all           :    37      3390.19 s    3390.19 s
+-----------------------------------------------------------------------
+All parts           :     -      5092.91 s    5092.91 s
+
+CENSO all done!

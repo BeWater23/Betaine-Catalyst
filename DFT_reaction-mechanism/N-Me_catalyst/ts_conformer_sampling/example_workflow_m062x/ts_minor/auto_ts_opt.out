@@ -1,0 +1,162 @@
+Directory: ./censo_10
+Output file exists in ./censo_10.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0050031563   363.602i
+    2   0.0000011875     5.602     8.060   0.0000127619   0.0007346202  -0.0016412577
+    3   0.0000095801    15.911    22.892   0.0000362472   0.0007346202  -0.0016412577
+    4   0.0000222214    24.232    34.865   0.0000552047   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794737
+done
+TS Dimer optimization submitted
+
+Directory: ./censo_2
+Output file exists in ./censo_2.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0044976047   344.743i
+    2  -0.0002027655   -73.198   105.316   0.0001667581   0.0007346202  -0.0016412577
+    3  -0.0000040681   -10.368    14.917   0.0000236203   0.0007346202  -0.0016412577
+    4   0.0000056740    12.245    17.617   0.0000278955   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794738
+done
+TS Dimer optimization submitted
+
+Directory: ./censo_3
+Output file exists in ./censo_3.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0040315686   326.393i
+    2  -0.0000117885   -17.650    25.394   0.0000402086   0.0007346202  -0.0016412577
+    3  -0.0000048836   -11.360    16.344   0.0000258797   0.0007346202  -0.0016412577
+    4   0.0000023975     7.959    11.452   0.0000181328   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794739
+done
+TS Dimer optimization submitted
+
+Directory: ./censo_4
+Output file exists in ./censo_4.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0014309284   194.452i
+    2  -0.0001340113   -59.508    85.619   0.0001355691   0.0007346202  -0.0016412577
+    3  -0.0000033839    -9.456    13.605   0.0000215426   0.0007346202  -0.0016412577
+    4   0.0000005118     3.677     5.291   0.0000083777   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794740
+done
+TS Dimer optimization submitted
+
+Directory: ./censo_5
+Output file exists in ./censo_5.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0052297221   371.744i
+    2   0.0000042255    10.567    15.203   0.0000240730   0.0007346202  -0.0016412577
+    3   0.0000134122    18.826    27.086   0.0000428885   0.0007346202  -0.0016412577
+    4   0.0000286174    27.499    39.565   0.0000626477   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794741
+done
+TS Dimer optimization submitted
+
+Directory: ./censo_6
+Output file exists in ./censo_6.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0025674260   260.467i
+    2  -0.0002144517   -75.278   108.308   0.0001714963   0.0007346202  -0.0016412577
+    3   0.0000041684    10.495    15.100   0.0000239099   0.0007346202  -0.0016412577
+    4   0.0000051184    11.630    16.733   0.0000264947   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794742
+done
+TS Dimer optimization submitted
+
+Directory: ./censo_7
+Output file exists in ./censo_7.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0041481319   331.078i
+    2  -0.0002820685   -86.334   124.215   0.0001966832   0.0007346202  -0.0016412577
+    3  -0.0000002398    -2.517     3.622   0.0000057352   0.0007346202  -0.0016412577
+    4   0.0000062880    12.890    18.546   0.0000293662   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794743
+done
+TS Dimer optimization submitted
+
+Directory: ./censo_8
+Output file exists in ./censo_8.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0004163594   104.891i
+    2  -0.0002013841   -72.949   104.957   0.0001661891   0.0007346202  -0.0016412577
+    3  -0.0000074797   -14.059    20.227   0.0000320283   0.0007346202  -0.0016412577
+    4   0.0000032655     9.289    13.365   0.0000211623   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794744
+done
+TS Dimer optimization submitted
+
+Directory: ./censo_9
+Output file exists in ./censo_9.
+Optimization converged.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0046550748   350.726i
+    2  -0.0001409926   -61.038    87.820   0.0001390555   0.0007346202  -0.0016412577
+    3  -0.0000145320   -19.596    28.194   0.0000446429   0.0007346202  -0.0016412577
+    4  -0.0000044527   -10.847    15.607   0.0000247116   0.0007346202  -0.0016412577
+atom_number: 85
+Script name: <cluster_home>/.local/bin/bwHPC_chemshell
+2 arguments
+creating the job submission script ts_opt_m06-2x.sh
+Submitting the job
+Submitted batch job 13794745
+done
+TS Dimer optimization submitted
+

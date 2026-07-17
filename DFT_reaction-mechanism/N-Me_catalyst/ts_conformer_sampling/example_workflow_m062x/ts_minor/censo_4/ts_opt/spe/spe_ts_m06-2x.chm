@@ -1,0 +1,26 @@
+source /path/to/chemshell/templates/turbomole.tcl
+
+read_xyz file=ts_opt.xyz coords=c
+
+set tmole_args \
+    [ list \
+         basis=def2-TZVP \
+         hamiltonian=m06-2x \
+         ri_memory=1000 \
+         accuracy=veryhigh \
+         charge=0 \
+         mult=1 \
+         maxcyc=1000 \
+	 disp3=yes\
+         cosmo=yes\
+         epsilon=7.53\
+         ]
+
+energy coords=c \
+   theory=turbomole: $tmole_args list_option=full \
+   energy=e_m06
+
+times
+return ok
+
+

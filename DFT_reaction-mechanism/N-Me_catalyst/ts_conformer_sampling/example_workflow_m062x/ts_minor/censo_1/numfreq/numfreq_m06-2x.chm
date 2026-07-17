@@ -1,0 +1,32 @@
+source /path/to/chemshell/templates/turbomole.tcl
+
+read_xyz file=geom_opt.xyz coords=c
+
+set tmole_args \
+    [ list \
+         basis=def2-SVP \
+         hamiltonian=m06-2x \
+         ri_memory=1000 \
+         accuracy=veryhigh \
+         charge=0 \
+         mult=1 \
+         maxcyc=1000 \
+         disp3=yes\
+	 cosmo=yes\
+         epsilon=7.53\
+         ]
+
+set tmole_args_true \
+        [ list \
+         read_control=yes\
+         restart=yes\
+        ]
+
+dl-find coords=c coordinates=mass\
+    theory=turbomole: $tmole_args list_option=full \
+    thermal=true thermal_state=ts initial_hessian=twopoint temperature=298.15
+
+times
+return ok
+
+

@@ -1,0 +1,10 @@
+Crest input
+
+crest "${input_file}.xyz" \
+  --T ${SLURM_CPUS_PER_TASK} \
+  --chrg 0 \
+  --uhf 0 \
+  --nozs \
+  --alpb thf \
+  --cluster 20 \
+  2>&1 | tee "${input_file}_crest.out"

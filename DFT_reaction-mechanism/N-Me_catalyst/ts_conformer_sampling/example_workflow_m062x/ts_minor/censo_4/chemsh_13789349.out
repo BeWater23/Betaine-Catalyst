@@ -1,0 +1,2031 @@
+Initialising ChemShell DEVELOPMENT VERSION 3.7_2023_DLF_GPR.dev on linux
+read_xyz/======================================== Tstep:    0.0 Ttot:    0.0 ==
+dl-find/========================================= Tstep:    0.0 Ttot:    0.0 ==
+dl-find/copy_object/============================= Tstep:    0.0 Ttot:    0.0 ==
+dl-find/get_number_of_atoms/===================== Tstep:    0.0 Ttot:    0.0 ==
+dl-find/set_matrix_size/========================= Tstep:    0.0 Ttot:    0.0 ==
+dl-find/set_matrix_size/========================= Tstep:    0.0 Ttot:    0.0 ==
+dl-find/get_number_of_atoms/===================== Tstep:    0.0 Ttot:    0.0 ==
+Using 2018 CODATA recommended values
+
+***********************************************************************
+**                                                                   **
+**                       ---------------------                       **
+**                              DL-FIND                              **
+**                       Geometry Optimisation                       **
+**                       ---------------------                       **
+**                                                                   **
+**                 J. Kaestner, J.M. Carr, T.W. Keal,                **
+**                W. Thiel, A. Wander and P. Sherwood                **
+**                                                                   **
+**              J. Phys. Chem. A, 2009, 113 (43), 11856.             **
+**                                                                   **
+**   Please include this reference in published work using DL-FIND.  **
+**                                                                   **
+**               Copyright:  STFC Daresbury Laboratory               **
+**                  and the University of Stuttgart                  **
+**                           Revision:  341 $                        **
+**                                                                   **
+***********************************************************************
+
+Atom      1  free
+Atom      2  free
+Atom      3  free
+Atom      4  free
+Atom      5  free
+Atom      6  frozen
+Atom      7  free
+Atom      8  free
+Atom      9  free
+Atom     10  free
+Atom     11  free
+Atom     12  free
+Atom     13  free
+Atom     14  free
+Atom     15  free
+Atom     16  free
+Atom     17  free
+Atom     18  free
+Atom     19  free
+Atom     20  free
+Atom     21  free
+Atom     22  free
+Atom     23  free
+Atom     24  free
+Atom     25  free
+Atom     26  free
+Atom     27  free
+Atom     28  free
+Atom     29  free
+Atom     30  free
+Atom     31  free
+Atom     32  free
+Atom     33  free
+Atom     34  free
+Atom     35  free
+Atom     36  free
+Atom     37  free
+Atom     38  free
+Atom     39  free
+Atom     40  free
+Atom     41  free
+Atom     42  free
+Atom     43  free
+Atom     44  free
+Atom     45  free
+Atom     46  free
+Atom     47  free
+Atom     48  free
+Atom     49  free
+Atom     50  free
+Atom     51  free
+Atom     52  free
+Atom     53  free
+Atom     54  free
+Atom     55  free
+Atom     56  free
+Atom     57  free
+Atom     58  free
+Atom     59  free
+Atom     60  free
+Atom     61  free
+Atom     62  free
+Atom     63  free
+Atom     64  free
+Atom     65  free
+Atom     66  free
+Atom     67  free
+Atom     68  free
+Atom     69  free
+Atom     70  free
+Atom     71  free
+Atom     72  free
+Atom     73  free
+Atom     74  free
+Atom     75  free
+Atom     76  free
+Atom     77  free
+Atom     78  frozen
+Atom     79  free
+Atom     80  free
+Atom     81  free
+Atom     82  free
+Atom     83  free
+Atom     84  free
+Atom     85  free
+
+DL-FIND Report:
+===============
+Optimisation algorithm: L-BFGS
+Number of steps in L-BFGS memory ...............         50
+ 
+Trust radius based on energy
+Maximum step length ............................  5.000E-01
+ 
+Coordinate system: Cartesian coordinates
+ 
+Number of atoms ................................         85
+Number of input geometries .....................          1
+Variables to be optimised ......................        249
+No restart information is written
+This run has not been restarted.
+Maximum number of steps ........................      10000
+Maximum number of energy evaluations ...........     100000
+ 
+dl-find/turbomole/=============================== Tstep:    0.0 Ttot:    0.0 ==
+eandg
+Size of integral file returned by statistics run:  11662
+Spin: 
+ Energy calculation finished, energy: -2.138671506E+03
+Testing convergence  in cycle    1
+  Max grad  1.4264E-02 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  3.9500E-03 Target: 6.6667E-04 converged?   no
+ Predicted step length  2.000E-02
+ Trust radius           1.000E-01
+dl-find/turbomole/=============================== Tstep:  220.2 Ttot:  220.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138672538E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle    2
+    Energy  1.0321E-03 Target: 2.2222E-06 converged?   no
+  Max step  4.5770E-03 Target: 4.0000E-03 converged?   no component   234
+  RMS step  1.2674E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  1.1821E-02 Target: 1.0000E-03 converged?   no component     9
+  RMS grad  2.6826E-03 Target: 6.6667E-04 converged?   no
+ Predicted step length  5.377E-02
+ Trust radius           2.000E-01
+dl-find/turbomole/=============================== Tstep:  126.5 Ttot:  346.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138673746E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle    3
+    Energy  1.2087E-03 Target: 2.2222E-06 converged?   no
+  Max step  1.7010E-02 Target: 4.0000E-03 converged?   no component     9
+  RMS step  3.4077E-03 Target: 2.6667E-03 converged?   no
+  Max grad  3.6771E-03 Target: 1.0000E-03 converged?   no component   121
+  RMS grad  1.0129E-03 Target: 6.6667E-04 converged?   no
+ Predicted step length  2.194E-02
+ Trust radius           4.000E-01
+dl-find/turbomole/=============================== Tstep:  133.2 Ttot:  479.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138673982E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle    4
+    Energy  2.3572E-04 Target: 2.2222E-06 converged?   no
+  Max step  5.9064E-03 Target: 4.0000E-03 converged?   no component     9
+  RMS step  1.3901E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  3.1294E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  8.2091E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  6.605E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  110.3 Ttot:  590.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138674341E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle    5
+    Energy  3.5909E-04 Target: 2.2222E-06 converged?   no
+  Max step  1.4847E-02 Target: 4.0000E-03 converged?   no component   235
+  RMS step  4.1860E-03 Target: 2.6667E-03 converged?   no
+  Max grad  4.4570E-03 Target: 1.0000E-03 converged?   no component    21
+  RMS grad  9.0491E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  6.022E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  123.3 Ttot:  713.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138674379E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle    6
+    Energy  3.8190E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.6171E-02 Target: 4.0000E-03 converged?   no component   235
+  RMS step  3.8163E-03 Target: 2.6667E-03 converged?   no
+  Max grad  1.1324E-02 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  1.5346E-03 Target: 6.6667E-04 converged?   no
+ Predicted step length  1.620E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  125.4 Ttot:  838.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138674582E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle    7
+    Energy  2.0252E-04 Target: 2.2222E-06 converged?   no
+  Max step  6.6488E-03 Target: 4.0000E-03 converged?   no component   234
+  RMS step  1.0266E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  3.0140E-03 Target: 1.0000E-03 converged?   no component   232
+  RMS grad  5.3395E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.282E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  117.5 Ttot:  956.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138674653E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle    8
+    Energy  7.1308E-05 Target: 2.2222E-06 converged?   no
+  Max step  4.9171E-03 Target: 4.0000E-03 converged?   no component   232
+  RMS step  8.1233E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  2.0338E-03 Target: 1.0000E-03 converged?   no component   232
+  RMS grad  4.1243E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  3.779E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  106.1 Ttot: 1062.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138674773E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle    9
+    Energy  1.1966E-04 Target: 2.2222E-06 converged?   no
+  Max step  1.4923E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  2.3950E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  3.8958E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.7946E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.731E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  123.4 Ttot: 1185.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138674901E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   10
+    Energy  1.2840E-04 Target: 2.2222E-06 converged?   no
+  Max step  2.3712E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  3.6322E-03 Target: 2.6667E-03 converged?   no
+  Max grad  3.8184E-03 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  6.7438E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  1.420E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  118.4 Ttot: 1304.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138674788E+03
+ Rejecting step, energy  1.134E-04 higher
+ Trust radius           7.100E-02
+dl-find/turbomole/=============================== Tstep:  131.8 Ttot: 1436.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138674985E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   12
+    Energy  8.4092E-05 Target: 2.2222E-06 converged?   no
+  Max step  3.1159E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  4.4992E-03 Target: 2.6667E-03 converged?   no
+  Max grad  9.0638E-03 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  1.1271E-03 Target: 6.6667E-04 converged?   no
+ Predicted step length  6.756E-02
+ Trust radius           1.420E-01
+dl-find/turbomole/=============================== Tstep:  119.8 Ttot: 1555.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675130E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   13
+    Energy  1.4471E-04 Target: 2.2222E-06 converged?   no
+  Max step  2.7696E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  4.2813E-03 Target: 2.6667E-03 converged?   no
+  Max grad  4.6810E-03 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  5.3878E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  4.454E-02
+ Trust radius           2.840E-01
+dl-find/turbomole/=============================== Tstep:  125.7 Ttot: 1681.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675217E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   14
+    Energy  8.6714E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.7752E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  2.8229E-03 Target: 2.6667E-03 converged?   no
+  Max grad  2.0669E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  4.0601E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  6.226E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  119.0 Ttot: 1800.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675317E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   15
+    Energy  9.9975E-05 Target: 2.2222E-06 converged?   no
+  Max step  2.4715E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  3.9458E-03 Target: 2.6667E-03 converged?   no
+  Max grad  3.8993E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.4032E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  9.067E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  119.0 Ttot: 1919.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675340E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   16
+    Energy  2.2993E-05 Target: 2.2222E-06 converged?   no
+  Max step  3.6356E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  5.7459E-03 Target: 2.6667E-03 converged?   no
+  Max grad  5.3703E-03 Target: 1.0000E-03 converged?   no component     6
+  RMS grad  8.8803E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  7.120E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  127.8 Ttot: 2047.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675421E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   17
+    Energy  8.1368E-05 Target: 2.2222E-06 converged?   no
+  Max step  2.8420E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  4.5121E-03 Target: 2.6667E-03 converged?   no
+  Max grad  3.0112E-03 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  4.7841E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  3.519E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  119.5 Ttot: 2166.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675501E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   18
+    Energy  8.0247E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.1875E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  2.2301E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  1.1853E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  3.9999E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  6.261E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  118.0 Ttot: 2284.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675597E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   19
+    Energy  9.5817E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.8804E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  3.9675E-03 Target: 2.6667E-03 converged?   no
+  Max grad  3.3156E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.6236E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  9.068E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  123.8 Ttot: 2408.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675667E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   20
+    Energy  6.9594E-05 Target: 2.2222E-06 converged?   no
+  Max step  2.7770E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  5.7468E-03 Target: 2.6667E-03 converged?   no
+  Max grad  4.8278E-03 Target: 1.0000E-03 converged?   no component   121
+  RMS grad  8.5474E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  5.172E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  131.6 Ttot: 2540.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675765E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   21
+    Energy  9.8227E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.4127E-02 Target: 4.0000E-03 converged?   no component   232
+  RMS step  3.2773E-03 Target: 2.6667E-03 converged?   no
+  Max grad  2.6496E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.2110E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  8.430E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  109.8 Ttot: 2650.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675860E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   22
+    Energy  9.5128E-05 Target: 2.2222E-06 converged?   no
+  Max step  2.1218E-02 Target: 4.0000E-03 converged?   no component   196
+  RMS step  5.3421E-03 Target: 2.6667E-03 converged?   no
+  Max grad  1.5180E-03 Target: 1.0000E-03 converged?   no component   223
+  RMS grad  4.2197E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  6.802E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  111.4 Ttot: 2761.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138675911E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   23
+    Energy  5.0455E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.7508E-02 Target: 4.0000E-03 converged?   no component   196
+  RMS step  4.3105E-03 Target: 2.6667E-03 converged?   no
+  Max grad  3.0179E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.3548E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.939E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  121.5 Ttot: 2882.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138676609E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   24
+    Energy  6.9829E-04 Target: 2.2222E-06 converged?   no
+  Max step  5.0726E-02 Target: 4.0000E-03 converged?   no component   196
+  RMS step  1.2289E-02 Target: 2.6667E-03 converged?   no
+  Max grad  5.6806E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  8.9723E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  2.186E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  131.1 Ttot: 3014.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138676739E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   25
+    Energy  1.3026E-04 Target: 2.2222E-06 converged?   no
+  Max step  5.7397E-02 Target: 4.0000E-03 converged?   no component   196
+  RMS step  1.3854E-02 Target: 2.6667E-03 converged?   no
+  Max grad  3.9671E-03 Target: 1.0000E-03 converged?   no component   121
+  RMS grad  9.6562E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  7.328E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  129.1 Ttot: 3143.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138676923E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   26
+    Energy  1.8343E-04 Target: 2.2222E-06 converged?   no
+  Max step  1.8850E-02 Target: 4.0000E-03 converged?   no component   247
+  RMS step  4.6442E-03 Target: 2.6667E-03 converged?   no
+  Max grad  2.4478E-03 Target: 1.0000E-03 converged?   no component     6
+  RMS grad  6.0499E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.054E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  124.2 Ttot: 3267.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138677106E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   27
+    Energy  1.8323E-04 Target: 2.2222E-06 converged?   no
+  Max step  2.8935E-02 Target: 4.0000E-03 converged?   no component   247
+  RMS step  6.6819E-03 Target: 2.6667E-03 converged?   no
+  Max grad  2.6957E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.7809E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  9.073E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  129.9 Ttot: 3397.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138677224E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   28
+    Energy  1.1805E-04 Target: 2.2222E-06 converged?   no
+  Max step  2.4257E-02 Target: 4.0000E-03 converged?   no component   247
+  RMS step  5.7497E-03 Target: 2.6667E-03 converged?   no
+  Max grad  3.5792E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  6.8112E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  2.590E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  112.2 Ttot: 3509.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138677457E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   29
+    Energy  2.3326E-04 Target: 2.2222E-06 converged?   no
+  Max step  6.7305E-02 Target: 4.0000E-03 converged?   no component   208
+  RMS step  1.6411E-02 Target: 2.6667E-03 converged?   no
+  Max grad  3.4216E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  7.1734E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  3.334E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  127.0 Ttot: 3636.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138677470E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   30
+    Energy  1.2409E-05 Target: 2.2222E-06 converged?   no
+  Max step  9.1883E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  2.1128E-02 Target: 2.6667E-03 converged?   no
+  Max grad  8.7320E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  1.6738E-03 Target: 6.6667E-04 converged?   no
+ Predicted step length  2.294E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  138.0 Ttot: 3774.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138677769E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   31
+    Energy  2.9974E-04 Target: 2.2222E-06 converged?   no
+  Max step  5.2724E-03 Target: 4.0000E-03 converged?   no component   175
+  RMS step  1.4536E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  2.4847E-03 Target: 1.0000E-03 converged?   no component   223
+  RMS grad  7.1009E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  8.270E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  117.5 Ttot: 3891.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138677949E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   32
+    Energy  1.7998E-04 Target: 2.2222E-06 converged?   no
+  Max step  2.4828E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  5.2408E-03 Target: 2.6667E-03 converged?   no
+  Max grad  2.4663E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.4883E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.691E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  114.9 Ttot: 4006.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138678078E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   33
+    Energy  1.2879E-04 Target: 2.2222E-06 converged?   no
+  Max step  5.0180E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  1.0716E-02 Target: 2.6667E-03 converged?   no
+  Max grad  2.6656E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  6.9418E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  2.980E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  129.9 Ttot: 4136.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138678446E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   34
+    Energy  3.6770E-04 Target: 2.2222E-06 converged?   no
+  Max step  8.7084E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  1.8885E-02 Target: 2.6667E-03 converged?   no
+  Max grad  2.7913E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  7.6476E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  6.849E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  136.6 Ttot: 4273.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138678312E+03
+ Rejecting step, energy  1.338E-04 higher
+ Trust radius           2.500E-01
+dl-find/turbomole/=============================== Tstep:  144.5 Ttot: 4417.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138678587E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   36
+    Energy  1.4099E-04 Target: 2.2222E-06 converged?   no
+  Max step  7.2957E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  1.5843E-02 Target: 2.6667E-03 converged?   no
+  Max grad  8.0362E-03 Target: 1.0000E-03 converged?   no component   172
+  RMS grad  1.2036E-03 Target: 6.6667E-04 converged?   no
+ Predicted step length  2.470E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  132.8 Ttot: 4550.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138678877E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   37
+    Energy  2.9019E-04 Target: 2.2222E-06 converged?   no
+  Max step  7.1358E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  1.5650E-02 Target: 2.6667E-03 converged?   no
+  Max grad  2.1862E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.9470E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.156E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  134.4 Ttot: 4684.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679075E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   38
+    Energy  1.9752E-04 Target: 2.2222E-06 converged?   no
+  Max step  3.2233E-02 Target: 4.0000E-03 converged?   no component   247
+  RMS step  7.3264E-03 Target: 2.6667E-03 converged?   no
+  Max grad  2.4867E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  5.2619E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.755E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  125.2 Ttot: 4810.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679277E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   39
+    Energy  2.0271E-04 Target: 2.2222E-06 converged?   no
+  Max step  4.8853E-02 Target: 4.0000E-03 converged?   no component   247
+  RMS step  1.1122E-02 Target: 2.6667E-03 converged?   no
+  Max grad  3.6439E-03 Target: 1.0000E-03 converged?   no component   172
+  RMS grad  7.2644E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  1.928E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  118.2 Ttot: 4928.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679363E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   40
+    Energy  8.5920E-05 Target: 2.2222E-06 converged?   no
+  Max step  5.4978E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  1.2216E-02 Target: 2.6667E-03 converged?   no
+  Max grad  3.6274E-03 Target: 1.0000E-03 converged?   no component   230
+  RMS grad  1.0792E-03 Target: 6.6667E-04 converged?   no
+ Predicted step length  2.855E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  136.5 Ttot: 5064.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679535E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   41
+    Energy  1.7219E-04 Target: 2.2222E-06 converged?   no
+  Max step  6.7775E-03 Target: 4.0000E-03 converged?   no component   208
+  RMS step  1.8093E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5376E-03 Target: 1.0000E-03 converged?   no component   229
+  RMS grad  4.8570E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  7.226E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  122.3 Ttot: 5187.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679641E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   42
+    Energy  1.0590E-04 Target: 2.2222E-06 converged?   no
+  Max step  2.3156E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  4.5794E-03 Target: 2.6667E-03 converged?   no
+  Max grad  1.5025E-03 Target: 1.0000E-03 converged?   no component   229
+  RMS grad  4.7708E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.077E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  130.4 Ttot: 5317.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679766E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   43
+    Energy  1.2455E-04 Target: 2.2222E-06 converged?   no
+  Max step  3.5371E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  6.8224E-03 Target: 2.6667E-03 converged?   no
+  Max grad  1.8700E-03 Target: 1.0000E-03 converged?   no component    84
+  RMS grad  6.1513E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  2.462E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  119.4 Ttot: 5437.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679283E+03
+ Rejecting step, energy  4.825E-04 higher
+ Trust radius           1.231E-01
+dl-find/turbomole/=============================== Tstep:  127.3 Ttot: 5564.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679893E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   45
+    Energy  1.2715E-04 Target: 2.2222E-06 converged?   no
+  Max step  4.0088E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  7.8007E-03 Target: 2.6667E-03 converged?   no
+  Max grad  2.6965E-03 Target: 1.0000E-03 converged?   no component   102
+  RMS grad  6.4856E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  4.550E-01
+ Trust radius           2.462E-01
+dl-find/turbomole/=============================== Tstep:  127.2 Ttot: 5691.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679396E+03
+ Rejecting step, energy  4.973E-04 higher
+ Trust radius           1.231E-01
+dl-find/turbomole/=============================== Tstep:  138.4 Ttot: 5829.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680013E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   47
+    Energy  1.2036E-04 Target: 2.2222E-06 converged?   no
+  Max step  4.0068E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  7.8007E-03 Target: 2.6667E-03 converged?   no
+  Max grad  1.7721E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  5.3474E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  2.757E-01
+ Trust radius           2.462E-01
+dl-find/turbomole/=============================== Tstep:  130.9 Ttot: 5960.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679510E+03
+ Rejecting step, energy  5.035E-04 higher
+ Trust radius           1.231E-01
+dl-find/turbomole/=============================== Tstep:  135.6 Ttot: 6096.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679467E+03
+ Rejecting step, energy  5.465E-04 higher
+ Trust radius           6.155E-02
+dl-find/turbomole/=============================== Tstep:  123.6 Ttot: 6220.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679413E+03
+ Rejecting step, energy  6.005E-04 higher
+ Trust radius           3.077E-02
+dl-find/turbomole/=============================== Tstep:  120.2 Ttot: 6340.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680054E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   51
+    Energy  4.1177E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.0063E-02 Target: 4.0000E-03 converged?   no component   214
+  RMS step  1.9502E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  1.6313E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.8950E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  3.783E-01
+ Trust radius           6.155E-02
+dl-find/turbomole/=============================== Tstep:  122.5 Ttot: 6462.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679452E+03
+ Rejecting step, energy  6.028E-04 higher
+ Trust radius           3.077E-02
+dl-find/turbomole/=============================== Tstep:  125.5 Ttot: 6588.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679418E+03
+ Rejecting step, energy  6.369E-04 higher
+ Trust radius           1.539E-02
+dl-find/turbomole/=============================== Tstep:  108.9 Ttot: 6697.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679399E+03
+ Rejecting step, energy  6.552E-04 higher
+ Trust radius           7.693E-03
+dl-find/turbomole/=============================== Tstep:  101.5 Ttot: 6798.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680063E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   55
+    Energy  8.9000E-06 Target: 2.2222E-06 converged?   no
+  Max step  2.5103E-03 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  4.8754E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5791E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.8014E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  4.806E-01
+ Trust radius           1.539E-02
+dl-find/turbomole/=============================== Tstep:  124.8 Ttot: 6923.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679412E+03
+ Rejecting step, energy  6.518E-04 higher
+ Trust radius           7.693E-03
+dl-find/turbomole/=============================== Tstep:  124.2 Ttot: 7047.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679401E+03
+ Rejecting step, energy  6.627E-04 higher
+ Trust radius           3.847E-03
+dl-find/turbomole/=============================== Tstep:   96.3 Ttot: 7143.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679395E+03
+ Rejecting step, energy  6.682E-04 higher
+ Trust radius           1.923E-03
+dl-find/turbomole/=============================== Tstep:   91.7 Ttot: 7235.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679392E+03
+ Rejecting step, energy  6.709E-04 higher
+ Trust radius           9.617E-04
+dl-find/turbomole/=============================== Tstep:   83.6 Ttot: 7319.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138679391E+03
+ Rejecting step, energy  6.723E-04 higher
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   78.8 Ttot: 7398.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680064E+03
+Testing convergence  in cycle   61
+    Energy  6.5100E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5742E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5774E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7947E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  4.470E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:  124.6 Ttot: 7522.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680065E+03
+Testing convergence  in cycle   62
+    Energy  7.7100E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5710E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5738E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7878E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.672E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   72.1 Ttot: 7594.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680065E+03
+Testing convergence  in cycle   63
+    Energy  6.8400E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5703E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5714E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7821E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.685E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   68.5 Ttot: 7663.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680066E+03
+Testing convergence  in cycle   64
+    Energy  7.8500E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5758E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5699E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7758E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.823E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   70.1 Ttot: 7733.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680067E+03
+Testing convergence  in cycle   65
+    Energy  8.0900E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5762E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5659E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7698E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  6.863E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   66.3 Ttot: 7799.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680068E+03
+Testing convergence  in cycle   66
+    Energy  7.3200E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5771E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5653E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7649E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  6.602E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   70.1 Ttot: 7869.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680069E+03
+Testing convergence  in cycle   67
+    Energy  8.2200E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5823E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5629E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7592E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  6.581E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   67.9 Ttot: 7937.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680069E+03
+Testing convergence  in cycle   68
+    Energy  8.1200E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5861E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5595E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7541E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  7.843E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   66.2 Ttot: 8003.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680070E+03
+Testing convergence  in cycle   69
+    Energy  7.8000E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5854E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5596E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7493E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  7.495E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   71.3 Ttot: 8075.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680071E+03
+Testing convergence  in cycle   70
+    Energy  8.1600E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5896E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5567E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7443E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  7.491E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   67.8 Ttot: 8143.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680072E+03
+Testing convergence  in cycle   71
+    Energy  8.2000E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5959E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5547E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7395E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  8.118E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   67.4 Ttot: 8210.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680073E+03
+Testing convergence  in cycle   72
+    Energy  8.1400E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5923E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5537E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7349E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  8.109E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   69.2 Ttot: 8279.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680073E+03
+Testing convergence  in cycle   73
+    Energy  8.0700E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5961E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5515E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7304E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  8.130E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   67.1 Ttot: 8346.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+Testing convergence  in cycle   74
+    Energy  8.3100E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5995E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5494E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7259E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  8.548E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   68.6 Ttot: 8415.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680075E+03
+Testing convergence  in cycle   75
+    Energy  8.2500E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.5974E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5492E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7216E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  8.449E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   63.2 Ttot: 8478.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680076E+03
+Testing convergence  in cycle   76
+    Energy  8.1200E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.6004E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5465E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7173E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  9.550E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   72.4 Ttot: 8550.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680077E+03
+Testing convergence  in cycle   77
+    Energy  8.2900E-07 Target: 2.2222E-06 converged?  yes
+  Max step  1.6045E-04 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.0471E-05 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5453E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7132E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  8.986E-01
+ Trust radius           4.808E-04
+dl-find/turbomole/=============================== Tstep:   65.9 Ttot: 8616.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680075E+03
+ Rejecting step, energy  1.823E-06 higher
+ Trust radius           2.404E-04
+dl-find/turbomole/=============================== Tstep:   74.5 Ttot: 8691.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680075E+03
+ Rejecting step, energy  2.234E-06 higher
+ Trust radius           1.202E-04
+dl-find/turbomole/=============================== Tstep:   66.4 Ttot: 8757.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.439E-06 higher
+ Trust radius           6.010E-05
+dl-find/turbomole/=============================== Tstep:   59.5 Ttot: 8817.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.542E-06 higher
+ Trust radius           3.005E-05
+dl-find/turbomole/=============================== Tstep:   59.5 Ttot: 8876.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680077E+03
+Testing convergence  in cycle   82
+    Energy  5.1000E-08 Target: 2.2222E-06 converged?  yes
+  Max step  1.0032E-05 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  1.9045E-06 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5452E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7129E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  2.028E+00
+ Trust radius           3.005E-05
+dl-find/turbomole/=============================== Tstep:   62.5 Ttot: 8939.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.597E-06 higher
+ Trust radius           1.503E-05
+dl-find/turbomole/=============================== Tstep:   62.2 Ttot: 9001.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.621E-06 higher
+ Trust radius           7.513E-06
+dl-find/turbomole/=============================== Tstep:   48.0 Ttot: 9049.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.632E-06 higher
+ Trust radius           3.756E-06
+dl-find/turbomole/=============================== Tstep:   52.9 Ttot: 9102.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680077E+03
+Testing convergence  in cycle   86
+    Energy  5.9999E-09 Target: 2.2222E-06 converged?  yes
+  Max step  1.2544E-06 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  2.3806E-07 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5452E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7129E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.538E-01
+ Trust radius           3.756E-06
+dl-find/turbomole/=============================== Tstep:   67.7 Ttot: 9170.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680077E+03
+Testing convergence  in cycle   87
+    Energy  7.9999E-09 Target: 2.2222E-06 converged?  yes
+  Max step  1.2564E-06 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  2.3806E-07 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5451E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7129E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  4.025E-01
+ Trust radius           3.756E-06
+dl-find/turbomole/=============================== Tstep:   48.8 Ttot: 9218.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.637E-06 higher
+ Trust radius           1.878E-06
+dl-find/turbomole/=============================== Tstep:   63.6 Ttot: 9282.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680077E+03
+Testing convergence  in cycle   89
+    Energy  4.0000E-09 Target: 2.2222E-06 converged?  yes
+  Max step  6.1834E-07 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  1.1903E-07 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5451E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7128E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.177E+01
+ Trust radius           1.878E-06
+dl-find/turbomole/=============================== Tstep:   64.4 Ttot: 9346.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.641E-06 higher
+ Trust radius           9.391E-07
+dl-find/turbomole/=============================== Tstep:   66.2 Ttot: 9413.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.643E-06 higher
+ Trust radius           4.696E-07
+dl-find/turbomole/=============================== Tstep:   48.0 Ttot: 9461.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.644E-06 higher
+ Trust radius           2.348E-07
+dl-find/turbomole/=============================== Tstep:   46.2 Ttot: 9507.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680074E+03
+ Rejecting step, energy  2.644E-06 higher
+ Trust radius           1.174E-07
+dl-find/turbomole/=============================== Tstep:   46.4 Ttot: 9553.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680077E+03
+ Rejecting step, energy  0.000E+00 higher
+ Trust radius           5.870E-08
+ Step too small, restarting optimiser.
+Restarting L-BFGS optimiser
+Testing convergence  in cycle   94
+    Energy  0.0000E+00 Target: 2.2222E-06 converged?  yes
+  Max step  1.9463E-08 Target: 4.0000E-03 converged?  yes component   214
+  RMS step  3.7197E-09 Target: 2.6667E-03 converged?  yes
+  Max grad  1.5451E-03 Target: 1.0000E-03 converged?   no component   175
+  RMS grad  4.7128E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  2.000E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:   64.9 Ttot: 9618.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680075E+03
+ Rejecting step, energy  2.270E-06 higher
+ Trust radius           1.000E-02
+dl-find/turbomole/=============================== Tstep:  129.9 Ttot: 9748.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680112E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   96
+    Energy  3.5178E-05 Target: 2.2222E-06 converged?   no
+  Max step  2.0777E-03 Target: 4.0000E-03 converged?  yes component   175
+  RMS step  6.3372E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  1.1346E-03 Target: 1.0000E-03 converged?   no component   102
+  RMS grad  3.7609E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.962E-03
+ Trust radius           2.000E-02
+dl-find/turbomole/=============================== Tstep:  123.9 Ttot: 9872.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680139E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   97
+    Energy  2.7382E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.3131E-03 Target: 4.0000E-03 converged?  yes component   106
+  RMS step  3.7780E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  9.3886E-04 Target: 1.0000E-03 converged?  yes component   231
+  RMS grad  3.2441E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  6.227E-02
+ Trust radius           4.000E-02
+dl-find/turbomole/=============================== Tstep:  105.2 Ttot: 9977.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680232E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   98
+    Energy  9.2767E-05 Target: 2.2222E-06 converged?   no
+  Max step  8.0804E-03 Target: 4.0000E-03 converged?   no component   106
+  RMS step  2.5349E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  1.7601E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  3.4579E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  4.579E-02
+ Trust radius           8.000E-02
+dl-find/turbomole/=============================== Tstep:  130.2 Ttot:10107.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680255E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle   99
+    Energy  2.2669E-05 Target: 2.2222E-06 converged?   no
+  Max step  9.2844E-03 Target: 4.0000E-03 converged?   no component   199
+  RMS step  2.9019E-03 Target: 2.6667E-03 converged?   no
+  Max grad  4.1156E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  7.2019E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  6.181E-03
+ Trust radius           1.600E-01
+dl-find/turbomole/=============================== Tstep:  125.3 Ttot:10232.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680297E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  100
+    Energy  4.1687E-05 Target: 2.2222E-06 converged?   no
+  Max step  2.1516E-03 Target: 4.0000E-03 converged?  yes component   218
+  RMS step  3.9170E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  1.1448E-03 Target: 1.0000E-03 converged?   no component    93
+  RMS grad  3.0146E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.006E-02
+ Trust radius           3.200E-01
+dl-find/turbomole/=============================== Tstep:  118.4 Ttot:10351.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680321E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  101
+    Energy  2.4759E-05 Target: 2.2222E-06 converged?   no
+  Max step  2.2236E-03 Target: 4.0000E-03 converged?  yes component   199
+  RMS step  6.3742E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  7.8273E-04 Target: 1.0000E-03 converged?  yes component   154
+  RMS grad  2.3339E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  3.439E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  116.9 Ttot:10468.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680356E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  102
+    Energy  3.4228E-05 Target: 2.2222E-06 converged?   no
+  Max step  8.1597E-03 Target: 4.0000E-03 converged?   no component   199
+  RMS step  2.1792E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  2.0349E-03 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  3.7795E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  4.346E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  123.2 Ttot:10591.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680398E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  103
+    Energy  4.2310E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.0564E-02 Target: 4.0000E-03 converged?   no component   199
+  RMS step  2.7543E-03 Target: 2.6667E-03 converged?   no
+  Max grad  2.4291E-03 Target: 1.0000E-03 converged?   no component   218
+  RMS grad  4.0593E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.175E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  120.3 Ttot:10711.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680289E+03
+ Rejecting step, energy  1.090E-04 higher
+ Trust radius           5.873E-02
+dl-find/turbomole/=============================== Tstep:  140.2 Ttot:10852.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680411E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  105
+    Energy  1.3516E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.4166E-02 Target: 4.0000E-03 converged?   no component   199
+  RMS step  3.7216E-03 Target: 2.6667E-03 converged?   no
+  Max grad  7.5563E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  8.4878E-04 Target: 6.6667E-04 converged?   no
+ Predicted step length  3.356E-02
+ Trust radius           1.175E-01
+dl-find/turbomole/=============================== Tstep:  124.6 Ttot:10976.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680477E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  106
+    Energy  6.5332E-05 Target: 2.2222E-06 converged?   no
+  Max step  7.9825E-03 Target: 4.0000E-03 converged?   no component   199
+  RMS step  2.1267E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  1.6165E-03 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  2.9050E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.903E-02
+ Trust radius           2.349E-01
+dl-find/turbomole/=============================== Tstep:  123.9 Ttot:11100.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680505E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  107
+    Energy  2.8728E-05 Target: 2.2222E-06 converged?   no
+  Max step  4.7996E-03 Target: 4.0000E-03 converged?   no component   196
+  RMS step  1.2059E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  8.9686E-04 Target: 1.0000E-03 converged?  yes component   225
+  RMS grad  2.2001E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  2.694E-02
+ Trust radius           4.698E-01
+dl-find/turbomole/=============================== Tstep:  120.8 Ttot:11221.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680524E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  108
+    Energy  1.8275E-05 Target: 2.2222E-06 converged?   no
+  Max step  7.5045E-03 Target: 4.0000E-03 converged?   no component   196
+  RMS step  1.7074E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  1.7101E-03 Target: 1.0000E-03 converged?   no component   225
+  RMS grad  2.8361E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  4.582E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  119.7 Ttot:11341.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680563E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  109
+    Energy  3.9259E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.3800E-02 Target: 4.0000E-03 converged?   no component   196
+  RMS step  2.9038E-03 Target: 2.6667E-03 converged?   no
+  Max grad  1.9306E-03 Target: 1.0000E-03 converged?   no component   234
+  RMS grad  3.0649E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  1.278E-01
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  122.4 Ttot:11463.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680422E+03
+ Rejecting step, energy  1.412E-04 higher
+ Trust radius           6.391E-02
+dl-find/turbomole/=============================== Tstep:  136.7 Ttot:11600.1 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680553E+03
+ Rejecting step, energy  1.031E-05 higher
+ Trust radius           3.195E-02
+dl-find/turbomole/=============================== Tstep:  118.1 Ttot:11718.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680567E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  112
+    Energy  3.9230E-06 Target: 2.2222E-06 converged?   no
+  Max step  9.9120E-03 Target: 4.0000E-03 converged?   no component   196
+  RMS step  2.0250E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  2.5712E-03 Target: 1.0000E-03 converged?   no component    84
+  RMS grad  4.2263E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.936E-02
+ Trust radius           6.391E-02
+dl-find/turbomole/=============================== Tstep:  113.3 Ttot:11831.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680613E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  113
+    Energy  4.6633E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.8926E-02 Target: 4.0000E-03 converged?   no component   196
+  RMS step  3.7615E-03 Target: 2.6667E-03 converged?   no
+  Max grad  9.8679E-04 Target: 1.0000E-03 converged?  yes component    84
+  RMS grad  2.3392E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  3.399E-02
+ Trust radius           1.278E-01
+dl-find/turbomole/=============================== Tstep:  125.3 Ttot:11956.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680642E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  114
+    Energy  2.8437E-05 Target: 2.2222E-06 converged?   no
+  Max step  1.1176E-02 Target: 4.0000E-03 converged?   no component   196
+  RMS step  2.1541E-03 Target: 2.6667E-03 converged?  yes
+  Max grad  5.1792E-04 Target: 1.0000E-03 converged?  yes component   197
+  RMS grad  1.7635E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  6.393E-02
+ Trust radius           2.556E-01
+dl-find/turbomole/=============================== Tstep:  120.9 Ttot:12077.8 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680695E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  115
+    Energy  5.3208E-05 Target: 2.2222E-06 converged?   no
+  Max step  2.0398E-02 Target: 4.0000E-03 converged?   no component   196
+  RMS step  4.0515E-03 Target: 2.6667E-03 converged?   no
+  Max grad  1.4807E-03 Target: 1.0000E-03 converged?   no component   207
+  RMS grad  3.1597E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.126E-02
+ Trust radius           5.000E-01
+dl-find/turbomole/=============================== Tstep:  117.2 Ttot:12195.0 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680660E+03
+ Rejecting step, energy  3.490E-05 higher
+ Trust radius           2.563E-02
+dl-find/turbomole/=============================== Tstep:  112.5 Ttot:12307.4 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680663E+03
+ Rejecting step, energy  3.207E-05 higher
+ Trust radius           1.282E-02
+dl-find/turbomole/=============================== Tstep:  104.3 Ttot:12411.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680705E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  118
+    Energy  1.0029E-05 Target: 2.2222E-06 converged?   no
+  Max step  3.8066E-03 Target: 4.0000E-03 converged?  yes component   196
+  RMS step  8.1215E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  9.7042E-04 Target: 1.0000E-03 converged?  yes component    93
+  RMS grad  2.3405E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  3.412E-02
+ Trust radius           2.563E-02
+dl-find/turbomole/=============================== Tstep:  111.5 Ttot:12523.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680677E+03
+ Rejecting step, energy  2.820E-05 higher
+ Trust radius           1.282E-02
+dl-find/turbomole/=============================== Tstep:  110.7 Ttot:12633.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680717E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  120
+    Energy  1.1484E-05 Target: 2.2222E-06 converged?   no
+  Max step  3.4359E-03 Target: 4.0000E-03 converged?  yes component   196
+  RMS step  8.1215E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  7.1668E-04 Target: 1.0000E-03 converged?  yes component   232
+  RMS grad  1.8895E-04 Target: 6.6667E-04 converged?  yes
+ Predicted step length  5.049E-02
+ Trust radius           2.563E-02
+dl-find/turbomole/=============================== Tstep:  104.0 Ttot:12737.9 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680688E+03
+ Rejecting step, energy  2.862E-05 higher
+ Trust radius           1.282E-02
+dl-find/turbomole/=============================== Tstep:  113.7 Ttot:12851.7 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680679E+03
+ Rejecting step, energy  3.725E-05 higher
+ Trust radius           6.408E-03
+dl-find/turbomole/=============================== Tstep:  101.5 Ttot:12953.2 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680672E+03
+ Rejecting step, energy  4.418E-05 higher
+ Trust radius           3.204E-03
+dl-find/turbomole/=============================== Tstep:   97.3 Ttot:13050.6 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680671E+03
+ Rejecting step, energy  4.600E-05 higher
+ Trust radius           1.602E-03
+dl-find/turbomole/=============================== Tstep:   93.9 Ttot:13144.5 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680718E+03
+ Wolfe conditions fulfilled, increasing trust radius
+Testing convergence  in cycle  125
+    Energy  1.5910E-06 Target: 2.2222E-06 converged?  yes
+  Max step  4.1077E-04 Target: 4.0000E-03 converged?  yes component   196
+  RMS step  1.0152E-04 Target: 2.6667E-03 converged?  yes
+  Max grad  7.0332E-04 Target: 1.0000E-03 converged?  yes component   232
+  RMS grad  1.8491E-04 Target: 6.6667E-04 converged?  yes
+Convergence reached
+
+ Optimisation converged
+ ----------------------
+ Final converged energy:   -2138.680718239000
+
+
+DL-FIND Report:
+===============
+Optimisation algorithm: L-BFGS
+Number of steps in L-BFGS memory ...............         50
+ 
+Trust radius based on energy
+Maximum step length ............................  5.000E-01
+ 
+Coordinate system: Cartesian coordinates
+ 
+Number of atoms ................................         85
+Number of input geometries .....................          1
+Variables to be optimised ......................        249
+No restart information is written
+This run has not been restarted.
+Number of energy evaluations on this processor .        125
+Number of steps ................................        125
+Number of accepted steps / line searches .......         87
+ 
+
+Timing report
+=============
+Module                                      CPU time            Wall clock time
+Total .................................    19.995 (100.00%) 13240.050 (100.00%) seconds
+Energy and Gradient ...................    19.897 ( 99.51%) 13239.894 (100.00%) seconds
+Step direction ........................     0.019 (  0.10%)     0.047 (  0.00%) seconds
+Coordinate transformation .............     0.001 (  0.01%)     0.002 (  0.00%) seconds
+Checkpoint file I/O ...................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+XYZ-file I/O ..........................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+exit 0
+write_xyz/======================================= Tstep:   95.6 Ttot:13240.1 ==
+dl-find/========================================= Tstep:    0.0 Ttot:13240.1 ==
+dl-find/copy_object/============================= Tstep:    0.0 Ttot:13240.1 ==
+dl-find/get_number_of_atoms/===================== Tstep:    0.0 Ttot:13240.1 ==
+dl-find/set_matrix_size/========================= Tstep:    0.0 Ttot:13240.1 ==
+dl-find/set_matrix_size/========================= Tstep:    0.0 Ttot:13240.1 ==
+Using 2018 CODATA recommended values
+
+***********************************************************************
+**                                                                   **
+**                       ---------------------                       **
+**                              DL-FIND                              **
+**                       Geometry Optimisation                       **
+**                       ---------------------                       **
+**                                                                   **
+**                 J. Kaestner, J.M. Carr, T.W. Keal,                **
+**                W. Thiel, A. Wander and P. Sherwood                **
+**                                                                   **
+**              J. Phys. Chem. A, 2009, 113 (43), 11856.             **
+**                                                                   **
+**   Please include this reference in published work using DL-FIND.  **
+**                                                                   **
+**               Copyright:  STFC Daresbury Laboratory               **
+**                  and the University of Stuttgart                  **
+**                           Revision:  341 $                        **
+**                                                                   **
+***********************************************************************
+
+Atom      1  free
+Atom      2  free
+Atom      3  free
+Atom      4  free
+Atom      5  free
+Atom      6  free
+Atom      7  free
+Atom      8  free
+Atom      9  free
+Atom     10  free
+Atom     11  free
+Atom     12  free
+Atom     13  free
+Atom     14  free
+Atom     15  free
+Atom     16  free
+Atom     17  free
+Atom     18  free
+Atom     19  free
+Atom     20  free
+Atom     21  free
+Atom     22  free
+Atom     23  free
+Atom     24  free
+Atom     25  free
+Atom     26  free
+Atom     27  free
+Atom     28  free
+Atom     29  free
+Atom     30  free
+Atom     31  free
+Atom     32  free
+Atom     33  free
+Atom     34  free
+Atom     35  free
+Atom     36  free
+Atom     37  free
+Atom     38  free
+Atom     39  free
+Atom     40  free
+Atom     41  free
+Atom     42  free
+Atom     43  free
+Atom     44  free
+Atom     45  free
+Atom     46  free
+Atom     47  free
+Atom     48  free
+Atom     49  free
+Atom     50  free
+Atom     51  free
+Atom     52  free
+Atom     53  free
+Atom     54  free
+Atom     55  free
+Atom     56  free
+Atom     57  free
+Atom     58  free
+Atom     59  free
+Atom     60  free
+Atom     61  free
+Atom     62  free
+Atom     63  free
+Atom     64  free
+Atom     65  free
+Atom     66  free
+Atom     67  free
+Atom     68  free
+Atom     69  free
+Atom     70  free
+Atom     71  free
+Atom     72  free
+Atom     73  free
+Atom     74  free
+Atom     75  free
+Atom     76  free
+Atom     77  free
+Atom     78  free
+Atom     79  free
+Atom     80  free
+Atom     81  free
+Atom     82  free
+Atom     83  free
+Atom     84  free
+Atom     85  free
+
+DL-FIND Report:
+===============
+Optimisation algorithm: no optimisation, just calculate the
+    Hessian and thermal corrections
+Modes assumed to have zero vibrational frequency          6
+Temperature ....................................  2.981E+02 K
+Minimum wave number ............................  1.000E+02 cm^-1
+Finite difference for Hessian calculation ......  1.000E-02
+ 
+Step length: simple scaled
+Maximum step length ............................  5.000E-01
+Scaling step by ................................  1.000E+00
+ 
+Coordinate system: Mass-weighted Cartesian coordinates
+ 
+Number of atoms ................................         85
+Number of input geometries .....................          1
+Variables to be optimised ......................        255
+No restart information is written
+This run has not been restarted.
+Maximum number of steps ........................        100
+Maximum number of energy evaluations ...........     100000
+ 
+dl-find/turbomole/=============================== Tstep:    0.2 Ttot:13240.3 ==
+eandg
+Spin: 
+ Energy calculation finished, energy: -2.138680718E+03
+dl-find/turbomole/=============================== Tstep:   50.5 Ttot:13290.8 ==
+hessian
+Analytic hessian calculated
+
+Hessian eigenvalues:
+ -0.00143 -0.00013 -0.00000 -0.00000 -0.00000 -0.00000 -0.00000 -0.00000  0.00000  0.00000  0.00001  0.00002
+  0.00003  0.00004  0.00004  0.00006  0.00008  0.00009  0.00012  0.00013  0.00014  0.00018  0.00020  0.00027
+  0.00031  0.00036  0.00037  0.00043  0.00061  0.00071  0.00077  0.00089  0.00091  0.00096  0.00104  0.00116
+  0.00142  0.00154  0.00169  0.00202  0.00208  0.00232  0.00240  0.00254  0.00291  0.00299  0.00314  0.00338
+  0.00409  0.00449  0.00455  0.00502  0.00553  0.00574  0.00605  0.00625  0.00673  0.00692  0.00727  0.00728
+  0.00736  0.00760  0.00854  0.00904  0.01004  0.01071  0.01094  0.01111  0.01119  0.01171  0.01181  0.01246
+  0.01347  0.01405  0.01416  0.01436  0.01474  0.01488  0.01550  0.01588  0.01638  0.01757  0.01793  0.01801
+  0.01849  0.01906  0.01935  0.01978  0.02021  0.02094  0.02148  0.02178  0.02247  0.02279  0.02286  0.02296
+  0.02349  0.02363  0.02408  0.02450  0.02494  0.02509  0.02599  0.02745  0.02754  0.02783  0.02851  0.02883
+  0.02912  0.02927  0.03023  0.03104  0.03113  0.03133  0.03197  0.03210  0.03351  0.03520  0.03567  0.03784
+  0.03795  0.03826  0.03836  0.03866  0.03903  0.03915  0.03958  0.03960  0.04011  0.04062  0.04076  0.04130
+  0.04136  0.04196  0.04214  0.04231  0.04262  0.04446  0.04513  0.04566  0.04627  0.04748  0.04826  0.04846
+  0.04910  0.04926  0.04947  0.04950  0.04963  0.04977  0.04982  0.05098  0.05118  0.05203  0.05203  0.05317
+  0.05436  0.05717  0.05722  0.05736  0.05940  0.05960  0.06021  0.06055  0.06150  0.06282  0.06320  0.06461
+  0.06527  0.06644  0.06743  0.06761  0.06972  0.07054  0.07089  0.07241  0.07290  0.07525  0.07556  0.07635
+  0.07672  0.07721  0.07755  0.07833  0.07876  0.07906  0.07907  0.07975  0.08008  0.08050  0.08095  0.08220
+  0.08263  0.08282  0.08360  0.08381  0.08439  0.08527  0.08530  0.08636  0.08762  0.08926  0.09037  0.09396
+  0.09490  0.10049  0.10228  0.10362  0.10494  0.10644  0.10650  0.10761  0.10843  0.10852  0.11102  0.11155
+  0.11669  0.12136  0.12948  0.35339  0.35708  0.35722  0.36136  0.36401  0.37003  0.37016  0.37399  0.37973
+  0.38111  0.38456  0.38642  0.38829  0.38900  0.39007  0.39021  0.39043  0.39045  0.39073  0.39196  0.39221
+  0.39301  0.39374  0.39401  0.39417  0.39495  0.39572  0.39586  0.39589  0.39650  0.39860  0.40599  0.40701
+  0.41472  0.41926  0.44357
+Testing convergence  in cycle    1
+  Max grad  1.5610E-03 Target: 4.5000E-04 converged?   no component    16
+  RMS grad  1.6632E-04 Target: 3.0000E-04 converged?  yes
+ 
+Projecting out translational and rotational modes
+
+Number of translational/rotational modes:   6
+ 
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0014309284   194.452i
+    2  -0.0001340113   -59.508    85.619   0.0001355691   0.0007346202  -0.0016412577
+    3  -0.0000033839    -9.456    13.605   0.0000215426   0.0007346202  -0.0016412577
+    4   0.0000005118     3.677     5.291   0.0000083777   0.0007346202  -0.0016412577
+    5   0.0000119915    17.801    25.611   0.0000405533   0.0007346202  -0.0016412577
+    6   0.0000168617    21.108    30.370   0.0000480885   0.0007346202  -0.0016412577
+    7   0.0000287959    27.585    39.688   0.0000628427   0.0007346202  -0.0016412577
+    8   0.0000355526    30.651    44.099   0.0000698273   0.0007346202  -0.0016412577
+    9   0.0000408406    32.851    47.265   0.0000748404   0.0007346202  -0.0016412577
+   10   0.0000608521    40.100    57.695   0.0000913540   0.0007346202  -0.0016412577
+   11   0.0000838606    47.074    67.729   0.0001072430   0.0007346202  -0.0016412577
+   12   0.0000891826    48.545    69.845   0.0001105936   0.0007346202  -0.0016412577
+   13   0.0001163448    55.447    79.776   0.0001263175   0.0007346202  -0.0016412577
+   14   0.0001269080    57.909    83.319   0.0001319273   0.0007346202  -0.0016412577
+   15   0.0001439425    61.674    88.734   0.0001405027   0.0007346202  -0.0016412577
+   16   0.0001824313    69.431    99.896   0.0001581757   0.0007346202  -0.0016412577
+   17   0.0001995682    72.619   104.482   0.0001654381   0.0007346202  -0.0016412577
+   18   0.0002683703    84.212   121.162   0.0001918480   0.0007346202  -0.0016412577
+   19   0.0003064956    89.995   129.482   0.0002050228   0.0007346202  -0.0016412577
+   20   0.0003592497    97.432   140.183   0.0002219669   0.0007346202  -0.0016412577
+   21   0.0003716966    99.106   142.591   0.0002257794   0.0007346202  -0.0016412577
+   22   0.0004298078   106.572   153.333   0.0002427879   0.0007221160  -0.0015823918
+   23   0.0006127737   127.249   183.083   0.0002898945   0.0006837745  -0.0014193198
+   24   0.0007121822   137.183   197.376   0.0003125255   0.0006658921  -0.0013507047
+   25   0.0007734965   142.966   205.697   0.0003257010   0.0006556408  -0.0013131668
+   26   0.0008883937   153.217   220.445   0.0003490541   0.0006377577  -0.0012504967
+   27   0.0009106388   155.123   223.188   0.0003533971   0.0006344721  -0.0012393452
+   28   0.0009595717   159.237   229.106   0.0003627678   0.0006274262  -0.0012157868
+   29   0.0010373002   165.560   238.205   0.0003771744   0.0006167076  -0.0011808410
+   30   0.0011641038   175.388   252.344   0.0003995635   0.0006003226  -0.0011293631
+   31   0.0014201096   193.716   278.714   0.0004413172   0.0005706446  -0.0010414781
+   32   0.0015357297   201.447   289.838   0.0004589309   0.0005584646  -0.0010072029
+   33   0.0016907814   211.372   304.118   0.0004815415   0.0005431214  -0.0009653690
+   34   0.0020190111   230.980   332.328   0.0005262103   0.0005137638  -0.0008891240
+   35   0.0020761680   234.226   336.999   0.0005336066   0.0005090236  -0.0008772458
+   36   0.0023229418   247.756   356.465   0.0005644287   0.0004896355  -0.0008298154
+   37   0.0024010025   251.884   362.405   0.0005738340   0.0004838357  -0.0008159717
+   38   0.0025374509   258.942   372.560   0.0005899141   0.0004740448  -0.0007929441
+   39   0.0029145820   277.519   399.288   0.0006322344   0.0004490212  -0.0007359403
+   40   0.0029928050   281.218   404.610   0.0006406623   0.0004441652  -0.0007251703
+   41   0.0031436061   288.216   414.679   0.0006566047   0.0004350938  -0.0007052928
+   42   0.0033820239   298.946   430.116   0.0006810489   0.0004214726  -0.0006760165
+   43   0.0040886423   328.696   472.920   0.0007488236   0.0003854896  -0.0006017490
+   44   0.0044933646   344.580   495.774   0.0007850111   0.0003673225  -0.0005658171
+   45   0.0045511200   346.787   498.950   0.0007900400   0.0003648541  -0.0005610109
+   46   0.0050177405   364.132   523.904   0.0008295528   0.0003459290  -0.0005247412
+   47   0.0055337997   382.398   550.186   0.0008711675   0.0003268796  -0.0004892255
+   48   0.0057350167   389.289   560.099   0.0008868646   0.0003199239  -0.0004764946
+   49   0.0060521124   399.906   575.375   0.0009110526   0.0003094472  -0.0004575502
+   50   0.0062495647   406.377   584.686   0.0009257950   0.0003032035  -0.0004463892
+   51   0.0067347654   421.857   606.958   0.0009610615   0.0002886945  -0.0004208162
+   52   0.0069237245   427.734   615.414   0.0009744506   0.0002833413  -0.0004115058
+   53   0.0072701803   438.305   630.624   0.0009985333   0.0002739235  -0.0003952857
+   54   0.0072805146   438.617   631.072   0.0009992427   0.0002736501  -0.0003948179
+   55   0.0073644560   441.138   634.699   0.0010049866   0.0002714453  -0.0003910509
+   56   0.0075991313   448.112   644.733   0.0010208735   0.0002654254  -0.0003808208
+   57   0.0085398354   475.039   683.475   0.0010822179   0.0002432354  -0.0003437913
+   58   0.0090409984   488.779   703.244   0.0011135203   0.0002325381  -0.0003263112
+   59   0.0100420989   515.130   741.157   0.0011735516   0.0002131532  -0.0002952270
+   60   0.0107067030   531.903   765.289   0.0012117634   0.0002015577  -0.0002769879
+   61   0.0109412035   537.696   773.625   0.0012249617   0.0001976823  -0.0002709501
+   62   0.0111066051   541.745   779.450   0.0012341860   0.0001950126  -0.0002668074
+   63   0.0111902827   543.782   782.381   0.0012388265   0.0001936815  -0.0002647469
+   64   0.0117087025   556.235   800.299   0.0012671976   0.0001857149  -0.0002524851
+   65   0.0118137874   558.726   803.882   0.0012728714   0.0001841566  -0.0002501007
+   66   0.0124587933   573.776   825.535   0.0013071576   0.0001749825  -0.0002361540
+   67   0.0134696606   596.599   858.373   0.0013591528   0.0001618384  -0.0002164421
+   68   0.0140494887   609.305   876.654   0.0013880983   0.0001549068  -0.0002061733
+   69   0.0141597137   611.690   880.086   0.0013935328   0.0001536353  -0.0002042989
+   70   0.0143601636   616.005   886.293   0.0014033618   0.0001513590  -0.0002009509
+   71   0.0147394731   624.087   897.922   0.0014217752   0.0001471755  -0.0001948216
+   72   0.0148819239   627.096   902.251   0.0014286291   0.0001456448  -0.0001925868
+   73   0.0155020455   640.028   920.857   0.0014580904   0.0001392260  -0.0001832608
+   74   0.0158768179   647.718   931.922   0.0014756103   0.0001355300  -0.0001779241
+   75   0.0163787788   657.878   946.539   0.0014987552   0.0001307825  -0.0001711043
+   76   0.0175743313   681.465   980.476   0.0015524920   0.0001203317  -0.0001562318
+   77   0.0179323496   688.371   990.413   0.0015682256   0.0001174178  -0.0001521192
+   78   0.0180146497   689.949   992.683   0.0015718202   0.0001167611  -0.0001511945
+   79   0.0184853192   698.904  1005.567   0.0015922213   0.0001130966  -0.0001460479
+   80   0.0190648176   709.775  1021.208   0.0016169861   0.0001087884  -0.0001400276
+   81   0.0193517221   715.096  1028.863   0.0016291076   0.0001067346  -0.0001371689
+   82   0.0197828845   723.018  1040.262   0.0016471561   0.0001037417  -0.0001330166
+   83   0.0202141618   730.857  1051.540   0.0016650137   0.0001008558  -0.0001290277
+   84   0.0209424450   743.906  1070.315   0.0016947422   0.0000962136  -0.0001226418
+   85   0.0214811605   753.413  1083.993   0.0017164013   0.0000929554  -0.0001181825
+   86   0.0217761017   758.568  1091.410   0.0017281444   0.0000912313  -0.0001158305
+   87   0.0224716748   770.588  1108.704   0.0017555276   0.0000873243  -0.0001105201
+   88   0.0227855443   775.950  1116.420   0.0017677452   0.0000856312  -0.0001082272
+   89   0.0228644790   777.293  1118.352   0.0017708045   0.0000852120  -0.0001076603
+   90   0.0229642863   778.988  1120.790   0.0017746652   0.0000846856  -0.0001069490
+   91   0.0234931605   787.907  1133.622   0.0017949844   0.0000819644  -0.0001032792
+   92   0.0236295131   790.190  1136.907   0.0018001858   0.0000812809  -0.0001023594
+   93   0.0240843478   797.759  1147.797   0.0018174288   0.0000790523  -0.0000993667
+   94   0.0244978767   804.579  1157.609   0.0018329650   0.0000770927  -0.0000967426
+   95   0.0249437142   811.867  1168.095   0.0018495689   0.0000750481  -0.0000940120
+   96   0.0250898095   814.241  1171.511   0.0018549775   0.0000743930  -0.0000931387
+   97   0.0259867085   828.667  1192.267   0.0018878418   0.0000705246  -0.0000879980
+   98   0.0274491366   851.665  1225.355   0.0019402348   0.0000647411  -0.0000803637
+   99   0.0275412183   853.092  1227.409   0.0019434865   0.0000643970  -0.0000799116
+  100   0.0278250145   857.476  1233.717   0.0019534741   0.0000633510  -0.0000785381
+  101   0.0285064772   867.913  1248.733   0.0019772507   0.0000609241  -0.0000753595
+  102   0.0288258858   872.762  1255.709   0.0019882971   0.0000598262  -0.0000739253
+  103   0.0291191200   877.189  1262.080   0.0019983846   0.0000588399  -0.0000726387
+  104   0.0292724925   879.497  1265.399   0.0020036405   0.0000583319  -0.0000719769
+  105   0.0302272169   893.724  1285.869   0.0020360528   0.0000552891  -0.0000680225
+  106   0.0310352386   905.590  1302.943   0.0020630868   0.0000528652  -0.0000648854
+  107   0.0311323448   907.006  1304.979   0.0020663119   0.0000525828  -0.0000645207
+  108   0.0313336407   909.934  1309.191   0.0020729813   0.0000520032  -0.0000637726
+  109   0.0319674560   919.091  1322.366   0.0020938424   0.0000502288  -0.0000614863
+  110   0.0320968666   920.949  1325.040   0.0020980763   0.0000498756  -0.0000610321
+  111   0.0335083900   940.981  1353.862   0.0021437135   0.0000462142  -0.0000563371
+  112   0.0352033013   964.486  1387.680   0.0021972610   0.0000422404  -0.0000512726
+  113   0.0356724986   970.892  1396.897   0.0022118553   0.0000412145  -0.0000499705
+  114   0.0378438905  1000.005  1438.784   0.0022781790   0.0000368416  -0.0000444453
+  115   0.0379473165  1001.371  1440.749   0.0022812900   0.0000366476  -0.0000442012
+  116   0.0382588418  1005.472  1446.651   0.0022906348   0.0000360708  -0.0000434758
+  117   0.0383569007  1006.760  1448.503   0.0022935685   0.0000358915  -0.0000432505
+  118   0.0386616484  1010.752  1454.246   0.0023026617   0.0000353411  -0.0000425591
+  119   0.0390265500  1015.510  1461.093   0.0023135028   0.0000346954  -0.0000417489
+  120   0.0391515423  1017.135  1463.431   0.0023172046   0.0000344774  -0.0000414757
+  121   0.0395763317  1022.638  1471.348   0.0023297414   0.0000337490  -0.0000405631
+  122   0.0395996390  1022.939  1471.782   0.0023304273   0.0000337096  -0.0000405138
+  123   0.0401124237  1029.541  1481.280   0.0023454674   0.0000328558  -0.0000394460
+  124   0.0406189744  1036.021  1490.604   0.0023602306   0.0000320378  -0.0000384243
+  125   0.0407579866  1037.793  1493.152   0.0023642659   0.0000318176  -0.0000381496
+  126   0.0413017882  1044.693  1503.080   0.0023799859   0.0000309734  -0.0000370973
+  127   0.0413556850  1045.374  1504.061   0.0023815383   0.0000308911  -0.0000369949
+  128   0.0419581186  1052.961  1514.976   0.0023988216   0.0000299898  -0.0000358735
+  129   0.0421438212  1055.289  1518.325   0.0024041242   0.0000297183  -0.0000355361
+  130   0.0423101599  1057.369  1521.318   0.0024088640   0.0000294776  -0.0000352371
+  131   0.0426226507  1061.267  1526.926   0.0024177433   0.0000290317  -0.0000346835
+  132   0.0444618352  1083.922  1559.522   0.0024693557   0.0000265642  -0.0000316291
+  133   0.0451259241  1091.987  1571.125   0.0024877286   0.0000257350  -0.0000306061
+  134   0.0456620460  1098.454  1580.431   0.0025024628   0.0000250880  -0.0000298090
+  135   0.0462696611  1105.739  1590.911   0.0025190577   0.0000243778  -0.0000289354
+  136   0.0474755463  1120.055  1611.509   0.0025516725   0.0000230376  -0.0000272903
+  137   0.0482631867  1129.308  1624.822   0.0025727522   0.0000222092  -0.0000262758
+  138   0.0484583471  1131.589  1628.104   0.0025779486   0.0000220094  -0.0000260314
+  139   0.0490994964  1139.050  1638.839   0.0025949469   0.0000213678  -0.0000252472
+  140   0.0492587763  1140.896  1641.495   0.0025991525   0.0000212118  -0.0000250568
+  141   0.0494722782  1143.366  1645.048   0.0026047792   0.0000210049  -0.0000248042
+  142   0.0494988351  1143.673  1645.490   0.0026054782   0.0000209793  -0.0000247730
+  143   0.0496263504  1145.145  1647.608   0.0026088321   0.0000208570  -0.0000246238
+  144   0.0497746862  1146.855  1650.069   0.0026127281   0.0000207158  -0.0000244515
+  145   0.0498156886  1147.327  1650.748   0.0026138040   0.0000206770  -0.0000244042
+  146   0.0509831771  1160.694  1669.980   0.0026442554   0.0000196063  -0.0000231003
+  147   0.0511819266  1162.954  1673.232   0.0026494045   0.0000194306  -0.0000228866
+  148   0.0520314202  1172.566  1687.060   0.0026713008   0.0000187002  -0.0000219993
+  149   0.0520345556  1172.601  1687.111   0.0026713813   0.0000186976  -0.0000219961
+  150   0.0531677499  1185.300  1705.383   0.0027003129   0.0000177729  -0.0000208750
+  151   0.0543649519  1198.571  1724.476   0.0027305457   0.0000168536  -0.0000197630
+  152   0.0571673345  1229.075  1768.364   0.0028000380   0.0000149106  -0.0000174212
+  153   0.0572244036  1229.688  1769.247   0.0028014353   0.0000148738  -0.0000173770
+  154   0.0573625330  1231.171  1771.381   0.0028048143   0.0000147853  -0.0000172706
+  155   0.0594034016  1252.881  1802.617   0.0028542737   0.0000135459  -0.0000157837
+  156   0.0596040815  1254.996  1805.659   0.0028590908   0.0000134307  -0.0000156458
+  157   0.0602078121  1261.336  1814.781   0.0028735342   0.0000130909  -0.0000152391
+  158   0.0605536852  1264.954  1819.986   0.0028817762   0.0000129007  -0.0000150117
+  159   0.0615012111  1274.812  1834.170   0.0029042352   0.0000123959  -0.0000144088
+  160   0.0628235857  1288.444  1853.784   0.0029352920   0.0000117292  -0.0000136138
+  161   0.0631992736  1292.291  1859.318   0.0029440555   0.0000115475  -0.0000133973
+  162   0.0646090629  1306.625  1879.942   0.0029767110   0.0000108938  -0.0000126199
+  163   0.0652662067  1313.253  1889.478   0.0029918109   0.0000106038  -0.0000122755
+  164   0.0664388599  1324.998  1906.377   0.0030185685   0.0000101081  -0.0000116877
+  165   0.0674289426  1334.835  1920.529   0.0030409769   0.0000097103  -0.0000112166
+  166   0.0676130443  1336.656  1923.149   0.0030451255   0.0000096384  -0.0000111314
+  167   0.0697159843  1357.283  1952.828   0.0030921185   0.0000088585  -0.0000102100
+  168   0.0705439737  1365.319  1964.390   0.0031104263   0.0000085715  -0.0000098716
+  169   0.0708936574  1368.699  1969.253   0.0031181259   0.0000084535  -0.0000097325
+  170   0.0724119213  1383.277  1990.228   0.0031513380   0.0000079624  -0.0000091545
+  171   0.0729024255  1387.955  1996.957   0.0031619933   0.0000078108  -0.0000089763
+  172   0.0752505846  1410.130  2028.863   0.0032125130   0.0000071294  -0.0000081765
+  173   0.0755551828  1412.981  2032.965   0.0032190082   0.0000070461  -0.0000080789
+  174   0.0763482961  1420.378  2043.607   0.0032358593   0.0000068343  -0.0000078309
+  175   0.0767226180  1423.856  2048.611   0.0032437820   0.0000067369  -0.0000077169
+  176   0.0772118488  1428.388  2055.132   0.0032541077   0.0000066120  -0.0000075708
+  177   0.0775500537  1431.513  2059.628   0.0032612268   0.0000065272  -0.0000074716
+  178   0.0783271321  1438.667  2069.921   0.0032775254   0.0000063370  -0.0000072493
+  179   0.0787607645  1442.644  2075.643   0.0032865853   0.0000062336  -0.0000071286
+  180   0.0790638044  1445.417  2079.632   0.0032929020   0.0000061625  -0.0000070456
+  181   0.0790696229  1445.470  2079.709   0.0032930232   0.0000061612  -0.0000070440
+  182   0.0797544556  1451.716  2088.696   0.0033072531   0.0000060039  -0.0000068605
+  183   0.0800826235  1454.700  2092.989   0.0033140503   0.0000059302  -0.0000067745
+  184   0.0805026344  1458.510  2098.470   0.0033227296   0.0000058373  -0.0000066663
+  185   0.0809534174  1462.588  2104.337   0.0033320196   0.0000057394  -0.0000065523
+  186   0.0822022347  1473.826  2120.506   0.0033576217   0.0000054780  -0.0000062479
+  187   0.0826285577  1477.642  2125.998   0.0033663172   0.0000053919  -0.0000061477
+  188   0.0828233421  1479.383  2128.502   0.0033702827   0.0000053530  -0.0000061026
+  189   0.0835988455  1486.293  2138.444   0.0033860245   0.0000052015  -0.0000059265
+  190   0.0838107816  1488.176  2141.153   0.0033903138   0.0000051610  -0.0000058793
+  191   0.0843903266  1493.312  2148.543   0.0034020155   0.0000050519  -0.0000057527
+  192   0.0852679220  1501.057  2159.686   0.0034196589   0.0000048917  -0.0000055668
+  193   0.0852989065  1501.329  2160.078   0.0034202802   0.0000048861  -0.0000055603
+  194   0.0863630449  1510.665  2173.510   0.0034415488   0.0000046998  -0.0000053443
+  195   0.0876214165  1521.631  2189.288   0.0034665310   0.0000044897  -0.0000051010
+  196   0.0892634599  1535.823  2209.706   0.0034988620   0.0000042315  -0.0000048023
+  197   0.0903669608  1545.287  2223.323   0.0035204225   0.0000040674  -0.0000046127
+  198   0.0939566936  1575.680  2267.053   0.0035896641   0.0000035813  -0.0000040522
+  199   0.0948983600  1583.557  2278.385   0.0036076077   0.0000034649  -0.0000039182
+  200   0.1004909474  1629.550  2344.559   0.0037123885   0.0000028556  -0.0000032186
+  201   0.1022779906  1643.976  2365.314   0.0037452520   0.0000026871  -0.0000030257
+  202   0.1036199174  1654.725  2380.780   0.0037697415   0.0000025679  -0.0000028894
+  203   0.1049353691  1665.195  2395.845   0.0037935944   0.0000024567  -0.0000027624
+  204   0.1064447472  1677.129  2413.014   0.0038207803   0.0000023358  -0.0000026244
+  205   0.1064964020  1677.536  2413.599   0.0038217073   0.0000023318  -0.0000026198
+  206   0.1076107950  1686.290  2426.195   0.0038416507   0.0000022470  -0.0000025231
+  207   0.1084276407  1692.678  2435.386   0.0038562036   0.0000021870  -0.0000024547
+  208   0.1085169449  1693.375  2436.388   0.0038577913   0.0000021806  -0.0000024474
+  209   0.1110248264  1712.830  2464.381   0.0039021145   0.0000020079  -0.0000022508
+  210   0.1115522173  1716.894  2470.227   0.0039113714   0.0000019736  -0.0000022118
+  211   0.1166860799  1755.957  2526.430   0.0040003637   0.0000016716  -0.0000018689
+  212   0.1213626938  1790.799  2576.560   0.0040797407   0.0000014409  -0.0000016077
+  213   0.1294813484  1849.728  2661.346   0.0042139906   0.0000011199  -0.0000012454
+  214   0.3533896029  3055.844  4396.677   0.0069617246   0.0000000055  -0.0000000059
+  215   0.3570776056  3071.748  4419.560   0.0069979569   0.0000000051  -0.0000000055
+  216   0.3572175298  3072.350  4420.426   0.0069993278   0.0000000051  -0.0000000054
+  217   0.3613562138  3090.096  4445.959   0.0070397578   0.0000000047  -0.0000000050
+  218   0.3640126255  3101.434  4462.271   0.0070655858   0.0000000045  -0.0000000048
+  219   0.3700269284  3126.950  4498.983   0.0071237164   0.0000000040  -0.0000000042
+  220   0.3701597949  3127.511  4499.791   0.0071249952   0.0000000040  -0.0000000042
+  221   0.3739903969  3143.652  4523.014   0.0071617669   0.0000000037  -0.0000000039
+  222   0.3797310177  3167.687  4557.595   0.0072165228   0.0000000033  -0.0000000035
+  223   0.3811101152  3173.434  4565.864   0.0072296153   0.0000000032  -0.0000000034
+  224   0.3845589606  3187.761  4586.477   0.0072622538   0.0000000030  -0.0000000032
+  225   0.3864185649  3195.459  4597.553   0.0072797916   0.0000000029  -0.0000000031
+  226   0.3882864832  3203.173  4608.651   0.0072973653   0.0000000028  -0.0000000030
+  227   0.3889967261  3206.101  4612.865   0.0073040364   0.0000000028  -0.0000000030
+  228   0.3900680447  3210.513  4619.212   0.0073140873   0.0000000027  -0.0000000029
+  229   0.3902119026  3211.105  4620.064   0.0073154359   0.0000000027  -0.0000000029
+  230   0.3904307841  3212.006  4621.359   0.0073174873   0.0000000027  -0.0000000029
+  231   0.3904481341  3212.077  4621.462   0.0073176499   0.0000000027  -0.0000000029
+  232   0.3907284626  3213.230  4623.121   0.0073202764   0.0000000027  -0.0000000029
+  233   0.3919635717  3218.304  4630.422   0.0073318371   0.0000000026  -0.0000000028
+  234   0.3922110802  3219.320  4631.884   0.0073341516   0.0000000026  -0.0000000028
+  235   0.3930129756  3222.610  4636.616   0.0073416453   0.0000000026  -0.0000000028
+  236   0.3937398526  3225.589  4640.902   0.0073484313   0.0000000026  -0.0000000027
+  237   0.3940099174  3226.695  4642.493   0.0073509510   0.0000000025  -0.0000000027
+  238   0.3941742612  3227.367  4643.462   0.0073524839   0.0000000025  -0.0000000027
+  239   0.3949470624  3230.530  4648.011   0.0073596879   0.0000000025  -0.0000000027
+  240   0.3957245568  3233.708  4652.584   0.0073669285   0.0000000025  -0.0000000026
+  241   0.3958622406  3234.270  4653.393   0.0073682100   0.0000000025  -0.0000000026
+  242   0.3958900203  3234.384  4653.557   0.0073684685   0.0000000025  -0.0000000026
+  243   0.3964994021  3236.872  4657.137   0.0073741373   0.0000000024  -0.0000000026
+  244   0.3986004803  3245.437  4669.460   0.0073936496   0.0000000023  -0.0000000025
+  245   0.4059886644  3275.377  4712.536   0.0074618567   0.0000000020  -0.0000000022
+  246   0.4070148252  3279.513  4718.488   0.0074712809   0.0000000020  -0.0000000021
+  247   0.4147202750  3310.411  4762.943   0.0075416711   0.0000000017  -0.0000000018
+  248   0.4192644604  3328.498  4788.966   0.0075828764   0.0000000016  -0.0000000017
+  249   0.4435717877  3423.625  4925.833   0.0077995925   0.0000000010  -0.0000000011
+total                                      0.6852342109   0.0385057519  -0.0709936193
+Wave numbers > 0 and <    100.0 cm^-1 were raised to that value for vibrational H and S.
+Temperature:            298.15 Kelvin
+ 
+Energy contributions for the gas phase:
+The standard state is an ideal gas at a pressure of 101300.0 Pa
+Molar volume (V_m):      24.47 L
+                                  Hartree     kJ/mol   kcal/mol          K
+ZPE .........................    0.685234   1799.082    429.991   216379.8
+H_trans .....................    0.002360      6.197      1.481      745.4
+H_rot .......................    0.001416      3.718      0.889      447.2
+H_vib .......................    0.038506    101.097     24.163    12159.2
+H_total .....................    0.042282    111.013     26.533    13351.8
+ 
+S_trans*T ...................    0.021527     56.520     13.509     6797.8
+S_rot*T .....................    0.018179     47.730     11.408     5740.6
+S_vib*T .....................    0.070994    186.394     44.549    22418.0
+S_total*T ...................    0.110700    290.644     69.466    34956.4
+ 
+H(T) ........................    0.727517   1910.095    456.524   229731.6
+S(T)*T ......................    0.110700    290.644     69.466    34956.4
+G(T) ........................    0.616816   1619.451    387.058   194775.2
+Total free energy G (electronic energy+ZPE+RRHO):  -2138.063902 Hartree
+ 
+Energy contributions for solutions:
+The standard state is a concentration of c_0 = 1 mol / L:
+R*T*ln(c_0*V_m) .............    0.003019      7.926      1.894      953.3
+S_trans*T ...................    0.018508     48.594     11.614     5844.5
+S_total*T ...................    0.107681    282.717     67.571    34003.1
+S(T)*T ......................    0.107681    282.717     67.571    34003.1
+G(T) ........................    0.619835   1627.377    388.953   195728.5
+Total free energy G (electronic energy+ZPE+RRHO):  -2138.060883 Hartree
+ 
+Crossover temperature for tunnelling       44.52749 K
+ Writing file qts_ts.txt
+ Writing Hessian file qts_hessian_ts.txt
+
+DL-FIND Report:
+===============
+Optimisation algorithm: no optimisation, just calculate the
+    Hessian and thermal corrections
+Modes assumed to have zero vibrational frequency          6
+Temperature ....................................  2.981E+02 K
+Minimum wave number ............................  1.000E+02 cm^-1
+Finite difference for Hessian calculation ......  1.000E-02
+ 
+Step length: simple scaled
+Maximum step length ............................  5.000E-01
+Scaling step by ................................  1.000E+00
+ 
+Coordinate system: Mass-weighted Cartesian coordinates
+ 
+Number of atoms ................................         85
+Number of input geometries .....................          1
+Variables to be optimised ......................        255
+No restart information is written
+This run has not been restarted.
+Number of energy evaluations on this processor .          1
+Number of steps ................................          1
+Number of accepted steps / line searches .......          0
+ 
+
+Timing report
+=============
+Module                                      CPU time            Wall clock time
+Total .................................     1.427 (100.00%) 13029.658 (100.00%) seconds
+Energy and Gradient ...................     0.311 ( 21.78%)    50.462 (  0.39%) seconds
+Step direction ........................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+Coordinate transformation .............     0.008 (  0.59%)     0.105 (  0.00%) seconds
+Checkpoint file I/O ...................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+XYZ-file I/O ..........................     0.000 (  0.03%)     0.003 (  0.00%) seconds
+exit 0
+
+ Timing Analysis by Executable 
+                                 aoforce  [      1]  12977.572  49.4%
+                                    grad  [    126]   2540.921   9.7%
+                                    dscf  [    127]  10727.592  40.8%
+                                  define  [      1]      0.343   0.0%
+                               ChemShell                23.339   0.1%
+
+                                   Total             26269.767
+
+  Timing Analysis by Module       module   # calls        time time (exc) percent 
+                               write_xyz  [      1]      0.006      0.006   0.0%
+                                 dl-find  [      2]  26269.721      1.151   0.0%
+                               turbomole  [    127]  26268.568  26261.124 100.0%
+                      set_matrix_element  [2105406]      7.369      7.369   0.0%
+                       get_number_of_bqs  [    128]      0.003      0.003   0.0%
+                          get_atom_entry  [  10795]      0.061      0.061   0.0%
+                         set_matrix_size  [    257]      0.010      0.010   0.0%
+                     get_number_of_atoms  [    130]      0.003      0.003   0.0%
+                             copy_object  [      2]      0.001      0.001   0.0%
+                                read_xyz  [      1]      0.001      0.001   0.0%
+                                   Other                 0.040              0.0%
+
+                                   Total             26269.767
+ChemShell exiting code 0

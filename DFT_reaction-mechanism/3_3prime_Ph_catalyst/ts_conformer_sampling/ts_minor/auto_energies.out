@@ -1,0 +1,83 @@
+Energy evaluation TS mode starting...
+
+Directory: ./conf1
+SPE calculation finished for conf1
+SPE = -2834.191270 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0022660181   244.701i
+    2  -0.0000196601   -22.793    32.794   0.0000519258   0.0007346202  -0.0016412577
+    3   0.0000135268    18.906    27.202   0.0000430712   0.0007346202  -0.0016412577
+    4   0.0000192322    22.543    32.435   0.0000513575   0.0007346202  -0.0016412577
+G(T) = 0.857366 H
+conf1 total free energy G = -2833.333904 H
+
+Directory: ./conf10
+SPE calculation finished for conf10
+SPE = -2834.185561 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0035406644   305.877i
+    2   0.0000025478     8.205    11.805   0.0000186928   0.0007346202  -0.0016412577
+    3   0.0000085432    15.025    21.618   0.0000342295   0.0007346202  -0.0016412577
+    4   0.0000143754    19.490    28.042   0.0000444017   0.0007346202  -0.0016412577
+G(T) = 0.857822 H
+conf10 total free energy G = -2833.327739 H
+
+Directory: ./conf11
+SPE calculation finished for conf11
+SPE = -2834.187128 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0020648507   233.587i
+    2   0.0000054211    11.969    17.220   0.0000272668   0.0007346202  -0.0016412577
+    3   0.0000102459    16.454    23.674   0.0000374857   0.0007346202  -0.0016412577
+    4   0.0000183145    21.999    31.652   0.0000501173   0.0007346202  -0.0016412577
+G(T) = 0.856319 H
+conf11 total free energy G = -2833.330809 H
+
+Directory: ./conf4
+SPE calculation finished for conf4
+SPE = -2834.191587 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0025109387   257.586i
+    2   0.0000080624    14.596    21.001   0.0000332523   0.0007346202  -0.0016412577
+    3   0.0000164246    20.833    29.974   0.0000474611   0.0007346202  -0.0016412577
+    4   0.0000210015    23.558    33.894   0.0000536680   0.0007346202  -0.0016412577
+G(T) = 0.858677 H
+conf4 total free energy G = -2833.332910 H
+
+Directory: ./conf5
+SPE calculation finished for conf5
+SPE = -2834.184353 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0028689295   275.337i
+    2  -0.0000056120   -12.178    17.521   0.0000277427   0.0007346202  -0.0016412577
+    3  -0.0000000345    -0.955     1.374   0.0000021753   0.0007346202  -0.0016412577
+    4   0.0000072336    13.826    19.892   0.0000314968   0.0007346202  -0.0016412577
+G(T) = 0.858156 H
+conf5 total free energy G = -2833.326197 H
+
+Directory: ./conf8
+SPE calculation finished for conf8
+SPE = -2834.183199 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0037604629   315.228i
+    2   0.0000053814    11.925    17.157   0.0000271667   0.0007346202  -0.0016412577
+    3   0.0000097332    16.037    23.074   0.0000365358   0.0007346202  -0.0016412577
+    4   0.0000149987    19.908    28.643   0.0000453542   0.0007346202  -0.0016412577
+G(T) = 0.858717 H
+conf8 total free energy G = -2833.324482 H
+
+Relative energies of all conformers written to conformer_energies.txt
+Warning: Relative energies/ts_opt/spe/ts_opt.xyz not found or directory missing!
+All ts_opt.xyz files have been combined into ts_conformers.xyz.

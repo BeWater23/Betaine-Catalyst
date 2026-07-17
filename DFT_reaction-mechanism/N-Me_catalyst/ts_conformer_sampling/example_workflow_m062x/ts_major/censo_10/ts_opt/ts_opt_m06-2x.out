@@ -1,0 +1,371 @@
+
+### Setting up shell environment ...
+
+
+### Printing basic job infos to stdout ...
+
+START_TIME           = 2024-10-01 08:14:47
+HOSTNAME             = n1420
+JOB USER             = cluster_user
+JOB NAME             = ts_opt_m06-2x
+JOB ID               = 13668700
+Submit directory     = /path/to/cluster/workdir
+Number of CPUs       = 48
+Number of nodes      = 1
+
+### Creating RUN directory on local disc and changing to it ...
+
+runDIR               = /tmp/autoconf_run
+Basename of runDIR   = run_directory
+Dirname  of runDIR   = /tmp
+Tar archive name     = run_directory
+
+### Loading modules and defining environment:
+
+Loaded module        = chem/xtb/6.6.0 compiler/intel/19.1 numlib/mkl/2020 chem/turbomole/7.7.1
+
+TURBOMOLE_VERSION    = 7.7.1_tmolex20232
+TURBOTMPDIR          = /tmp/autoconf_run (/tmp/autoconf_run=/tmp/autoconf_run)
+TURBOMOLE_MODE       = compute
+PARA_ARCH            = SMP
+PARNODES             = 48
+
+### Copying input files for job (if required):
+
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_initial.xyz'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt_m06-2x.chm'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt_m06-2x.err'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt_m06-2x.out'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt_m06-2x.sh'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_second.xyz'
+
+### Performing Turbomole calculations ...
+
+
+### Cleaning up files ... removing unnecessary scratch files ...
+
+
+### Compressing results and copying back result archive ...
+
+Creating tgz-file '/path/to/cluster/workdir' ...
+run_directory/
+run_directory/tsmode_mov.xyz
+run_directory/qts_hessian_ts.txt
+run_directory/qts_ts.txt
+run_directory/vibmode_0255_mov.xyz
+run_directory/vibmode_0254_mov.xyz
+run_directory/vibmode_0253_mov.xyz
+run_directory/vibmode_0252_mov.xyz
+run_directory/vibmode_0251_mov.xyz
+run_directory/vibmode_0250_mov.xyz
+run_directory/vibmode_0249_mov.xyz
+run_directory/vibmode_0248_mov.xyz
+run_directory/vibmode_0247_mov.xyz
+run_directory/vibmode_0246_mov.xyz
+run_directory/vibmode_0245_mov.xyz
+run_directory/vibmode_0244_mov.xyz
+run_directory/vibmode_0243_mov.xyz
+run_directory/vibmode_0242_mov.xyz
+run_directory/vibmode_0241_mov.xyz
+run_directory/vibmode_0240_mov.xyz
+run_directory/vibmode_0239_mov.xyz
+run_directory/vibmode_0238_mov.xyz
+run_directory/vibmode_0237_mov.xyz
+run_directory/vibmode_0236_mov.xyz
+run_directory/vibmode_0235_mov.xyz
+run_directory/vibmode_0234_mov.xyz
+run_directory/vibmode_0233_mov.xyz
+run_directory/vibmode_0232_mov.xyz
+run_directory/vibmode_0231_mov.xyz
+run_directory/vibmode_0230_mov.xyz
+run_directory/vibmode_0229_mov.xyz
+run_directory/vibmode_0228_mov.xyz
+run_directory/vibmode_0227_mov.xyz
+run_directory/vibmode_0226_mov.xyz
+run_directory/vibmode_0225_mov.xyz
+run_directory/vibmode_0224_mov.xyz
+run_directory/vibmode_0223_mov.xyz
+run_directory/vibmode_0222_mov.xyz
+run_directory/vibmode_0221_mov.xyz
+run_directory/vibmode_0220_mov.xyz
+run_directory/vibmode_0219_mov.xyz
+run_directory/vibmode_0218_mov.xyz
+run_directory/vibmode_0217_mov.xyz
+run_directory/vibmode_0216_mov.xyz
+run_directory/vibmode_0215_mov.xyz
+run_directory/vibmode_0214_mov.xyz
+run_directory/vibmode_0213_mov.xyz
+run_directory/vibmode_0212_mov.xyz
+run_directory/vibmode_0211_mov.xyz
+run_directory/vibmode_0210_mov.xyz
+run_directory/vibmode_0209_mov.xyz
+run_directory/vibmode_0208_mov.xyz
+run_directory/vibmode_0207_mov.xyz
+run_directory/vibmode_0206_mov.xyz
+run_directory/vibmode_0205_mov.xyz
+run_directory/vibmode_0204_mov.xyz
+run_directory/vibmode_0203_mov.xyz
+run_directory/vibmode_0202_mov.xyz
+run_directory/vibmode_0201_mov.xyz
+run_directory/vibmode_0200_mov.xyz
+run_directory/vibmode_0199_mov.xyz
+run_directory/vibmode_0198_mov.xyz
+run_directory/vibmode_0197_mov.xyz
+run_directory/vibmode_0196_mov.xyz
+run_directory/vibmode_0195_mov.xyz
+run_directory/vibmode_0194_mov.xyz
+run_directory/vibmode_0193_mov.xyz
+run_directory/vibmode_0192_mov.xyz
+run_directory/vibmode_0191_mov.xyz
+run_directory/vibmode_0190_mov.xyz
+run_directory/vibmode_0189_mov.xyz
+run_directory/vibmode_0188_mov.xyz
+run_directory/vibmode_0187_mov.xyz
+run_directory/vibmode_0186_mov.xyz
+run_directory/vibmode_0185_mov.xyz
+run_directory/vibmode_0184_mov.xyz
+run_directory/vibmode_0183_mov.xyz
+run_directory/vibmode_0182_mov.xyz
+run_directory/vibmode_0181_mov.xyz
+run_directory/vibmode_0180_mov.xyz
+run_directory/vibmode_0179_mov.xyz
+run_directory/vibmode_0178_mov.xyz
+run_directory/vibmode_0177_mov.xyz
+run_directory/vibmode_0176_mov.xyz
+run_directory/vibmode_0175_mov.xyz
+run_directory/vibmode_0174_mov.xyz
+run_directory/vibmode_0173_mov.xyz
+run_directory/vibmode_0172_mov.xyz
+run_directory/vibmode_0171_mov.xyz
+run_directory/vibmode_0170_mov.xyz
+run_directory/vibmode_0169_mov.xyz
+run_directory/vibmode_0168_mov.xyz
+run_directory/vibmode_0167_mov.xyz
+run_directory/vibmode_0166_mov.xyz
+run_directory/vibmode_0165_mov.xyz
+run_directory/vibmode_0164_mov.xyz
+run_directory/vibmode_0163_mov.xyz
+run_directory/vibmode_0162_mov.xyz
+run_directory/vibmode_0161_mov.xyz
+run_directory/vibmode_0160_mov.xyz
+run_directory/vibmode_0159_mov.xyz
+run_directory/vibmode_0158_mov.xyz
+run_directory/vibmode_0157_mov.xyz
+run_directory/vibmode_0156_mov.xyz
+run_directory/vibmode_0155_mov.xyz
+run_directory/vibmode_0154_mov.xyz
+run_directory/vibmode_0153_mov.xyz
+run_directory/vibmode_0152_mov.xyz
+run_directory/vibmode_0151_mov.xyz
+run_directory/vibmode_0150_mov.xyz
+run_directory/vibmode_0149_mov.xyz
+run_directory/vibmode_0148_mov.xyz
+run_directory/vibmode_0147_mov.xyz
+run_directory/vibmode_0146_mov.xyz
+run_directory/vibmode_0145_mov.xyz
+run_directory/vibmode_0144_mov.xyz
+run_directory/vibmode_0143_mov.xyz
+run_directory/vibmode_0142_mov.xyz
+run_directory/vibmode_0141_mov.xyz
+run_directory/vibmode_0140_mov.xyz
+run_directory/vibmode_0139_mov.xyz
+run_directory/vibmode_0138_mov.xyz
+run_directory/vibmode_0137_mov.xyz
+run_directory/vibmode_0136_mov.xyz
+run_directory/vibmode_0135_mov.xyz
+run_directory/vibmode_0134_mov.xyz
+run_directory/vibmode_0133_mov.xyz
+run_directory/vibmode_0132_mov.xyz
+run_directory/vibmode_0131_mov.xyz
+run_directory/vibmode_0130_mov.xyz
+run_directory/vibmode_0129_mov.xyz
+run_directory/vibmode_0128_mov.xyz
+run_directory/vibmode_0127_mov.xyz
+run_directory/vibmode_0126_mov.xyz
+run_directory/vibmode_0125_mov.xyz
+run_directory/vibmode_0124_mov.xyz
+run_directory/vibmode_0123_mov.xyz
+run_directory/vibmode_0122_mov.xyz
+run_directory/vibmode_0121_mov.xyz
+run_directory/vibmode_0120_mov.xyz
+run_directory/vibmode_0119_mov.xyz
+run_directory/vibmode_0118_mov.xyz
+run_directory/vibmode_0117_mov.xyz
+run_directory/vibmode_0116_mov.xyz
+run_directory/vibmode_0115_mov.xyz
+run_directory/vibmode_0114_mov.xyz
+run_directory/vibmode_0113_mov.xyz
+run_directory/vibmode_0112_mov.xyz
+run_directory/vibmode_0111_mov.xyz
+run_directory/vibmode_0110_mov.xyz
+run_directory/vibmode_0109_mov.xyz
+run_directory/vibmode_0108_mov.xyz
+run_directory/vibmode_0107_mov.xyz
+run_directory/vibmode_0106_mov.xyz
+run_directory/vibmode_0105_mov.xyz
+run_directory/vibmode_0104_mov.xyz
+run_directory/vibmode_0103_mov.xyz
+run_directory/vibmode_0102_mov.xyz
+run_directory/vibmode_0101_mov.xyz
+run_directory/vibmode_0100_mov.xyz
+run_directory/vibmode_0099_mov.xyz
+run_directory/vibmode_0098_mov.xyz
+run_directory/vibmode_0097_mov.xyz
+run_directory/vibmode_0096_mov.xyz
+run_directory/vibmode_0095_mov.xyz
+run_directory/vibmode_0094_mov.xyz
+run_directory/vibmode_0093_mov.xyz
+run_directory/vibmode_0092_mov.xyz
+run_directory/vibmode_0091_mov.xyz
+run_directory/vibmode_0090_mov.xyz
+run_directory/vibmode_0089_mov.xyz
+run_directory/vibmode_0088_mov.xyz
+run_directory/vibmode_0087_mov.xyz
+run_directory/vibmode_0086_mov.xyz
+run_directory/vibmode_0085_mov.xyz
+run_directory/vibmode_0084_mov.xyz
+run_directory/vibmode_0083_mov.xyz
+run_directory/vibmode_0082_mov.xyz
+run_directory/vibmode_0081_mov.xyz
+run_directory/vibmode_0080_mov.xyz
+run_directory/vibmode_0079_mov.xyz
+run_directory/vibmode_0078_mov.xyz
+run_directory/vibmode_0077_mov.xyz
+run_directory/vibmode_0076_mov.xyz
+run_directory/vibmode_0075_mov.xyz
+run_directory/vibmode_0074_mov.xyz
+run_directory/vibmode_0073_mov.xyz
+run_directory/vibmode_0072_mov.xyz
+run_directory/vibmode_0071_mov.xyz
+run_directory/vibmode_0070_mov.xyz
+run_directory/vibmode_0069_mov.xyz
+run_directory/vibmode_0068_mov.xyz
+run_directory/vibmode_0067_mov.xyz
+run_directory/vibmode_0066_mov.xyz
+run_directory/vibmode_0065_mov.xyz
+run_directory/vibmode_0064_mov.xyz
+run_directory/vibmode_0063_mov.xyz
+run_directory/vibmode_0062_mov.xyz
+run_directory/vibmode_0061_mov.xyz
+run_directory/vibmode_0060_mov.xyz
+run_directory/vibmode_0059_mov.xyz
+run_directory/vibmode_0058_mov.xyz
+run_directory/vibmode_0057_mov.xyz
+run_directory/vibmode_0056_mov.xyz
+run_directory/vibmode_0055_mov.xyz
+run_directory/vibmode_0054_mov.xyz
+run_directory/vibmode_0053_mov.xyz
+run_directory/vibmode_0052_mov.xyz
+run_directory/vibmode_0051_mov.xyz
+run_directory/vibmode_0050_mov.xyz
+run_directory/vibmode_0049_mov.xyz
+run_directory/vibmode_0048_mov.xyz
+run_directory/vibmode_0047_mov.xyz
+run_directory/vibmode_0046_mov.xyz
+run_directory/vibmode_0045_mov.xyz
+run_directory/vibmode_0044_mov.xyz
+run_directory/vibmode_0043_mov.xyz
+run_directory/vibmode_0042_mov.xyz
+run_directory/vibmode_0041_mov.xyz
+run_directory/vibmode_0040_mov.xyz
+run_directory/vibmode_0039_mov.xyz
+run_directory/vibmode_0038_mov.xyz
+run_directory/vibmode_0037_mov.xyz
+run_directory/vibmode_0036_mov.xyz
+run_directory/vibmode_0035_mov.xyz
+run_directory/vibmode_0034_mov.xyz
+run_directory/vibmode_0033_mov.xyz
+run_directory/vibmode_0032_mov.xyz
+run_directory/vibmode_0031_mov.xyz
+run_directory/vibmode_0030_mov.xyz
+run_directory/vibmode_0029_mov.xyz
+run_directory/vibmode_0028_mov.xyz
+run_directory/vibmode_0027_mov.xyz
+run_directory/vibmode_0026_mov.xyz
+run_directory/vibmode_0025_mov.xyz
+run_directory/vibmode_0024_mov.xyz
+run_directory/vibmode_0023_mov.xyz
+run_directory/vibmode_0022_mov.xyz
+run_directory/vibmode_0021_mov.xyz
+run_directory/vibmode_0020_mov.xyz
+run_directory/vibmode_0019_mov.xyz
+run_directory/vibmode_0018_mov.xyz
+run_directory/vibmode_0017_mov.xyz
+run_directory/vibmode_0016_mov.xyz
+run_directory/vibmode_0015_mov.xyz
+run_directory/vibmode_0014_mov.xyz
+run_directory/vibmode_0013_mov.xyz
+run_directory/vibmode_0012_mov.xyz
+run_directory/vibmode_0011_mov.xyz
+run_directory/vibmode_0010_mov.xyz
+run_directory/vibmode_0009_mov.xyz
+run_directory/vibmode_0008_mov.xyz
+run_directory/vibmode_0007_mov.xyz
+run_directory/vibmode_0006_mov.xyz
+run_directory/vibmode_0005_mov.xyz
+run_directory/vibmode_0004_mov.xyz
+run_directory/vibmode_0003_mov.xyz
+run_directory/vibmode_0002_mov.xyz
+run_directory/vibmode_0001_mov.xyz
+run_directory/vibspectrum
+run_directory/vib_normal_modes
+run_directory/hessian
+run_directory/dipgrad
+run_directory/amat.tmp
+run_directory/a3mat.tmp
+run_directory/a2mat.tmp
+run_directory/aoforce.log
+run_directory/control
+run_directory/control.dbg
+run_directory/dl-find.result
+run_directory/ts_opt.xyz
+run_directory/dl-find.gradient
+run_directory/dl-find.energy
+run_directory/dl-find.coo
+run_directory/tsmode.c
+run_directory/ts_opt.c
+run_directory/gradient
+run_directory/grad.log
+run_directory/energy
+run_directory/out.ccf
+run_directory/statistics
+run_directory/dscf.log
+run_directory/cosmo_transfer.tmp
+run_directory/dscf_stat.log
+run_directory/mos
+run_directory/basis
+run_directory/define.log
+run_directory/script
+run_directory/point_charges
+run_directory/coord.save
+run_directory/coord
+run_directory/path_force.xyz
+run_directory/path_tsmode.xyz
+run_directory/path_active.xyz
+run_directory/path.xyz
+run_directory/c2
+run_directory/c
+run_directory/chemsh.err
+run_directory/ts_second.xyz
+run_directory/ts_opt_m06-2x.sh
+run_directory/ts_opt_m06-2x.out
+run_directory/ts_opt_m06-2x.err
+run_directory/ts_opt_m06-2x.chm
+run_directory/ts_initial.xyz
+
+### Cleanup of /tmp/autoconf_run is done by SYSTEM automatically
+
+END_TIME             = 2024-10-02 21:32:25
+
+======================== JOB EFFICIENCY REPORT ========================
+Job ID: 13668700
+Cluster: justus2
+User/Group: cluster_user/cluster_group
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 48
+CPU Utilized: 70-04:17:08
+CPU Efficiency: 94.09% of 74-14:07:12 core-walltime
+Job Wall-clock time: 1-13:17:39
+Memory Utilized: 11.84 GB
+Memory Efficiency: 11.48% of 103.12 GB

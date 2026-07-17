@@ -1,0 +1,48 @@
+source /path/to/chemshell/templates/turbomole.tcl
+
+read_xyz file=ts_initial.xyz coords=c
+read_xyz file=ts_second.xyz coords=c2
+
+set tmole_args \
+    [ list \
+         basis=def2-SVP \
+         hamiltonian=m06-2x \
+         ri_memory=1000 \
+         accuracy=veryhigh \
+         charge=0 \
+         mult=1 \
+         maxcyc=1000 \
+	 disp3=yes\
+	 cosmo=yes\
+         epsilon=7.53\
+         ]
+
+set tmole_args_true \
+        [ list \
+         read_control=yes\
+         restart=yes\
+        ]
+
+set result ts_opt
+
+dl-find coords=c coords2=c2 coordinates=mass\
+    theory=turbomole: $tmole_args list_option=full \
+    dimer=true tolrot=2.0 maxrot=40 tolerance=0.00045\
+    maxcycle=10000 maxupdate=10000 maxene=100000000 maxstep=0.4\
+    result=${result}.c \
+    result2=tsmode.c\
+  
+write_xyz file=${result}.xyz coords=${result}.c
+
+exec sed -i "s/^ unit=.*/ unit=30  size=0  file=twoint /g" control
+exec sed -i "/restart force/d" control
+exec sed -i "/\$scfconv/a\$rpaconv 4" control
+
+dl-find coords=${result}.c coordinates=mass\
+    theory=turbomole: $tmole_args_true list_option=full \
+    thermal=true thermal_state=ts temperature=298.15
+
+times
+return ok
+
+

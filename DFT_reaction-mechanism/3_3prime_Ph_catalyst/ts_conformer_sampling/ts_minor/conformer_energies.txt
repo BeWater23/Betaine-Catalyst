@@ -1,0 +1,7 @@
+Relative energies:
+conf1: 0.00 kcal/mol
+conf4: 0.62 kcal/mol
+conf11: 1.94 kcal/mol
+conf10: 3.87 kcal/mol
+conf5: 4.84 kcal/mol
+conf8: 5.91 kcal/mol

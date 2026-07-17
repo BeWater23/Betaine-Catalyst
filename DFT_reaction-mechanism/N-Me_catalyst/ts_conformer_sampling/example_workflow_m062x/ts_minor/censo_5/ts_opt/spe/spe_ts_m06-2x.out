@@ -1,0 +1,89 @@
+
+### Setting up shell environment ...
+
+
+### Printing basic job infos to stdout ...
+
+START_TIME           = 2024-10-27 19:33:56
+HOSTNAME             = n0337
+JOB USER             = cluster_user
+JOB NAME             = spe_ts_m06-2x
+JOB ID               = 13877044
+Submit directory     = /path/to/cluster/workdir
+Number of CPUs       = 48
+Number of nodes      = 1
+
+### Creating RUN directory on local disc and changing to it ...
+
+runDIR               = /tmp/autoconf_run
+Basename of runDIR   = run_directory
+Dirname  of runDIR   = /tmp
+Tar archive name     = run_directory
+
+### Loading modules and defining environment:
+
+Loaded module        = chem/xtb/6.6.0 compiler/intel/19.1 numlib/mkl/2020 chem/turbomole/7.7.1
+
+TURBOMOLE_VERSION    = 7.7.1_tmolex20232
+TURBOTMPDIR          = /tmp/autoconf_run (/tmp/autoconf_run=/tmp/autoconf_run)
+TURBOMOLE_MODE       = compute
+PARA_ARCH            = SMP
+PARNODES             = 48
+
+### Copying input files for job (if required):
+
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/spe_ts_m06-2x.chm'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/spe_ts_m06-2x.err'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/spe_ts_m06-2x.out'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/spe_ts_m06-2x.sh'
+'/path/to/cluster/workdir' -> '/tmp/autoconf_run/ts_opt.xyz'
+
+### Performing Turbomole calculations ...
+
+
+### Cleaning up files ... removing unnecessary scratch files ...
+
+
+### Compressing results and copying back result archive ...
+
+Creating tgz-file '/path/to/cluster/workdir' ...
+run_directory/
+run_directory/e_m06
+run_directory/energy
+run_directory/out.ccf
+run_directory/statistics
+run_directory/dscf.log
+run_directory/cosmo_transfer.tmp
+run_directory/dscf_stat.log
+run_directory/control
+run_directory/mos
+run_directory/basis
+run_directory/define.log
+run_directory/script
+run_directory/point_charges
+run_directory/coord.save
+run_directory/coord
+run_directory/c
+run_directory/chemsh.err
+run_directory/ts_opt.xyz
+run_directory/spe_ts_m06-2x.sh
+run_directory/spe_ts_m06-2x.out
+run_directory/spe_ts_m06-2x.err
+run_directory/spe_ts_m06-2x.chm
+
+### Cleanup of /tmp/autoconf_run is done by SYSTEM automatically
+
+END_TIME             = 2024-10-27 20:16:45
+
+======================== JOB EFFICIENCY REPORT ========================
+Job ID: 13877044
+Cluster: justus2
+User/Group: cluster_user/cluster_group
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 48
+CPU Utilized: 1-08:19:17
+CPU Efficiency: 94.32% of 1-10:16:00 core-walltime
+Job Wall-clock time: 00:42:50
+Memory Utilized: 2.10 GB
+Memory Efficiency: 2.04% of 103.12 GB

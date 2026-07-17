@@ -1,0 +1,70 @@
+Energy evaluation TS mode starting...
+
+Directory: ./conf1
+SPE calculation finished for conf1
+SPE = -2834.198778 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0022893563   245.958i
+    2   0.0000038387    10.072    14.491   0.0000229447   0.0007346202  -0.0016412577
+    3   0.0000099790    16.239    23.364   0.0000369943   0.0007346202  -0.0016412577
+    4   0.0000144419    19.535    28.107   0.0000445043   0.0007346202  -0.0016412577
+G(T) = 0.857641 H
+conf1 total free energy G = -2833.341137 H
+
+Directory: ./conf10
+SPE calculation finished for conf10
+SPE = -2834.193028 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0029854342   280.872i
+    2  -0.0000109264   -16.992    24.448   0.0000387104   0.0007346202  -0.0016412577
+    3   0.0000085552    15.036    21.633   0.0000342535   0.0007346202  -0.0016412577
+    4   0.0000125240    18.192    26.174   0.0000414440   0.0007346202  -0.0016412577
+G(T) = 0.858603 H
+conf10 total free energy G = -2833.334425 H
+
+Directory: ./conf2
+SPE calculation finished for conf2
+SPE = -2834.195265 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0020108605   230.513i
+    2   0.0000116697    17.560    25.265   0.0000400055   0.0007346202  -0.0016412577
+    3   0.0000131001    18.606    26.769   0.0000423865   0.0007346202  -0.0016412577
+    4   0.0000194205    22.653    32.593   0.0000516083   0.0007346202  -0.0016412577
+G(T) = 0.857971 H
+conf2 total free energy G = -2833.337294 H
+
+Directory: ./conf3
+SPE calculation finished for conf3
+SPE = -2834.197641 H
+Analytical frequency calculation worked: Extracting results from it.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0022462566   243.632i
+    2   0.0000034285     9.518    13.695   0.0000216840   0.0007346202  -0.0016412577
+    3   0.0000049770    11.468    16.500   0.0000261260   0.0007346202  -0.0016412577
+    4   0.0000088251    15.271    21.971   0.0000347895   0.0007346202  -0.0016412577
+G(T) = 0.856278 H
+conf3 total free energy G = -2833.341363 H
+
+Directory: ./conf4
+SPE calculation finished for conf4
+SPE = -2834.194055 H
+Analytical frequency calculation crashed. Extracting the results from the numerical frequency calc.
+Thermochemical analysis
+ Mode     Eigenvalue Frequency Vib.T.(K)        ZPE (H)   Vib. Ene.(H)      - T*S (H)
+    1  -0.0027416255   269.159i
+    2   0.0000026370     8.348    12.010   0.0000190172   0.0007346202  -0.0016412577
+    3   0.0000086361    15.106    21.735   0.0000344150   0.0007346202  -0.0016412577
+    4   0.0000154264    20.190    29.049   0.0000459963   0.0007346202  -0.0016412577
+G(T) = 0.857581 H
+conf4 total free energy G = -2833.336474 H
+
+Relative energies of all conformers written to conformer_energies.txt
+Warning: Relative energies/ts_opt/spe/ts_opt.xyz not found or directory missing!
+All ts_opt.xyz files have been combined into ts_conformers.xyz.

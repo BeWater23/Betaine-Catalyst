@@ -1,0 +1,23 @@
+name: betaine_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - ipykernel
+  - numpy
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - scipy
+  - python=3.11
+  - matplotlib
+  - pandas
+  - openpyxl
+  - dbstep
+  - morfeus-ml
+  - shap
+  - plotly
+  - nbformat
+  - rdkit
+  - anywidget
+

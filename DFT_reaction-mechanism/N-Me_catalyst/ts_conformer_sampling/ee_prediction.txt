@@ -1,0 +1,13 @@
+{'censo_3': 0.0, 'censo_4': 0.29, 'censo_8': 0.58, 'censo_9': 0.69, 'censo_2': 0.71, 'censo_5': 0.91, 'censo_11': 1.21, 'censo_6': 1.84, 'censo_1': 1.98, 'censo_10': 2.06, 'censo_7': 2.59, 'censo_12': 4.86}
+{'censo_8': 3.2, 'censo_6': 3.36, 'censo_9': 3.53, 'censo_3': 4.02, 'censo_1': 4.14, 'censo_4': 4.29, 'censo_5': 4.92, 'censo_10': 5.53, 'censo_2': 7.4, 'censo_7': 1343201.76}
+ee prediction based on single best TSs
+ddG = 13.4 kJ/mol
+ddG = 3.2 kcal/mol
+TS_major is actually TS_major
+ee_s = 99.1
+
+ee prediction based on Boltzmann weighting
+ddG = 12.86 kJ/mol
+ddG = 3.07 kcal/mol
+TS_major is actually TS_major
+ee_bz = 98.9
