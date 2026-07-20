@@ -2,7 +2,7 @@
 
 This repository contains the data, descriptor-generation outputs, modeling
 workflows, and DFT/kinetic analysis files used for the work: 
-"A Predictive Betaine Organocatalyst Platform for Asymmetric 1,3-Dipolar-Cycloadditions Enabled by Interaction-Aware Modeling" (LINK, DOI: xx).
+"A Predictive Betaine Organocatalyst Platform for Asymmetric 1,3-Dipolar-Cycloadditions Enabled by Interaction-Aware Modeling".
 It is organized as follows:
 
 ## Repository Map
