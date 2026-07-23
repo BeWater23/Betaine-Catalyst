@@ -18,7 +18,7 @@ It is organized as follows:
 
 ## Data And Workflow Overview
 
-1. Experimental outcomes are stored in `dataset.xlsx`.
+1. All experimental outcomes are listed in `dataset.xlsx`.
 2. Molecular descriptors are prepared under `descriptor_generation/`.
 3. Combined descriptor matrices are used by the modeling folders:
    - `catalyst-substrate-modeling/` for the main catalyst-substrate LASSO and
@@ -80,15 +80,15 @@ run configuration and expected outputs are documented in
 
 ## Catalyst-Only Modeling
 
-`catalyst-only-modeling/` preserves the local inputs/results for a catalyst-only
+`catalyst-only-modeling/` contains the local inputs/results for the catalyst-only
 model:
 
 - `training_plus_val_set.xlsx`: feature table with the `summary_all_cats`
   sheet.
 - `model_0_parity_publication.png`: exported parity plot.
 
-The modeling code itself is not vendored here. The local README points to the
-public SigmanGroup `python-modeling` workflow and documents how to use the
+The modeling code itself is not vendored here. It uses the
+public SigmanGroup `python-modeling` workflow and the README documents how to use the
 workbook there.
 
 ## DFT Reaction Mechanism And Kinetics
@@ -126,7 +126,7 @@ SHAP, Plotly, and notebook-rendering support packages.
 External tools are still required for some workflows:
 
 - Gaussian/GetProperties for regenerating descriptor tables from `.log` files.
-- The upstream SigmanGroup `python-modeling` repository for catalyst-only
+- The SigmanGroup `python-modeling` repository for catalyst-only
   model execution.
 - Cluster-specific CREST/CENSO/Chemshell/Turbomole tools for DFT conformer
   searches and optimizations.
@@ -146,9 +146,7 @@ their own licenses.
 
 ## Reproducibility Notes
 
-- Treat each workflow folder as the source of truth for its own inputs and
-  outputs.
-- Read the folder-level README/ReadMe before rerunning notebooks or scripts.
+- Read the folder-level README before rerunning notebooks or scripts.
 - Several notebooks are sequential and reuse variables from earlier cells.
 - Rerunning notebooks or helper scripts can overwrite plots, workbooks, and
   result summaries in the active output folder.
