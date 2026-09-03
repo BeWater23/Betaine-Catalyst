@@ -1,0 +1,16 @@
+name: sisso-y-randomization
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.2.5
+  - pandas=2.2.3
+  - scipy=1.15.3
+  - scikit-learn=1.6.1
+  - joblib=1.4.2
+  - matplotlib=3.10.0
+  - openpyxl=3.1.5
+  - pip
+  - pip:
+      # This commit is the Boruta 0.4.3 source used by the local modeling env.
+      - git+https://github.com/scikit-learn-contrib/boruta_py.git@3c9eac3bdcc9d7cce0c01cd866b33f5c2eae98d4
