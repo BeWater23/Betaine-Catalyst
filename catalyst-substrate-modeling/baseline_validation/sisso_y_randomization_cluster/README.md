@@ -113,6 +113,11 @@ resource lines. A concurrency limit is important: the default maximum requests
 up to 80 CPUs at once (`20 tasks x 4 CPUs`) and up to 160 GB distributed across
 those tasks (`20 tasks x 8 GB`). No GPU is required.
 
+Always launch through `submit_workflow.sh` from the copied repository. The
+helper exports the absolute workflow directory because Slurm executes a spool
+copy of each batch script; relying on the batch script's own path would point at
+the Slurm spool rather than `run_array_task.py`.
+
 ## 4. Results and monitoring
 
 Per-task standard output and errors are written to `logs/`. Scientific

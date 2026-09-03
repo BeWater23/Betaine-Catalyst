@@ -8,8 +8,11 @@
 
 set -euo pipefail
 
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-cd "${SCRIPT_DIR}"
+# Slurm runs a spool copy of this file, so BASH_SOURCE points to Slurm's spool
+# directory. The submit helper exports the real repository directory; direct
+# sbatch submissions fall back to the directory from which sbatch was called.
+WORKFLOW_DIR="${SISSO_WORKFLOW_DIR:-${SLURM_SUBMIT_DIR:?SLURM_SUBMIT_DIR is unavailable}}"
+cd "${WORKFLOW_DIR}"
 
 if [[ -n "${PYTHON_EXECUTABLE:-}" ]]; then
     PYTHON_BIN="${PYTHON_EXECUTABLE}"
@@ -36,5 +39,5 @@ export LOKY_MAX_CPU_COUNT="${SLURM_CPUS_PER_TASK:-1}"
 
 "${PYTHON_BIN}" -u run_array_task.py \
     --permutation-index "${SLURM_ARRAY_TASK_ID}" \
-    --output-root "${OUTPUT_ROOT:-${SCRIPT_DIR}/results}" \
+    --output-root "${OUTPUT_ROOT:-${WORKFLOW_DIR}/results}" \
     --n-jobs "${SLURM_CPUS_PER_TASK:-1}"

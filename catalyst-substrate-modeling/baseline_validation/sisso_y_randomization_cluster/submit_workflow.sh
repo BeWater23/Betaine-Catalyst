@@ -7,13 +7,13 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 cd "${SCRIPT_DIR}"
 mkdir -p logs
 
-N_SHUFFLES="${N_SHUFFLES:-200}"
-MAX_CONCURRENT="${MAX_CONCURRENT:-20}"
+N_SHUFFLES="${N_SHUFFLES:-400}"
+MAX_CONCURRENT="${MAX_CONCURRENT:-10}"
 CPUS_PER_TASK="${CPUS_PER_TASK:-4}"
 MEMORY="${MEMORY:-8G}"
 TIME_LIMIT="${TIME_LIMIT:-02:00:00}"
-PARTITION="${PARTITION:-}"
-ACCOUNT="${ACCOUNT:-}"
+PARTITION="${PARTITION:-sigman-np}"
+ACCOUNT="${ACCOUNT:-sigman-np}"
 QOS="${QOS:-}"
 
 if ! [[ "${N_SHUFFLES}" =~ ^[1-9][0-9]*$ ]]; then
@@ -35,7 +35,7 @@ SBATCH_OPTIONS=(
     --cpus-per-task="${CPUS_PER_TASK}"
     --mem="${MEMORY}"
     --time="${TIME_LIMIT}"
-    --export="ALL,N_SHUFFLES=${N_SHUFFLES}"
+    --export="ALL,N_SHUFFLES=${N_SHUFFLES},SISSO_WORKFLOW_DIR=${SCRIPT_DIR}"
 )
 if [[ -n "${PARTITION}" ]]; then
     SBATCH_OPTIONS+=(--partition="${PARTITION}")
@@ -53,7 +53,7 @@ ARRAY_JOB_ID="${ARRAY_SUBMISSION%%;*}"
 COLLECT_OPTIONS=(
     --parsable
     --dependency="afterok:${ARRAY_JOB_ID}"
-    --export="ALL,N_SHUFFLES=${N_SHUFFLES}"
+    --export="ALL,N_SHUFFLES=${N_SHUFFLES},SISSO_WORKFLOW_DIR=${SCRIPT_DIR}"
 )
 if [[ -n "${PARTITION}" ]]; then
     COLLECT_OPTIONS+=(--partition="${PARTITION}")

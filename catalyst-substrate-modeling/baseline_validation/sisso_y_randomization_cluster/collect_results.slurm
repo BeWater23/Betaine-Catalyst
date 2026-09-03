@@ -8,8 +8,8 @@
 
 set -euo pipefail
 
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-cd "${SCRIPT_DIR}"
+WORKFLOW_DIR="${SISSO_WORKFLOW_DIR:-${SLURM_SUBMIT_DIR:?SLURM_SUBMIT_DIR is unavailable}}"
+cd "${WORKFLOW_DIR}"
 
 if [[ -n "${PYTHON_EXECUTABLE:-}" ]]; then
     PYTHON_BIN="${PYTHON_EXECUTABLE}"
@@ -32,4 +32,4 @@ mkdir -p "${MPLCONFIGDIR}"
 
 "${PYTHON_BIN}" -u collect_results.py \
     --n-shuffles "${N_SHUFFLES:?N_SHUFFLES was not exported}" \
-    --output-root "${OUTPUT_ROOT:-${SCRIPT_DIR}/results}"
+    --output-root "${OUTPUT_ROOT:-${WORKFLOW_DIR}/results}"
