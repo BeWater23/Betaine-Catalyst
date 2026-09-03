@@ -75,17 +75,43 @@ conda activate sisso-y-randomization
 ./submit_workflow.sh
 ```
 
-Override the number of permutations or concurrency without editing a file:
+Override the number of permutations, concurrency, CPUs, memory, and wall time
+without editing a file:
 
 ```bash
-N_SHUFFLES=1000 MAX_CONCURRENT=25 ./submit_workflow.sh
+N_SHUFFLES=1000 \
+MAX_CONCURRENT=25 \
+CPUS_PER_TASK=8 \
+MEMORY=16G \
+TIME_LIMIT=04:00:00 \
+./submit_workflow.sh
 ```
 
+Optional Slurm routing settings are also supported:
+
+```bash
+PARTITION=compute ACCOUNT=my_project QOS=normal ./submit_workflow.sh
+```
+
+The available variables and defaults are:
+
+| Variable | Default | Meaning |
+|---|---:|---|
+| `N_SHUFFLES` | `200` | Number of randomized responses; one additional observed-response task is submitted. |
+| `MAX_CONCURRENT` | `20` | Maximum number of array tasks running simultaneously. |
+| `CPUS_PER_TASK` | `4` | CPU cores assigned to each response calculation and used by Boruta. |
+| `MEMORY` | `8G` | Memory assigned to each response calculation. |
+| `TIME_LIMIT` | `02:00:00` | Wall-time limit for each array task. |
+| `PARTITION` | unset | Optional Slurm partition. |
+| `ACCOUNT` | unset | Optional Slurm project/account. |
+| `QOS` | unset | Optional Slurm QoS. |
+
 `submit_workflow.sh` submits indices `0..N_SHUFFLES` and then submits a small
-collector job with an `afterok` dependency on the complete array. Adjust the
-`#SBATCH` resource lines in `run_array.slurm` to match local cluster policy. A
-concurrency limit is important: the default maximum requests up to 80 CPUs at
-once (`20 tasks x 4 CPUs`).
+collector job with an `afterok` dependency on the complete array. Values passed
+through `submit_workflow.sh` override the corresponding default `#SBATCH`
+resource lines. A concurrency limit is important: the default maximum requests
+up to 80 CPUs at once (`20 tasks x 4 CPUs`) and up to 160 GB distributed across
+those tasks (`20 tasks x 8 GB`). No GPU is required.
 
 ## 4. Results and monitoring
 
