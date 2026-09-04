@@ -1,0 +1,23 @@
+{
+  "requested_permutations": 400,
+  "completed_permutations": 400,
+  "missing_response_ids": [],
+  "allow_incomplete": false,
+  "shuffle_scheme": "numpy-default-rng-sequential-v1",
+  "scientific_source_sha256": {
+    "cluster_runner": "98d1df25296cb6d282c573f9b9546b306ba4c819b9a0019563b2265bb2878f49",
+    "experiment_runner": "0d36655786be4bc8bfe005f5489a59cf7029fbebb7fceed58a7a0220af50b426",
+    "nested_lasso": "3d34e3eb6abab70275626f331e3db2879ae10cc541e038ca718481f535318b22",
+    "sisso_fold_adapter": "9499ebf9e8cad2b474b7c54a20d77cf7177074f7170685579c01b2572e91861e",
+    "legacy_sisso_generator": "6fb736b81c4d9b02604e745542581bee6855c58a797d857b0c87198de6fa563e",
+    "legacy_sisso_calculator": "c5aee73ad8eeed5c835449ce2858ba1683ed2d4516ba4af9afd2e655c3866946"
+  },
+  "software_versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.15.3",
+    "Boruta": "0.4.3"
+  }
+}
